@@ -1,0 +1,46 @@
+<!--
+  Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
+  Read the documentation to get started: https://tailwindui.com/documentation
+-->
+
+{%- set section = get_section(path="_index.md") %}
+
+{% set subsections_str = section.subsections | join(sep=" ") %}
+
+<footer class="bottom-0">
+    {% if "footer/_index.md" in subsections_str %}
+        {%- set section = get_section(path="footer/_index.md") %}
+        {{ section.content | safe }}
+    {% else %}
+        {% set footer_class = config.extra.footer_class | default(value='') %}
+        <div class="{{ footer_class }}">
+            <div class="py-4 px-4 sm:px-6">
+                <div class="lg:flex lg:gap-4">
+                  <div class="space-y-8 lg:max-w-sm lg:mr-8 lg:mb-2 lg:col-span-1">
+                    <img class="w-1/2 lg:mx-4 mb-4" src="/images/footer_logo.png" alt="incubaid Logo" />
+                    </div>
+                    <div class="space-y-8 lg:max-w-sm lg:mr-8 lg:mb-2 lg:col-span-1">
+                        <p class="mt-0 text-base">
+                            We believe doing good for the world and doing business can go hand in hand.
+                        </p> 
+                    </div>
+                    <div class="space-y-8 lg:max-w-sm lg:mr-8 lg:mb-2 lg:col-span-1">
+                        <a target="_blank" href="mailto:info@incubaid.com">info@incubaid.com</a> 
+                    </div> 
+                    <div class="lg:max-w-sm lg:mr-8 lg:mb-2 lg:col-span-1">
+                        <a class="text-sm flex hard_green" href="/projects">Our projects</a>
+                        <a class="text-sm flex hard_green" href="/people">Our people</a>
+                    </div>
+                </div>
+            </div>
+            {# <img src="{{get_url(path='images/')}}" class="w-60" alt=""> #}
+            <hr class="my-4 border-y-0 w-1/2 border-green-500/50">
+            <div class="mx-4 text-center">
+            <p class="text-base pt-4 my-0">&#169; Copyright 2023 Incubaid BVBA - All Rights Reserved</p>
+            <a href="https://threefold.io/" target="_blank" class="hard_green my-0 text-base">Hosted on the ThreeFold Grid</p>
+            </div>
+        </div>
+    {% endif %}
+</footer>
+
+

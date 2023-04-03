@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en" charset="utf-8">
+
+    
+
+
+
+
+
+<head>
+  <link rel="icon" type="image/x-icon" href="https://www.jungle_paradise/images/favicon.png">
+  <meta name="generator" content="Zola v.0.13.0 - getzola.org" />
+
+  
+  
+  <title>Better Token &bull; Jungle Paradise</title>
+  <meta property="og:title" content="Better Token &bull; Jungle Paradise" />
+  
+  
+
+  <!-- Required meta categories -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- **** BEGINNING, favicons **** -->
+
+  <!-- generics -->
+
+  <!-- iOS -->
+
+  <!-- Android -->
+
+  <!-- Windows 8, IE 10 -->
+
+  <!-- Windows 8.1 and up, IE 11 -->
+
+  <!-- **** CONCLUSION, favicons **** -->
+
+  <!-- CSS/SCSS -->
+  <link rel="stylesheet" href="https://www.jungle_paradise/css/index.css?h=ea95c0a269e3849c0841" />  <style>@-moz-document url-prefix() {.lazy:-moz-loading {visibility:hidden;}}.ieOnly {display: none;}@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {.ieOnly {display: block;}}</style>
+  
+</head>
+
+    
+    <body>
+        <!--
+  Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
+  Read the documentation to get started: https://tailwindui.com/documentation
+--><!-- This example requires Tailwind CSS v1.4.0+ -->
+
+<script type="text/javascript">
+    
+    var displayedMenu = "";
+    var hamburgerShown = false;
+    let width = screen.width;
+    var isMobile = width < 1024;
+
+    function toggleMenu(button) {
+        if (displayedMenu === button.id.split("-")[0]) { 
+            button.className = button.className.replace(" text-green-500 bg-stone-200 sm:bg-transparent", " text-gray-900");
+            hideMenu(button.id.split("-")[0]);
+            button.lastElementChild.className = button.lastElementChild.className.replace("rotate-0", "-rotate-90")
+            displayedMenu = "";
+        }
+        else { 
+            showMenu(button.id.split("-")[0]);
+            button.lastElementChild.className = button.lastElementChild.className.replace("-rotate-90", "rotate-0")
+            button.className = button.className.replace(" text-gray-900", " text-green-500 bg-stone-200 sm:bg-transparent");
+            displayedMenu = button.id.split("-")[0]
+        }
+    }
+
+    function handleClick(button) {
+        if (button.id === "hamburger-btn" || button.id === "close-hamburger-btn") { toggleHamburger() }
+        if (button.id.indexOf("menu") !== -1 ) { 
+            toggleMenu(button) 
+        }
+    }
+
+    function toggleHamburger() {
+        if (hamburgerShown) { 
+            hideHamburger();
+            hamburgerShown = false;
+        }
+        else { 
+            showHamburger();
+            hamburgerShown = true;
+        }
+    }
+
+    function showMenu(menuName) {
+        var menuId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuBtnId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuElement = document.getElementById(menuId)
+        menuElement.className = menuElement.className.replace(" hidden" , "");
+        setTimeout(function() { menuElement.className = menuElement.className.replace("duration-200 ease-in opacity-0 -translate-y-1", "duration-150 ease-out opacity-1 -translate-y-0"); }, 10);
+    }
+
+    function hideMenu(menuName) {
+        var menuId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuElement = document.getElementById(menuId)
+        menuElement.className = menuElement.className.replace("duration-150 ease-out opacity-1 -translate-y-0", "duration-200 ease-in opacity-0 -translate-y-1");
+        setTimeout(function() { menuElement.className = menuElement.className + " hidden" }, 300);
+    }
+
+    function showHamburger() {
+        document.getElementById('header-container').className = "overflow-hidden";
+        document.getElementById('hamburger').className = "fixed mt-16 z-20 top-0 inset-x-0 transition transform origin-top-right";
+        document.getElementById('hamburger-btn').className = "hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+        document.getElementById('close-hamburger-btn').className = "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+    }
+
+    function hideHamburger() {
+        document.getElementById('header-container').className = "";
+        document.getElementById('hamburger').className = "hidden absolute z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden";
+        document.getElementById('hamburger-btn').className = "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+        document.getElementById('close-hamburger-btn').className = "hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+        if (displayedMenu !== "") { hideMenu(displayedMenu); }
+    }
+
+    window.onload = function(){
+        let elements = document.getElementsByTagName("button");
+        let buttons = [...elements]
+        buttons.forEach((button) => {
+            button.addEventListener( 'click', function() { handleClick(button) });
+        })
+        document.getElementById("mobile-learn-btn").addEventListener( 'click', toggleMenu);
+    }
+
+</script>
+
+
+<!-- set variables used for header template -->
+
+
+
+
+
+    <header id="header-container">
+        
+        <div class="z-10 header_BG fixed w-screen max-w-full customize">
+            <div class="relative z-50 shadow">
+            <div class="mx-auto flex z-50 shadow justify-between items-center pl-6 pr-2 md:pr-0 lg:py-5  md:px-12 py-2 lg:px-20 lg:justify-start lg:space-x-20">
+                <div>
+                    <a href="/" class="flex">
+                        <img class="logo" src="https:&#x2F;&#x2F;www.jungle_paradise&#x2F;images&#x2F;logo.png" alt="Logo" />
+                    </a>
+                </div>
+                <div class="-mr-2 -my-2 lg:hidden">
+                    <button id="hamburger-btn" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2">
+                        <!-- Heroicon name: menu -->
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                <button id="close-hamburger-btn" type="button" class="hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2">
+                    <!-- Heroicon name: x -->
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                    </button>
+                </div>
+                <div class="hidden lg:flex-1 lg:flex lg:items-center lg:justify-end lg:space-x-12">
+                    <nav class="flex space-x-6">    
+                    
+                    
+                        <a href="https:&#x2F;&#x2F;www.jungle_paradise&#x2F;home&#x2F;" class="text-md font-normal leading-6 text-white focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                            Home
+                        </a>
+                        <div class="relative">
+                        </div>
+                    
+                    
+                        <a href="https:&#x2F;&#x2F;www.jungle_paradise&#x2F;rooms&#x2F;" class="text-md font-normal leading-6 text-white focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                            Rooms
+                        </a>
+                        <div class="relative">
+                        </div>
+                    
+                    
+                        <a href="https:&#x2F;&#x2F;www.jungle_paradise&#x2F;restaurant&#x2F;" class="text-md font-normal leading-6 text-white focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                            Restaurant
+                        </a>
+                        <div class="relative">
+                        </div>
+                    
+                    
+                        <a href="https:&#x2F;&#x2F;www.jungle_paradise&#x2F;health-wellness&#x2F;" class="text-md font-normal leading-6 text-white focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                            Health &amp; Wellness
+                        </a>
+                        <div class="relative">
+                        </div>
+                    
+                    
+                    </nav>
+                </div>
+            </div>
+        </div>
+    
+    
+        
+            <!--
+            Mobile menu, show/hide based on mobile menu state.
+        
+            Entering: "duration-200 ease-out"
+                From: "opacity-0 scale-95"
+                To: "opacity-100 scale-100"
+            Leaving: "duration-100 ease-in"
+                From: "opacity-100 scale-100"
+                To: "opacity-0 scale-95"
+            -->
+        <div id="hamburger" class="hidden fixed mt-16 z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden">
+            <div>
+                <div class="shadow-xs h-screen bg-white divide-y-2 divide-gray-50">
+                    <div class="pt-6 sm:px-12 md:px-16 lg:px-20 space-y-6 sm:space-y-8 sm:pb-8 max-h-screen overflow-y-auto">
+    
+                        <nav class="flex flex-col justify-around pb-12">
+                        
+                             
+                            
+                            
+                            <a href="https:&#x2F;&#x2F;www.jungle_paradise&#x2F;rooms&#x2F;" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                Rooms
+                            </a>
+                            <hr/>
+                        
+                            
+                            
+                            <a href="https:&#x2F;&#x2F;www.jungle_paradise&#x2F;restaurant&#x2F;" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                Restaurant
+                            </a>
+                            <hr/>
+                        
+                            
+                            
+                            <a href="https:&#x2F;&#x2F;www.jungle_paradise&#x2F;health-wellness&#x2F;" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                Health &amp; Wellness
+                            </a>
+                            <hr/>
+                        
+                        
+                        
+                        </nav>                    
+                    </div>
+                
+            </div>
+            
+            </div>
+        </div>
+    
+    
+    </header>
+    
+
+
+
+        <div id="content" class="mx-auto overflow-hidden">
+            
+
+<main>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+    <div>
+        
+            <div class="container mx-auto">
+<!-- row shortcode 
+Shortcode used in markdown for the creation of mobile compatible vertical rows
+Divides markdown into columns by splitting content using column identifier "|||"
+Creates equal width blocks in a flex row.
+
+Parameters: 
+- style: 
+    - lean: if style is lean, the row doesn't have outer margins
+- bgPath: if bgPath is passed, the row has a full width background
+-->
+
+
+<!-- This fixes link & img paths in local, prod, and wth prefix -->
+
+    
+    
+    
+        
+            
+            
+        
+            
+            
+            
+                
+            
+            
+        
+    
+
+
+
+
+
+
+<!-- aligns columns depending on col number-->
+ 
+    
+
+
+
+
+
+
+
+
+
+<!-- Padding -->
+
+
+
+
+    
+        
+    
+
+
+
+
+
+
+
+<!-- Margins -->
+
+
+
+
+    
+        
+    
+    
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+<!-- makes row full screen width and adds background img -->
+
+
+
+
+
+
+
+
+<!-- Cancels page margins so that rows can have separate margins -->
+
+
+
+        <div id="" class="relative justify-center flex overflow-hidden  " style="">
+            <div id="" class="relative flex flex-col md:flex md:flex-row flex-wrap max-w-fit overflow-hidden items-center py-2 md:py-4 lg:pt-24 mx-6 sm:mx-20 md:mx-28 lg:mx-40 mt-10 lg:mt-0 " style="min-width: -webkit-fill-available; min-width: -moz-available"> 
+        
+         
+
+            <!-- Hides empty columns if displayed vertically in small screen -->
+            
+                <div class="flex-1 mb-4 md:mb-12 lg:mb-0 lg:mx-2 xl:mx-4">
+                    <!-- handles mermaid markdown content display -->
+
+                    
+                        <p><img src="https://www.jungle_paradise/rooms/wavetwo/bettertoken/./img/bettertoken.png#mx-auto" alt="Image" /></p>
+
+                    
+                </div>
+            
+         
+
+            <!-- Hides empty columns if displayed vertically in small screen -->
+            
+                <div class="flex-1 mb-4 md:mb-12 lg:mb-0 lg:mx-2 xl:mx-4">
+                    <!-- handles mermaid markdown content display -->
+
+                    
+                        
+<h3 id="europe-s-first-threefold-farming-co-operative">Europe's First ThreeFold Farming Co-operative</h3>
+<p>Start farming ThreeFold Tokens in an easy &quot;plug &amp; farm&quot; way with one of our certified node servers.</p>
+<p><a class="hard_green" href="https://bettertoken.com/" target="_blank">bettertoken.com</a></p>
+
+                    
+                </div>
+            
+        
+    </div>
+</div><br>
+<hr>
+<br>
+<!-- row shortcode 
+Shortcode used in markdown for the creation of mobile compatible vertical rows
+Divides markdown into columns by splitting content using column identifier "|||"
+Creates equal width blocks in a flex row.
+
+Parameters: 
+- style: 
+    - lean: if style is lean, the row doesn't have outer margins
+- bgPath: if bgPath is passed, the row has a full width background
+-->
+
+
+<!-- This fixes link & img paths in local, prod, and wth prefix -->
+
+    
+    
+    
+        
+            
+            
+        
+            
+            
+            
+                
+            
+            
+        
+    
+
+
+
+
+
+
+<!-- aligns columns depending on col number-->
+ 
+    
+
+
+
+
+
+
+
+
+
+<!-- Padding -->
+
+
+
+
+    
+        
+    
+
+
+
+
+
+
+
+<!-- Margins -->
+
+
+
+
+    
+        
+    
+    
+
+
+
+
+
+
+
+
+    
+
+    
+
+    <!-- reverse col at mobile -->
+
+    
+    
+    
+
+
+     <!-- makes row semi-full screen width, strips margins -->
+    
+
+        <!-- makes row full screen width, strips margins -->
+    
+
+    
+    
+
+
+
+
+
+<!-- makes row full screen width and adds background img -->
+
+
+
+
+
+
+
+
+<!-- Cancels page margins so that rows can have separate margins -->
+
+
+
+        <div id="" class="relative justify-center flex overflow-hidden  " style="">
+            <div id="" class="flex flex-col-reverse md:flex-row items-center mx-6 sm:mx-20 md:mx-28 lg:mx-40" style="min-width: -webkit-fill-available; min-width: -moz-available"> 
+        
+         
+
+            <!-- Hides empty columns if displayed vertically in small screen -->
+            
+                <div class="flex-1 mb-4 md:mb-12 lg:mb-0 lg:mx-2 xl:mx-4">
+                    <!-- handles mermaid markdown content display -->
+
+                    
+                        <h4 id="the-problem">The Problem</h4>
+<p class="text-base">At the launch of the ThreeFold Grid a lot of people ventured into DIY farming, and with success as the grid has grown immensly. Still some people did not want to dive into installing their own farming equipment or building it from scratch. </p>
+<br>
+<h4 id="the-bettertoken-solution">The BetterToken Solution</h4>
+<p class="text-base">BetterToken has developed a easy way to start farming ThreeFold tokens. Customers can easily select a SoHo server and it's specification in the webshop. BetterToken makes sure this server then is 100% farming ready all the customer needs to do is plug in the ethernet cable and powercable to start farming ThreeFold Tokens. Upside to farming with BetterToken Soho-Nodes is that all equipment is certified by ThreeFold and this makes that cultivation tokens are released sooner than tokens cultivated on DIY Farms.</p>
+
+                    
+                </div>
+            
+         
+
+            <!-- Hides empty columns if displayed vertically in small screen -->
+            
+                <div class="flex-1 mb-4 md:mb-12 lg:mb-0 lg:mx-2 xl:mx-4">
+                    <!-- handles mermaid markdown content display -->
+
+                    
+                        
+<p><img src="https://www.jungle_paradise/rooms/wavetwo/bettertoken/./img/data.jpg#mx-auto" alt="Image" /></p>
+
+                    
+                </div>
+            
+        
+    </div>
+</div><hr class="greenline">
+<br>
+<br>
+<!-- row shortcode 
+Shortcode used in markdown for the creation of mobile compatible vertical rows
+Divides markdown into columns by splitting content using column identifier "|||"
+Creates equal width blocks in a flex row.
+
+Parameters: 
+- style: 
+    - lean: if style is lean, the row doesn't have outer margins
+- bgPath: if bgPath is passed, the row has a full width background
+-->
+
+
+<!-- This fixes link & img paths in local, prod, and wth prefix -->
+
+    
+    
+    
+        
+            
+            
+        
+            
+            
+            
+                
+            
+            
+        
+            
+            
+            
+                
+            
+            
+        
+            
+            
+            
+                
+            
+            
+        
+    
+
+
+
+
+
+
+<!-- aligns columns depending on col number-->
+
+    
+
+
+
+
+
+
+
+
+
+<!-- Padding -->
+
+
+
+
+    
+        
+    
+
+
+
+
+
+
+
+<!-- Margins -->
+
+
+
+
+    
+        
+    
+    
+
+
+
+
+
+
+
+
+    
+        
+        
+    
+
+    
+
+    <!-- reverse col at mobile -->
+
+    
+
+
+     <!-- makes row semi-full screen width, strips margins -->
+    
+
+        <!-- makes row full screen width, strips margins -->
+    
+
+    
+    
+
+
+
+
+
+<!-- makes row full screen width and adds background img -->
+
+
+
+
+
+
+
+
+<!-- Cancels page margins so that rows can have separate margins -->
+
+
+
+        <div id="" class="relative justify-center flex overflow-hidden  " style="">
+            <div id="" class="relative flex flex-col md:flex md:flex-row flex-wrap max-w-fit overflow-hidden lg:items-start py-0 mx-6 sm:mx-20 md:mx-28 lg:mx-40 text-center items-center " style="min-width: -webkit-fill-available; min-width: -moz-available"> 
+        
+         
+
+            <!-- Hides empty columns if displayed vertically in small screen -->
+            
+                <div class="flex-1 mb-4 md:mb-12 lg:mb-0 lg:mx-2 xl:mx-4 flex-1 ">
+                    <!-- handles mermaid markdown content display -->
+
+                    
+                        <p><img src="https://www.jungle_paradise/rooms/wavetwo/bettertoken/./img/easy.png#extrasmall#mx-auto" alt="Image" /></p>
+<h3 id="easy-as-1-2-3">EASY AS 1 2 3</h3>
+<p class="text-base">Plug and Farm NodeServers make it possible for all tech levels to jump in. We aim to make it possible for you to invest in the grid, plug in your server, and get it working in minutes. No long difficult procedures.
+</p>
+
+                    
+                </div>
+            
+         
+
+            <!-- Hides empty columns if displayed vertically in small screen -->
+            
+                <div class="flex-1 mb-4 md:mb-12 lg:mb-0 lg:mx-2 xl:mx-4 flex-1 ">
+                    <!-- handles mermaid markdown content display -->
+
+                    
+                        
+<p><img src="https://www.jungle_paradise/rooms/wavetwo/bettertoken/./img/cart.png#extrasmall#mx-auto" alt="Image" /></p>
+<h3 id="open-to-all-budgets">OPEN TO ALL BUDGETS</h3>
+<p class="text-base">BetterToken provides Nodeservers varying from 1K – 20k+. The range consists of ultra-silent home devices to rack-mountable 2U devices to run in your (local) datacenter.
+</p>
+
+                    
+                </div>
+            
+         
+
+            <!-- Hides empty columns if displayed vertically in small screen -->
+            
+                <div class="flex-1 mb-4 md:mb-12 lg:mb-0 lg:mx-2 xl:mx-4 flex-1 ">
+                    <!-- handles mermaid markdown content display -->
+
+                    
+                        
+<p><img src="https://www.jungle_paradise/rooms/wavetwo/bettertoken/./img/customise.png#extrasmall#mx-auto" alt="Image" /></p>
+<h3 id="customise">CUSTOMISE</h3>
+<p class="text-base">Use the Node Server configurator in our ServerShop to configure exactly the server you want. You can choose from our range of ThreeFold Certified Hardware to create any server from a home office quiet running server to a fully loaded compute engine or hundreds of terabytes of storage.</p>
+                    
+                </div>
+            
+        
+    </div>
+</div><br>
+<!-- component -->
+
+<div class="container mx-auto">
+    <div class="relative wrap overflow-hidden px-2 mx-2 sm:mx-20 md:mx-28 lg:mx-40 my-8">
+      <h2 class="text-center py-4">BetterToken Roadmap</h2>
+
+      <hr class="green_line">
+      <br>
+      <br>
+      <div class="border-2-2 absolute border-opacity-20 border-green-700 h-full border" style="left: 50%"></div>
+
+      <!-- 2017 right timeline -->
+      <div class="mb-8 flex justify-between items-center w-full right-timeline">
+        <div class="order-1 w-5/12"></div>
+        <!--  number -->
+        <div class="z-20 flex items-center order-1 bg-gray-600 shadow-xl w-8 h-8 rounded-full">
+          <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
+        </div>
+        <div class="order-1 bg-gray-100 rounded-lg shadow-md w-5/12 px-2 lg:px-6 py-4">
+          <h3 class="mb-3 font-bold green_header text-lg lg:text-xl">2017<br>Genesis Pool Cooperative</h3>
+          <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+            First European ThreeFold Farming Cooperative</p>
+        </div>
+      </div>
+  
+      <!-- 2018 left timeline -->
+      <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+        <div class="order-1 w-5/12"></div>
+        <!--  number -->
+        <div class="z-20 flex items-center order-1 bg-gray-600 shadow-xl w-8 h-8 rounded-full">
+          <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
+        </div>
+        <div class="order-1 bg-gray-100 rounded-lg shadow-md w-5/12 px-2 lg:px-6 py-4">
+          <h3 class="mb-3 font-bold green_header text-lg lg:text-xl">2018<br>SoHo Node Vendor</h3>
+          <p class="text-sm font-medium leading-snug tracking-wide text-gray-900text-opacity-100">Released Multiple Node Servers to Make Threefold Farming Easy for all. </p>
+        </div>
+      </div>
+
+       <!-- 2020/2021 right timeline -->
+       <div class="mb-8 flex justify-between items-center w-full right-timeline">
+        <div class="order-1 w-5/12"></div>
+        <!--  number -->
+        <div class="z-20 flex items-center order-1 bg-gray-600 shadow-xl w-8 h-8 rounded-full">
+          <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
+        </div>
+        <div class="order-1 bg-gray-100 rounded-lg shadow-md w-5/12 px-2 lg:px-6 py-4">
+          <h3 class="mb-3 font-bold green_header text-lg lg:text-xl">2020/2021<br>Expand</h3>
+          <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Expand Co-Farming Pool in Lochristi<br>
+            Start Cloud Farming Offer</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <style>
+    .green_header{
+    color:#68b622 ;
+    }
+  </style>
+ <br>
+<!-- row shortcode 
+Shortcode used in markdown for the creation of mobile compatible vertical rows
+Divides markdown into columns by splitting content using column identifier "|||"
+Creates equal width blocks in a flex row.
+
+Parameters: 
+- style: 
+    - lean: if style is lean, the row doesn't have outer margins
+- bgPath: if bgPath is passed, the row has a full width background
+-->
+
+
+<!-- This fixes link & img paths in local, prod, and wth prefix -->
+
+    
+    
+    
+        
+            
+            
+        
+            
+            
+            
+                
+                    
+                    
+                
+            
+            
+        
+            
+            
+            
+                
+                    
+                    
+                
+            
+            
+        
+    
+
+
+
+
+
+
+<!-- aligns columns depending on col number-->
+ 
+    
+
+
+
+
+
+
+
+
+
+<!-- Padding -->
+
+
+
+
+    
+        
+    
+
+
+
+
+
+
+
+<!-- Margins -->
+
+
+
+
+    
+        
+    
+    
+
+
+
+
+
+
+
+
+    
+        
+        
+    
+
+    
+
+    <!-- reverse col at mobile -->
+
+    
+
+
+     <!-- makes row semi-full screen width, strips margins -->
+    
+
+        <!-- makes row full screen width, strips margins -->
+    
+
+    
+    
+
+
+
+
+
+<!-- makes row full screen width and adds background img -->
+
+
+
+
+
+
+
+
+<!-- Cancels page margins so that rows can have separate margins -->
+
+
+
+        <div id="" class="relative justify-center flex overflow-hidden  " style="">
+            <div id="" class="relative flex flex-col md:flex md:flex-row flex-wrap max-w-fit overflow-hidden items-center py-2 md:py-4 lg:pb-24 mx-6 sm:mx-20 md:mx-28 lg:mx-40 text-center items-center " style="min-width: -webkit-fill-available; min-width: -moz-available"> 
+        
+         
+
+            <!-- Hides empty columns if displayed vertically in small screen -->
+            
+                <div class="flex-1 mb-4 md:mb-12 lg:mb-0 lg:mx-2 xl:mx-4 flex-1 ">
+                    <!-- handles mermaid markdown content display -->
+
+                    
+                        <p><button><a href="https://www.jungle_paradise/projects/wavetwo/mazraa">Previous</a></button>
+<button><a href="https://www.jungle_paradise/projects/wavetwo/ourworld">Next</a></button></p>
+
+                    
+                </div>
+            
+        
+    </div>
+</div></div>
+
+        
+    </div>
+
+ </main>     
+        </div>
+        <!--
+  Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
+  Read the documentation to get started: https://tailwindui.com/documentation
+-->
+
+
+
+<footer class="bottom-0">
+    
+        
+        <div class="customize">
+            <div class="py-4 px-4 sm:px-6">
+                <div class="lg:flex lg:gap-4">
+                  <div class="space-y-8 lg:max-w-sm lg:mr-8 lg:mb-2 lg:col-span-1">
+                    <img class="w-1/2 lg:mx-4 mb-4" src="/images/footer_logo.png" alt="incubaid Logo" />
+                    </div>
+                    <div class="space-y-8 lg:max-w-sm lg:mr-8 lg:mb-2 lg:col-span-1">
+                        <p class="mt-0 text-base">
+                            We believe doing good for the world and doing business can go hand in hand.
+                        </p> 
+                    </div>
+                    <div class="space-y-8 lg:max-w-sm lg:mr-8 lg:mb-2 lg:col-span-1">
+                        <a target="_blank" href="mailto:info@incubaid.com">info@incubaid.com</a> 
+                    </div> 
+                    <div class="lg:max-w-sm lg:mr-8 lg:mb-2 lg:col-span-1">
+                        <a class="text-sm flex hard_green" href="/projects">Our projects</a>
+                        <a class="text-sm flex hard_green" href="/people">Our people</a>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="my-4 border-y-0 w-1/2 border-green-500/50">
+            <div class="mx-4 text-center">
+            <p class="text-base pt-4 my-0">&#169; Copyright 2023 Incubaid BVBA - All Rights Reserved</p>
+            <a href="https://threefold.io/" target="_blank" class="hard_green my-0 text-base">Hosted on the ThreeFold Grid</p>
+            </div>
+        </div>
+    
+</footer>
+
+
+
+    </body>
+</html>
