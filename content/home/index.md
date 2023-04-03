@@ -37,7 +37,6 @@ Jungle Paradise Beach Resort & Spa @ Mbweni Ruins Zanzibar is your ideal choice,
 Jungle paradise Beach Resort and SPA Zanzibar features 13 exclusive and cozy, air-conditioned beachfront Suites with a very high service standard. Each room provides a beautiful ocean-view, a private bathroom, Wi-Fi, a mini bar fridge and a balcony faced to the ocean, beach and pool area.
 
 
-<button onclick="window.location.href='/projects'">Our Projects</button>
 
 |||
 
