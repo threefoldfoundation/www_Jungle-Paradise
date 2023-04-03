@@ -9,8 +9,6 @@ weight: 1
 
 <!-- section 1 (header) -->
 
-
-
 {% row(style="center" margin="withContainer" bgPath="img/header1_1.jpg" bgStyle="full" padding="headerboth" margin="tight") %}
 
 <h1 class="text-white">Jungle Paradies</h1>
@@ -46,6 +44,41 @@ Jungle paradise Beach Resort and SPA Zanzibar features 13 exclusive and cozy, ai
 ![Image](./img/section2.jpg#mx-auto)
 
 {% end %}
+
+
+</div>
+<!-- section 1 (header) -->
+
+
+
+{% row(style="" margin="withContainer" bgPath="img/header2.jpg" bgStyle="full" padding="top" margin="tight") %}
+
+<h1 class="text-white">Suites / Rooms <br> - Accommodation</h1>
+
+<button onclick="window.location.href='/projects'">VIEW MORE</button>
+
+
+{% end %}
+
+{% row(style="" margin="withContainer" bgPath="img/header4.jpg" bgStyle="full" padding="none" margin="tight") %}
+
+<h1 class="text-white">Ocean Breeze Restaurant<br> & JP's Beach Bar</h1>
+
+<button onclick="window.location.href='/projects'">FIND OUT MORE </button>
+
+
+{% end %}
+
+{% row(style="" margin="withContainer" bgPath="img/header3.jpg" bgStyle="full" padding="bottom" margin="tight") %}
+
+<h1 class="text-white">Health & Wellness <br> - SPA</h1>
+
+<button onclick="window.location.href='/projects'">LEARN MORE </button>
+
+
+{% end %}
+
+
 
 <!-- section 3 features title -->
 
@@ -103,7 +136,7 @@ Our diverse & passionate team has a multitude of backgrounds, skillsets, and exp
 
 
 
-</div>
+
 <style>
 p{
     font-size:1rem;

@@ -100,7 +100,7 @@ img[src*="#fig"] {
 
 @layer components {
   h1 {
-    @apply text-3xl lg:text-7xl xl:text-9xl font-normal text-gray-900 leading-4 my-4;
+    @apply text-3xl lg:text-7xl xl:text-7xl font-normal text-gray-900 leading-4 my-4;
     font-family: 'Poiret One', cursive;
     line-height: 1.2;
     font-weight: 600;
