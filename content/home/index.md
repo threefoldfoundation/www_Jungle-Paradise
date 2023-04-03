@@ -46,13 +46,13 @@ Jungle paradise Beach Resort and SPA Zanzibar features 13 exclusive and cozy, ai
 
 
 </div>
-<!-- section 1 (header) -->
+<!-- section 3 -->
 
 
 
 {% row(style="" margin="withContainer" bgPath="img/header2.jpg" bgStyle="full" padding="top" margin="tight") %}
 
-<h1 class="text-white">Suites / Rooms <br> - Accommodation</h1>
+<h1 class="text-white">Suites / Rooms -<br> Accommodation</h1>
 
 <button onclick="window.location.href='/projects'">VIEW MORE</button>
 
@@ -78,66 +78,74 @@ Jungle paradise Beach Resort and SPA Zanzibar features 13 exclusive and cozy, ai
 {% end %}
 
 
+<div class="container mx-auto">
 
-<!-- section 3 features title -->
+<!-- section 4 -->
 
-{% row(style="center" margin="withContainer" padding="top") %}
+{% row(style="center" margin="narrow" padding="top") %}
 
-# Investment Philosophy
-
-
-The technology we invest in is focused in these key areas:
-
-{% end %}
-
-{% row(style="center" margin="withContainer" padding="none" margin="moderate") %}
-
-![Image](./img/logos-18.svg#md#mx-auto)
-
-
-|||
-
-![Image](./img/logos-13.svg#md#mx-auto)
-
-|||
-
-![Image](./img/logos-14.svg#md#mx-auto)
-
-|||
-
-![Image](./img/logos-15.svg#md#mx-auto)
-
-|||
-
-![Image](./img/logos-16.svg#md#mx-auto)
-
-
-|||
-
-![Image](./img/logos-17.svg#md#mx-auto)
-
+## Guest Reviews
 
 {% end %}
 
 
+{% row(style="center" margin="withContainer" padding="bottom" margin="moderate") %}
 
-<!-- section 5 apps -->
+*"Wonderful place for spending your holiday, beautiful and peaceful place with nice view to the sea."*
 
-{% row(style="center" margin="moderate" padding="bottom") %}
+**Pavel Reich**
+
+
+|||
+
+*"Great place to enjoy the day at the beach and watch the sunset while you have a delicious dinner. The cocktail Bar is really amazing and the view absolutely unique on this side of the island. The rooms are clean, cozy, new renovated and bigger than usual and the prices are reasonable. Our room was with an ocean beach view. But the sunsets are better to enjoy with a cold drink on the sun downer platform, where we had a nice and calm chill out vibe."*
+
+**Neo Life Hacker**
+
+|||
+
+*A very beautiful area. Menu prices are cheap and delicious! Great pool, not hot! (Original) Очень красивая территория. Цены в меню недорогие и вкусно!"* Отличный бассейн, не жарко!"
+
+**Olga Myronova**
+
+|||
+
+*"Lovely chillout! After a few days on a catamaran, this place wonderfully calmed the senses and gave strength to travel home by plane. I heartily recommend it to everyone for a short and longer visit. (Original) Codowny chillout! Po kilku dniach na katamaranie to miejsce wspaniale uspokoiło zmysły i dało siłę na podróż samolotem do domu. Serdecznie polecam wszystkim na krótką i dłuższą wizytę."*
+
+**Waldemar Truchel**
 
 
 
-Our diverse & passionate team has a multitude of backgrounds, skillsets, and experiences.
-
-<button onclick="window.location.href='/people'">Get to Know our people</button>
 
 {% end %}
 
+</div>
+
+<!-- section 1 (header) -->
+
+{% row(style="center" margin="moderate" bgPath="img/header1_1.jpg" bgStyle="full" padding="both") %}
+
+<h1 class="text-white">Why to choose Jungle Paradise Beach Resort & SPA</h1>
+
+
+
+<h3 class="text-white">BOOK YOUR NEXT PERFECT VACATION NOW</h3>
+
+##### 1. COMFORTABLE SUITES - ACCOMMODATION'
+##### 2. BEST SUNSET VIEWS
+##### 3. CLOSE TO AIRPORT
+##### 4. AFFORDABLE PRICING
+##### 5. BEST LOCATION
+
+
+{% end %}
 
 
 
 <style>
-p{
+p {
     font-size:1rem;
+    line-height: 1.5rem;
+    color: #333;
 }
     </style>
