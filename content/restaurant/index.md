@@ -52,15 +52,6 @@ Enjoy daily offers, themes, or some of the best beach parties in Zanzibar, Or ju
 
 {% end %}
 
-
-
-
-
-
-
-
-
-
 </div>
 
 
