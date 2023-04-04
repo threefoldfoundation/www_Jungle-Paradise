@@ -7,86 +7,88 @@ draft: false
 weight: 3
 ---
 
-<div class="container mx-auto">
 
-<br>
+<!-- section 1 (header) -->
 
-<!-- section 1 (co-found) -->
+{% row(style="center" margin="withContainer" bgPath="img/resturan_header.jpg" bgStyle="full" padding="headerboth" margin="tight") %}
 
-{% row(style="center" margin="header" padding="top") %}
-
-# Get to know us
-
-We may like tech, but where would we be without our people?
+<h1 class="text-white">JP's Ocean Breeze Restaurant<br>& Jp's Beach Sun-See-Bar</h1>
 
 {% end %}
 
-{% row(style="center" margin="moderate" padding="bottom") %}
 
-<a href="/people/kds">![Image](./img/kds.jpg#mx-auto)</a>
+<div class="container mx-auto"> 
 
-#### Kristof<br> De Spiegeleer
+<!-- section 2 -->
 
-<p class="text-base">Founder & CEO</p>
+{% row(margin="withContainer" padding="both") %}
 
-|||
-
-<a href="/people/adnan">![Image](./img/adnan.jpg#mx-auto)</a>
-
-#### Adnan<br> Fatayerji
-
-<p class="text-base">Head of UAE Venture</p>
+![Image](./img/res_gallary2.jpg#mx-auto)
 
 |||
 
-<a href="/people/jan">![Image](./img/jan.jpg#mx-auto)</a>
+## Ocean Breeze Restaurant
 
-#### Jan<br> De Landtsheer
+Maybe now you know what to do in Zanzibar. Just enjoy one of the best restaurants locations on Zanzibar west coast only a few minutes from Stone Town with a stunning sunset view while you enjoy your food or candle-light romantic dinner for two.
 
-<p class="text-base">Head of R&D</p>
+#### Sunday to Thursday <br> 07:00 - 22:30 (7:00 am - 10:30 pm)
 
-|||
-
-<a href="/people/peter">![Image](./img/peter.jpg#mx-auto)</a>
-
-#### Peter<br> Van der Henst
-
-<p class="text-base">HR & Finance</p>
-
-|||
-
-<a href="/people/owen">![Image](./img/owen.jpg#mx-auto)</a>
-
-#### Owen<br> Kemp
-
-<p class="text-base">Partner</p>
+#### Friday & Saturday <br> 07:00 - 02:00 (7:00 am - 2:00 am)
 
 {% end %}
+
+
+<!-- section 3 -->
+
+{% row(margin="withContainer" padding="both") %}
+
+## JP's Beach Sun-See-Bar
+
+Enjoy daily offers, themes, or some of the best beach parties in Zanzibar, Or just have fun with some long beach drinks or maybe some of the best cocktails with your friends at your cozy beach bar.
+
+|||
+
+![Image](./img/res_gallary1.jpg#mx-auto)
+
+{% end %}
+
+
+
+
+
+
+
+
+
 
 </div>
 
-<div class="container-fluid mx-auto">
 
-{% row(style="center" margin="moderate" bgColor="#efefef" padding="both") %}
 
-## We are values-driven
+<!-- section 1 (header) -->
 
-<button onclick="window.location.href='/people/freeflowvalue'">Read the FreeFlow Values</button>
+{% row(style="center" margin="tight" bgPath="img/resturan_heade2r.jpg" bgStyle="" padding="both") %}
+
+
+
+##### **Cocktails & Long Beach Drinks**
+
+<p class="text-white">with your friends</p>
+
+
+|||
+
+##### **Seafood & Romantic Dinner for two**
+
+<p class="text-white">For unforgetable night</p>
+
+|||
+
+##### **Celebration Menus & Catering Food**
+
+<p class="text-white">or your birthday Party</p>
 
 {% end %}
 
-{% row(style="center" margin="tight" padding="both") %}
 
-|||
 
-## Reach out!
-
-|||
-
-<button class="mr-0"><a href="mailto:info@incubaid.com" target="_blank">Contact us</a></button>
-
-|||
-
-{% end %}
-
-</div>

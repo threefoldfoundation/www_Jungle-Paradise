@@ -127,11 +127,11 @@ p {
   }
 
   h4 {
-      @apply text-3xl lg:text-3xl font-light leading-4 my-4;
+      @apply text-xl lg:text-2xl font-light leading-4 my-4;
       font-family: 'Lato', sans-serif;
-      line-height: 1.5;
+      line-height: 2rem;
       color: #59a5d8;
-      font-weight: 600;
+      font-weight: 500;
   }
 
 
