@@ -11,7 +11,7 @@ weight: 1
 
 {% row(style="center" margin="withContainer" bgPath="img/header1_1.jpg" bgStyle="full" padding="headerboth" margin="tight") %}
 
-<h1 class="text-white">Jungle Paradies</h1>
+<h1 class="text-white">Jungle Paradise</h1>
 
 
 {% end %}
