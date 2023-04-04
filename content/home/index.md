@@ -46,24 +46,24 @@ Jungle paradise Beach Resort and SPA Zanzibar features 13 exclusive and cozy, ai
 
 
 </div>
+
+
 <!-- section 3 -->
 
-
-
-{% row(style="" margin="withContainer" bgPath="img/header2.jpg" bgStyle="full" padding="top" margin="tight") %}
+{% row(style="" margin="withContainer" bgPath="img/header4.jpg" bgStyle="full" padding="top" margin="tight") %}
 
 <h1 class="text-white">Suites / Rooms -<br> Accommodation</h1>
 
-<button onclick="window.location.href='/projects'">VIEW MORE</button>
+<button onclick="window.location.href='/rooms'">VIEW MORE</button>
 
 
 {% end %}
 
-{% row(style="" margin="withContainer" bgPath="img/header4.jpg" bgStyle="full" padding="none" margin="tight") %}
+{% row(style="" margin="withContainer" bgPath="img/header2.jpg" bgStyle="full" padding="none" margin="tight") %}
 
 <h1 class="text-white">Ocean Breeze Restaurant<br> & JP's Beach Bar</h1>
 
-<button onclick="window.location.href='/projects'">FIND OUT MORE </button>
+<button onclick="window.location.href='/restaurant'">FIND OUT MORE </button>
 
 
 {% end %}
@@ -72,7 +72,7 @@ Jungle paradise Beach Resort and SPA Zanzibar features 13 exclusive and cozy, ai
 
 <h1 class="text-white">Health & Wellness <br> - SPA</h1>
 
-<button onclick="window.location.href='/projects'">LEARN MORE </button>
+<button onclick="window.location.href='/health-wellness'">LEARN MORE </button>
 
 
 {% end %}

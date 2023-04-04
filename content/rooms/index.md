@@ -26,7 +26,7 @@ weight: 2
 
 **Occupancy: 2**
 
-<button onclick="window.location.href='/projects'">CHECK AVAILABILITY</button>
+<button onclick="window.location.href='/'">CHECK AVAILABILITY</button>
  
 |||
 
@@ -54,7 +54,7 @@ Please let us know if you want to share your King Size bed with one of your kids
 
 **Occupancy: 4**
 
-<button onclick="window.location.href='/projects'">CHECK AVAILABILITY</button>
+<button onclick="window.location.href='/'">CHECK AVAILABILITY</button>
  
 |||
 
@@ -82,7 +82,7 @@ Please let us know if you want to share your suite with two of your children or 
 
 **Occupancy: 2**
 
-<button onclick="window.location.href='/projects'">CHECK AVAILABILITY</button>
+<button onclick="window.location.href='/'">CHECK AVAILABILITY</button>
  
 |||
 
