@@ -8,6 +8,7 @@
 @import "admonition.css";
 @import "tailwindcss/utilities";
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;700&display=swap');
 /* Custom CSS for header partial */
@@ -99,12 +100,19 @@ img[src*="#fig"] {
   font-weight: 400;
 }
 
+p {
+  font-size:1rem;
+  line-height: 1.5rem;
+  color: #333;
+}
+
 @layer components {
   h1 {
-    @apply text-3xl lg:text-7xl xl:text-7xl font-normal text-gray-900 leading-4 my-4;
-    font-family: 'Poiret One', cursive;
+    @apply text-3xl lg:text-6xl xl:text-6xl font-normal text-gray-900 leading-4 my-4;
+    font-family: 'Lato', sans-serif;
     line-height: 1.2;
     font-weight: 600;
+    text-shadow: 2px 4px 4px rgb(36 36 36 / 50%);
     
   }
   h1 strong {
@@ -112,7 +120,7 @@ img[src*="#fig"] {
   }
   h2 {
     @apply text-3xl md:text-5xl lg:text-5xl font-light leading-4 my-4;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Lato', sans-serif;
     line-height: 1.5;
     font-weight: 600;
     color: #2f5d89;
@@ -120,7 +128,7 @@ img[src*="#fig"] {
 
   h4 {
       @apply text-3xl lg:text-3xl font-light leading-4 my-4;
-      font-family: 'Poiret One', cursive;
+      font-family: 'Lato', sans-serif;
       line-height: 1.5;
       color: #59a5d8;
       font-weight: 600;
@@ -128,11 +136,11 @@ img[src*="#fig"] {
 
 
   h5 {
-    @apply text-2xl lg:text-3xl font-normal my-2;
-    font-family: 'Poiret One', cursive;
+    @apply text-xl lg:text-2xl font-normal my-2;
+    font-family: 'Lato', sans-serif;
     line-height: 1.2;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 300;
 }
 
   h2 strong {
@@ -140,7 +148,7 @@ img[src*="#fig"] {
   }
   h3 {
     @apply text-2xl lg:text-4xl font-normal my-4;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Lato', sans-serif;
     line-height: 1.2;
     color: #ffffff;
     font-weight: 600;

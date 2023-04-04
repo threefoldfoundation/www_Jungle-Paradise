@@ -123,29 +123,20 @@ Jungle paradise Beach Resort and SPA Zanzibar features 13 exclusive and cozy, ai
 
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="moderate" bgPath="img/header1_1.jpg" bgStyle="full" padding="both") %}
+{% row(style="center" margin="tight" bgPath="img/header1dark.jpg" bgStyle="full" padding="both") %}
 
 <h1 class="text-white">Why to choose Jungle Paradise Beach Resort & SPA</h1>
 
 
-
 <h3 class="text-white">BOOK YOUR NEXT PERFECT VACATION NOW</h3>
 
-##### 1. COMFORTABLE SUITES - ACCOMMODATION'
-##### 2. BEST SUNSET VIEWS
-##### 3. CLOSE TO AIRPORT
-##### 4. AFFORDABLE PRICING
-##### 5. BEST LOCATION
+##### COMFORTABLE SUITES - ACCOMMODATION'
+##### BEST SUNSET VIEWS
+##### CLOSE TO AIRPORT
+##### AFFORDABLE PRICING
+##### BEST LOCATION
 
 
 {% end %}
 
 
-
-<style>
-p {
-    font-size:1rem;
-    line-height: 1.5rem;
-    color: #333;
-}
-    </style>

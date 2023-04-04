@@ -7,48 +7,126 @@ draft: false
 weight: 2
 ---
 
-<div class="container mx-auto">
+<!-- section 1 (header) -->
 
-<br>
+{% row(style="center" margin="withContainer" bgPath="img/room_header1.jpg" bgStyle="full" padding="headerboth" margin="tight") %}
 
-<!-- section 1 (co-found) -->
-
-{% row(style="center" margin="header" padding="top") %}
-
-# Projects
-
-Some insight into our portfolio and its evolution over the past 19 years.
+<h1 class="text-white">ROOMS<br>Enjoy the comfort of Jungle Paradise</h1>
 
 {% end %}
 
-{% row(style="" margin="narrow" padding="bottom") %}
 
-<a href="/projects/waveone">![Image](./img/wave_one.jpg#mx-auto)</a>
+<div class="container mx-auto"> 
 
-### Then: Wave One
+<!-- section 2 -->
 
-<p class="text-base"><span class="font-semibold">More than $500 million in exits with less than $50 million investment.</span><br><br>Our focus during Wave One was very IT-centric – around storage, automation and cloud. During this wave from 2000 till 2015 some of our companies defined parts of the cloud landscape, and are still being used actively today.</p>
+{% row(margin="narrow" padding="top") %}
 
-<br>
+## Junior King Suite
 
-<br>
+**Occupancy: 2**
 
-<br>
-
-<br>
-
-
+<button onclick="window.location.href='/projects'">CHECK AVAILABILITY</button>
+ 
 |||
 
-<a href="/projects/wavetwo">![Image](./img/wave_two.jpg#mx-auto)</a>
 
-### Now: Wave Two
+The ocean view Junior King Suite is spacious, cozy and clean, with a nice balcony where you can watch one of the best sunsets on the Island. All our Suites have a stunning Beach/Ocean view and Pool view from the room and the balcony. Wake up with calm and chill Jungle vibes and the sound of the ocean, heading to the beach in front of your suites.
 
-<p class="text-base">We believe doing good for the world and doing business can go hand in hand. We are building companies which will help to achieve an ambituous global goal:<br><br><span class="font-semibold">Allow everyone to have unlimited access to Education, Sustainable Internet, and Complementary Digital Currencies for less than 1% of their monthly salary.</span><br><br>To reach this goal the world needs next-generation technologies that open education, mobile, and financial systems up for all.</p>
+Please let us know if you want to share your King Size bed with one of your kids for an extra fee.
 
 
+{% end %}
+
+
+{% row(margin="withContainer" padding="bottom") %}
+
+![Image](./img/gallarey1.jpg#mx-auto)
+
+{% end %}
+
+
+<!-- section 3 -->
+
+{% row(margin="narrow" padding="top") %}
+
+## Senior King Suite
+
+**Occupancy: 4**
+
+<button onclick="window.location.href='/projects'">CHECK AVAILABILITY</button>
+ 
+|||
+
+
+The ocean view Senior Suite is spacious, cozy and clean, with a nice big balcony, where you can watch one of the best sunsets on the Island. This kind of suite has an extra room for two more people in a bunk bed. It is perfect for your children, and the beds are also fitting for adults.
+
+Please let us know if you want to share your suite with two of your children or even your friends, for an extra fee.
+
+
+{% end %}
+
+
+{% row(margin="withContainer" padding="bottom") %}
+
+![Image](./img/gallarey2.jpg#mx-auto)
+
+{% end %}
+
+
+<!-- section 4 -->
+
+{% row(margin="narrow" padding="top") %}
+
+## Executive King Suite
+
+**Occupancy: 2**
+
+<button onclick="window.location.href='/projects'">CHECK AVAILABILITY</button>
+ 
+|||
+
+
+The ocean view Executive King Suite is a very spacious, cozy and clean premium room, with a nice big roof-terrace, where you can watch one of the best sunsets on the Island.
+
+This kind of accommodation has a pleasant seating area for two people and a private sundeck roof terrace with sunbeds to relax and chill in a very private environment. It's your best choice, if you are honeymooners and like something special or only have high standards and like your high-value privacy.
+
+
+{% end %}
+
+
+{% row(margin="withContainer" padding="bottom") %}
+
+![Image](./img/gallarey3.jpg#mx-auto)
 
 {% end %}
 
 </div>
+
+
+
+<!-- section 1 (header) -->
+
+{% row(style="center" margin="tight" bgPath="img/room_end_1.jpg" bgStyle="full" padding="both") %}
+
+
+![Image](./img/right.png#extrasmall#mx-auto)
+##### Baggage storage
+##### Printer
+##### Photo copying service
+##### Foreign currency exchange
+##### Concierge desk
+
+|||
+
+![Image](./img/right.png#extrasmall#mx-auto)
+##### Laundry service
+##### Room service
+##### Swimming pool
+##### Restaurant & Beach Bar
+##### RWelcome Drink
+
+{% end %}
+
+
 
