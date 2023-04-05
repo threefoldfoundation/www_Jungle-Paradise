@@ -17,7 +17,7 @@ weight: 6
 <br>
 
 
-<h1 class="text-white">CONTACT US<br>at Jungle Paradise</h1>
+<h1 class="text-white">Contact Us<br>at Jungle Paradise</h1>
 
 {% end %}
 
@@ -58,7 +58,7 @@ book@jp-resort.com
 <br>
 
 
-<h1 class="text-white">CONTACT US</h1>
+<h1 class="text-white">Contact Us</h1>
 <p class="text-white text-xl font-semibold">Interested in booking your next stay at Jungle Paradise Beach Resort? We'd love to hear from you - contact us using the form below, and we'll get right back to you. We look forward to serving you.</p>
 
 {% end %}
