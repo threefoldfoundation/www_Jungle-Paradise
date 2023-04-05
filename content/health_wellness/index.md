@@ -11,7 +11,7 @@ weight: 4
 
 {% row(style="center" margin="withContainer" bgPath="img/header3.jpg" bgStyle="full" padding="headerboth" margin="tight") %}
 
-<h1 class="text-white">HEALTH & WELLNESS<br>at Jungle Paradise</h1>
+<h1 class="text-white">Health and Wellness<br>at Jungle Paradise</h1>
 
 {% end %}
 
@@ -32,7 +32,9 @@ A relaxing haven nestled in the heart of Mbweni Ruins. Situated in the Historic 
 
 Our spa will have you feel like a new person, offering you an experience wrapped in the silence of Nature and in the Historic Ruins. Our spa menu offers a variety of treatments, carried out by skilled hands of professional therapists. 
 
-#### Our spa is open daily from 10:00 till 18:00 
+#### Our Spa is open daily from 10:00 - 18:00 
+
+<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-04-04&checkout=2023-04-05" target="_blank">**Book Now**</a></button>
 
 
 {% end %}

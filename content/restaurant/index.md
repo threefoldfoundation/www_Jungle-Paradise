@@ -29,7 +29,7 @@ weight: 3
 
 ## Ocean Breeze Restaurant
 
-Maybe now you know what to do in Zanzibar. Just enjoy one of the best restaurants locations on Zanzibar west coast only a few minutes from Stone Town with a stunning sunset view while you enjoy your food or candle-light romantic dinner for two.
+Maybe now you know what to do in Zanzibar. Just enjoy one of the best restaurants locations on Zanzibar's West Coast only a few minutes from Stone Town with a stunning sunset view while you enjoy your food or candle-light romantic dinner for two.
 
 #### Sunday to Thursday <br> 07:00 - 22:30 (7:00 am - 10:30 pm)
 
@@ -44,7 +44,7 @@ Maybe now you know what to do in Zanzibar. Just enjoy one of the best restaurant
 
 ## JP's Beach Sun-See-Bar
 
-Enjoy daily offers, themes, or some of the best beach parties in Zanzibar, Or just have fun with some long beach drinks or maybe some of the best cocktails with your friends at your cozy beach bar.
+Enjoy daily offers, themed parties, and some of the best beach parties in Zanzibar, Or just have fun with some long beach drinks or maybe some of the best cocktails with your friends at your cozy beach bar.
 
 |||
 
@@ -69,7 +69,7 @@ Enjoy daily offers, themes, or some of the best beach parties in Zanzibar, Or ju
 
 |||
 
-##### **Seafood & Romantic Dinner for two**
+##### **Seafood & Romantic Dinner for Two**
 
 <p class="text-white">For unforgetable night</p>
 
@@ -77,7 +77,7 @@ Enjoy daily offers, themes, or some of the best beach parties in Zanzibar, Or ju
 
 ##### **Celebration Menus & Catering Food**
 
-<p class="text-white">or your birthday Party</p>
+<p class="text-white">or your birthday party</p>
 
 {% end %}
 

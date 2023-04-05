@@ -11,7 +11,7 @@ weight: 2
 
 {% row(style="center" margin="withContainer" bgPath="img/room_header1.jpg" bgStyle="full" padding="headerboth" margin="tight") %}
 
-<h1 class="text-white">ROOMS<br>Enjoy the comfort of Jungle Paradise</h1>
+<h1 class="text-white">Rooms<br>Enjoy the Comfort of Jungle Paradise</h1>
 
 {% end %}
 
@@ -111,20 +111,20 @@ This kind of accommodation has a pleasant seating area for two people and a priv
 
 
 ![Image](./img/right.png#extrasmall#mx-auto)
-##### Baggage storage
+##### Baggage Storage
 ##### Printer
-##### Photo copying service
-##### Foreign currency exchange
-##### Concierge desk
+##### Photocopy Service
+##### Currency Exchange
+##### Concierge Desk
 
 |||
 
 ![Image](./img/right.png#extrasmall#mx-auto)
-##### Laundry service
-##### Room service
-##### Swimming pool
+##### Laundry Service
+##### Room Service
+##### Swimming Pool
 ##### Restaurant & Beach Bar
-##### RWelcome Drink
+##### Welcome Drink
 
 {% end %}
 

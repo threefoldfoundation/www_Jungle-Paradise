@@ -28,7 +28,7 @@ weight: 1
 
 {% row(margin="withContainer" padding="bottom") %}
 
-#### If you are looking for a one of a kind experience in Zanzibar, look no further...<br><br>At Jungle Paradise Beach Resort & SPA, you will fall in love with the stunning views and unique history.
+#### If you are looking for a one-of-a-kind experience in Zanzibar, look no further...<br><br>At Jungle Paradise Beach Resort & SPA, you will fall in love with the stunning views and unique history.
  
 
 Jungle Paradise Beach Resort & Spa @ Mbweni Ruins Zanzibar is your ideal choice, if you want to see and enjoy a unique place in Zanzibar Urban West. It's well-known for their historical Mbweni ruins, which took part in the ending of slavery in Zanzibar in the 1870s. Jungle Paradise is surrounded by a beautiful botanic garden which supports over 280 different kinds of tree species. 
@@ -125,7 +125,7 @@ Jungle paradise Beach Resort and SPA Zanzibar features 13 exclusive and cozy, ai
 
 {% row(style="center" margin="tight" bgPath="img/header1dark.jpg" bgStyle="full" padding="both") %}
 
-<h1 class="text-white">Why to choose Jungle Paradise Beach Resort & SPA</h1>
+<h1 class="text-white">Why Choose Jungle Paradise Beach Resort & SPA</h1>
 
 
 <h3 class="text-white">BOOK YOUR NEXT PERFECT VACATION NOW</h3>
