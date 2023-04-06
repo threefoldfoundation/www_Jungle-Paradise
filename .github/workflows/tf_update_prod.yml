@@ -10,10 +10,10 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: pushing latest change on www.jungleparadise.tf
+    - name: pushing latest change on www.beach-resort-zanzibar.com
       uses: appleboy/ssh-action@master
       with:
-        host: www.jungleparadise.tf
+        host: www.beach-resort-zanzibar.com
         username: ${{ secrets.TF_USER }}
         key: ${{ secrets.TF_SECRET }}
         port: ${{ secrets.TF_PORT }}
