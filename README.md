@@ -5,6 +5,7 @@
 The official website of Jungle Paradise - Beach Resort Zanzibar
 
 [https://jungleparadise.tf/](https://jungleparadise.tf/)
+
 [https://www.beach-resort-zanzibar.com/](https://www.beach-resort-zanzibar.com/)
 
 Last Updated: March 2023
