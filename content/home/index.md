@@ -61,7 +61,7 @@ Jungle paradise Beach Resort and SPA Zanzibar features 13 exclusive and cozy, ai
 
 {% row(style="" margin="withContainer" bgPath="img/header2.jpg" bgStyle="full" padding="none" margin="tight") %}
 
-<h1 class="text-white">Ocean Breeze Restaurant<br> & JP's Beach Bar</h1>
+<h1 class="text-white">Raintree Restaurant<br> & Beach Bar</h1>
 
 <button onclick="window.location.href='/restaurant'">FIND OUT MORE </button>
 
