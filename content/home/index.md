@@ -9,7 +9,7 @@ weight: 1
 
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="withContainer" bgPath="img/header1_1.jpg" bgStyle="full" padding="headerboth" margin="tight") %}
+{% row(style="center" margin="withContainer" fontSize="150" bgPath="img/header1_1.jpg" bgStyle="full" padding="headerboth" margin="tight") %}
 
 <h1 class="text-white">Jungle Paradise</h1>
 
