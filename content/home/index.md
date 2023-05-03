@@ -13,7 +13,6 @@ weight: 1
 
 <h1 class="text-white">Jungle Paradise</h1>
 
-
 {% end %}
 
 <!-- section 2 -->
@@ -29,24 +28,27 @@ weight: 1
 {% row(margin="withContainer" padding="bottom") %}
 
 #### If you are looking for a one-of-a-kind experience in Zanzibar, look no further...<br><br>At Jungle Paradise Beach Resort & SPA, you will fall in love with the stunning views and unique history.
+
  
 
 Jungle Paradise Beach Resort & Spa @ Mbweni Ruins Zanzibar is your ideal choice, if you want to see and enjoy a unique place in Zanzibar Urban West. It's well-known for their historical Mbweni ruins, which took part in the ending of slavery in Zanzibar in the 1870s. Jungle Paradise is surrounded by a beautiful botanic garden which supports over 280 different kinds of tree species. 
 
-
 Jungle paradise Beach Resort and SPA Zanzibar features 13 exclusive and cozy, air-conditioned beachfront Suites with a very high service standard. Each room provides a beautiful ocean-view, a private bathroom, Wi-Fi, a mini bar fridge and a balcony faced to the ocean, beach and pool area.
-
-
 
 |||
 
+<div id="gallery-hash-home">
+
+<a style="background-color: transparent">
+
 ![Image](./img/section2.jpg#mx-auto)
+
+</a>
+</div>
 
 {% end %}
 
-
 </div>
-
 
 <!-- section 3 -->
 
@@ -56,7 +58,6 @@ Jungle paradise Beach Resort and SPA Zanzibar features 13 exclusive and cozy, ai
 
 <button onclick="window.location.href='/rooms'">VIEW MORE</button>
 
-
 {% end %}
 
 {% row(style="" margin="withContainer" bgPath="img/header2.jpg" bgStyle="full" padding="none" margin="tight") %}
@@ -64,7 +65,6 @@ Jungle paradise Beach Resort and SPA Zanzibar features 13 exclusive and cozy, ai
 <h1 class="text-white">Raintree Restaurant<br> & Beach Bar</h1>
 
 <button onclick="window.location.href='/restaurant'">FIND OUT MORE </button>
-
 
 {% end %}
 
@@ -74,9 +74,7 @@ Jungle paradise Beach Resort and SPA Zanzibar features 13 exclusive and cozy, ai
 
 <button onclick="window.location.href='/health-wellness'">LEARN MORE </button>
 
-
 {% end %}
-
 
 <div class="container mx-auto">
 
@@ -88,13 +86,11 @@ Jungle paradise Beach Resort and SPA Zanzibar features 13 exclusive and cozy, ai
 
 {% end %}
 
-
 {% row(style="center" margin="withContainer" padding="bottom" margin="moderate") %}
 
 *"Wonderful place for spending your holiday, beautiful and peaceful place with nice view to the sea."*
 
 **Pavel Reich**
-
 
 |||
 
@@ -114,9 +110,6 @@ Jungle paradise Beach Resort and SPA Zanzibar features 13 exclusive and cozy, ai
 
 **Waldemar Truchel**
 
-
-
-
 {% end %}
 
 </div>
@@ -127,16 +120,16 @@ Jungle paradise Beach Resort and SPA Zanzibar features 13 exclusive and cozy, ai
 
 <h1 class="text-white">Why Choose Jungle Paradise Beach Resort & SPA</h1>
 
-
 <h3 class="text-white">BOOK YOUR NEXT PERFECT VACATION NOW</h3>
 
 ##### COMFORTABLE SUITES - ACCOMMODATION'
+
 ##### BEST SUNSET VIEWS
+
 ##### CLOSE TO AIRPORT
+
 ##### AFFORDABLE PRICING
+
 ##### BEST LOCATION
 
-
 {% end %}
-
-

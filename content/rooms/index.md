@@ -15,7 +15,6 @@ weight: 2
 
 {% end %}
 
-
 <div class="container mx-auto"> 
 
 <!-- section 2 -->
@@ -30,21 +29,22 @@ weight: 2
  
 |||
 
-
 The ocean view Junior King Suite is spacious, cozy and clean, with a nice balcony where you can watch one of the best sunsets on the Island. All our Suites have a stunning Beach/Ocean view and Pool view from the room and the balcony. Wake up with calm and chill Jungle vibes and the sound of the ocean, heading to the beach in front of your suites.
 
 Please let us know if you want to share your King Size bed with one of your kids for an extra fee.
 
-
 {% end %}
 
-
 {% row(margin="withContainer" padding="bottom") %}
+<div id="gallery-hash-demo-1">
+
+<a style="background-color: transparent">
 
 ![Image](./img/gallarey1.jpg#mx-auto)
 
+</a>
+</div>
 {% end %}
-
 
 <!-- section 3 -->
 
@@ -58,21 +58,22 @@ Please let us know if you want to share your King Size bed with one of your kids
  
 |||
 
-
 The ocean view Senior Suite is spacious, cozy and clean, with a nice big balcony, where you can watch one of the best sunsets on the Island. This kind of suite has an extra room for two more people in a bunk bed. It is perfect for your children, and the beds are also fitting for adults.
 
 Please let us know if you want to share your suite with two of your children or even your friends, for an extra fee.
 
-
 {% end %}
 
-
 {% row(margin="withContainer" padding="bottom") %}
+<div id="gallery-hash-demo-2">
+
+<a style="background-color: transparent">
 
 ![Image](./img/gallarey2.jpg#mx-auto)
 
+</a>
+</div>
 {% end %}
-
 
 <!-- section 4 -->
 
@@ -86,47 +87,55 @@ Please let us know if you want to share your suite with two of your children or 
  
 |||
 
-
 The ocean view Executive King Suite is a very spacious, cozy and clean premium room, with a nice big roof-terrace, where you can watch one of the best sunsets on the Island.
 
 This kind of accommodation has a pleasant seating area for two people and a private sundeck roof terrace with sunbeds to relax and chill in a very private environment. It's your best choice, if you are honeymooners and like something special or only have high standards and like your high-value privacy.
 
-
 {% end %}
-
 
 {% row(margin="withContainer" padding="bottom") %}
 
+<div id="gallery-hash-demo-3">
+
+<a style="background-color: transparent">
+
 ![Image](./img/gallarey3.jpg#mx-auto)
 
+</a>
+
+</div>
 {% end %}
 
 </div>
-
-
 
 <!-- section 1 (header) -->
 
 {% row(style="center" margin="tight" bgPath="img/room_end_1.jpg" bgStyle="full" padding="both") %}
 
-
 ![Image](./img/right.png#extrasmall#mx-auto)
+
 ##### Baggage Storage
+
 ##### Printer
+
 ##### Photocopy Service
+
 ##### Currency Exchange
+
 ##### Concierge Desk
 
 |||
 
 ![Image](./img/right.png#extrasmall#mx-auto)
+
 ##### Laundry Service
+
 ##### Room Service
+
 ##### Swimming Pool
+
 ##### Restaurant & Beach Bar
+
 ##### Welcome Drink
 
 {% end %}
-
-
-

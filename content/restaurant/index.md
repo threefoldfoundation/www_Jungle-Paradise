@@ -7,7 +7,6 @@ draft: false
 weight: 3
 ---
 
-
 <!-- section 1 (header) -->
 
 {% row(style="center" margin="withContainer" bgPath="img/resturan_header.jpg" bgStyle="full" padding="headerboth" margin="tight") %}
@@ -16,14 +15,20 @@ weight: 3
 
 {% end %}
 
-
 <div class="container mx-auto"> 
 
 <!-- section 2 -->
 
 {% row(margin="withContainer" padding="both") %}
+<div id="gallery-hash-restaurant-1">
+
+<a style="background-color: transparent">
 
 ![Image](./img/res_gallary2.jpg#mx-auto)
+
+</a>
+
+</div>
 
 |||
 
@@ -37,7 +42,6 @@ Maybe now you know what to do in Zanzibar. Just enjoy one of the best restaurant
 
 {% end %}
 
-
 <!-- section 3 -->
 
 {% row(margin="withContainer" padding="both") %}
@@ -48,24 +52,26 @@ Enjoy daily offers, themed parties, and some of the best beach parties in Zanzib
 
 |||
 
+<div id="gallery-hash-restaurant-2">
+
+<a style="background-color: transparent">
+
 ![Image](./img/res_gallary1.jpg#mx-auto)
+
+</a>
+</div>
 
 {% end %}
 
 </div>
 
-
-
 <!-- section 1 (header) -->
 
 {% row(style="center" margin="tight" bgPath="img/resturan_heade2r.jpg" bgStyle="" padding="both") %}
 
-
-
 ##### **Cocktails & Long Beach Drinks**
 
 <p class="text-white">with your friends</p>
-
 
 |||
 
@@ -80,6 +86,3 @@ Enjoy daily offers, themed parties, and some of the best beach parties in Zanzib
 <p class="text-white">or your birthday party</p>
 
 {% end %}
-
-
-
