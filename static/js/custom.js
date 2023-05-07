@@ -32,11 +32,29 @@ if (document.getElementById("gallery-hash-demo-1") !== null) {
       hash: false,
       galleryId: 1,
       dynamicEl: [
-        { src: "../images/room/S3V02507-640w.jpg" },
-        { src: "../images/room/S3V02509-640w.jpg" },
-        { src: "../images/room/S3V02510-1280w.jpg" },
-        { src: "../images/room/bedroom.jpg" },
-        { src: "../images/room/S3V02513-1280w.jpg" },
+        { src: "../images/room_junior/junior01.jpg" },
+        { src: "../images/room_junior/junior02.jpg" },
+        { src: "../images/room_junior/junior03.jpg" },
+        { src: "../images/room_junior/junior04.jpg" },
+        { src: "../images/room_junior/junior05.jpg" },
+        { src: "../images/room_junior/junior06.jpg" },
+        { src: "../images/room_junior/junior07.jpg" },
+        { src: "../images/room_junior/junior08.jpg" },
+        { src: "../images/room_junior/junior09.jpg" },
+        { src: "../images/room_junior/junior10.jpg" },
+        { src: "../images/room_junior/junior11.jpg" },
+        { src: "../images/room_junior/junior12.jpg" },
+        { src: "../images/room_junior/junior13.jpg" },
+        { src: "../images/room_junior/junior14.jpg" },
+        { src: "../images/room_junior/junior15.jpg" },
+        { src: "../images/room_junior/junior16.jpg" },
+        { src: "../images/room_junior/junior17.jpg" },
+        { src: "../images/room_junior/junior18.jpg" },
+        { src: "../images/room_junior/junior19.jpg" },
+        { src: "../images/room_junior/junior20.jpg" },
+        { src: "../images/room_junior/junior21.jpg" },
+        { src: "../images/room_junior/junior22.jpg" },
+        { src: "../images/room_junior/junior23.jpg" },
       ],
     }
   );
@@ -56,11 +74,26 @@ if (document.getElementById("gallery-hash-demo-2") !== null) {
       hash: false,
       galleryId: 2,
       dynamicEl: [
-        { src: "../images/room/S3V02509-640w.jpg" },
-        { src: "../images/room/S3V02517-640w.jpg" },
-        { src: "../images/room/S3V02507-640w.jpg" },
-        { src: "../images/room/S3V02515-640w.jpg" },
-        { src: "../images/room/S3V02510-1280w.jpg" },
+        { src: "../images/room_senior/senior01.jpg" },
+        { src: "../images/room_senior/senior02.jpg" },
+        { src: "../images/room_senior/senior03.jpg" },
+        { src: "../images/room_senior/senior04.jpg" },
+        { src: "../images/room_senior/senior05.jpg" },
+        { src: "../images/room_senior/senior06.jpg" },
+        { src: "../images/room_senior/senior07.jpg" },
+        { src: "../images/room_senior/senior08.jpg" },
+        { src: "../images/room_senior/senior09.jpg" },
+        { src: "../images/room_senior/senior10.jpg" },
+        { src: "../images/room_senior/senior11.jpg" },
+        { src: "../images/room_senior/senior12.jpg" },
+        { src: "../images/room_senior/senior13.jpg" },
+        { src: "../images/room_senior/senior14.jpg" },
+        { src: "../images/room_senior/senior15.jpg" },
+        { src: "../images/room_senior/senior16.jpg" },
+        { src: "../images/room_senior/senior17.jpg" },
+        { src: "../images/room_senior/senior18.jpg" },
+        { src: "../images/room_senior/senior19.jpg" },
+        { src: "../images/room_senior/senior20.jpg" },
       ],
     }
   );
@@ -81,11 +114,35 @@ if (document.getElementById("gallery-hash-demo-3") !== null) {
       hash: false,
       galleryId: 3,
       dynamicEl: [
-        { src: "../images/room/S3V02509-640w.jpg" },
-        { src: "../images/room/S3V02517-640w.jpg" },
-        { src: "../images/room/S3V02507-640w.jpg" },
-        { src: "../images/room/S3V02515-640w.jpg" },
-        { src: "../images/room/S3V02510-1280w.jpg" },
+        { src: "../images/room_executive/Executive01.jpg" },
+        { src: "../images/room_executive/Executive02.jpg" },
+        { src: "../images/room_executive/Executive03.jpg" },
+        { src: "../images/room_executive/Executive04.jpg" },
+        { src: "../images/room_executive/Executive05.jpg" },
+        { src: "../images/room_executive/Executive06.jpg" },
+        { src: "../images/room_executive/Executive07.jpg" },
+        { src: "../images/room_executive/Executive08.jpg" },
+        { src: "../images/room_executive/Executive09.jpg" },
+        { src: "../images/room_executive/Executive10.jpg" },
+        { src: "../images/room_executive/Executive11.jpg" },
+        { src: "../images/room_executive/Executive12.jpg" },
+        { src: "../images/room_executive/Executive13.jpg" },
+        { src: "../images/room_executive/Executive14.jpg" },
+        { src: "../images/room_executive/Executive15.jpg" },
+        { src: "../images/room_executive/Executive16.jpg" },
+        { src: "../images/room_executive/Executive17.jpg" },
+        { src: "../images/room_executive/Executive18.jpg" },
+        { src: "../images/room_executive/Executive19.jpg" },
+        { src: "../images/room_executive/Executive20.jpg" },
+        { src: "../images/room_executive/Executive21.jpg" },
+        { src: "../images/room_executive/Executive22.jpg" },
+        { src: "../images/room_executive/Executive23.jpg" },
+        { src: "../images/room_executive/Executive24.jpg" },
+        { src: "../images/room_executive/Executive25.jpg" },
+        { src: "../images/room_executive/Executive26.jpg" },
+        { src: "../images/room_executive/Executive27.jpg" },
+        { src: "../images/room_executive/Executive28.jpg" },
+        { src: "../images/room_executive/Executive29.jpg" },
       ],
     }
   );
@@ -165,5 +222,33 @@ if (document.getElementById("gallery-hash-restaurant-2") !== null) {
     .getElementById("gallery-hash-restaurant-2")
     .addEventListener("click", function () {
       jpsBeachSunSeeBar.openGallery(0);
+    });
+}
+
+// Experiences
+if (document.getElementById("gallery-hash-experiences") !== null) {
+  const experiences = lightGallery(
+    document.getElementById("gallery-hash-experiences"),
+    {
+      dynamic: true,
+      hash: false,
+      galleryId: 2,
+      dynamicEl: [
+        { src: "../images/experiences/exper1.jpg" },
+        { src: "../images/experiences/exper2.jpg" },
+        { src: "../images/experiences/exper3.jpg" },
+        { src: "../images/experiences/exper4.jpg" },
+        { src: "../images/experiences/exper5.jpg" },
+        { src: "../images/experiences/exper6.jpg" },
+        { src: "../images/experiences/exper7.jpg" },
+        { src: "../images/experiences/exper8.jpg" },
+      ],
+    }
+  );
+
+  document
+    .getElementById("gallery-hash-experiences")
+    .addEventListener("click", function () {
+      experiences.openGallery(0);
     });
 }
