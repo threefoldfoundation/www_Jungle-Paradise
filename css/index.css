@@ -445,9 +445,6 @@ header {
 .lg-next {
   right: 0;
 }
-.lg-backdrop {
-  background-color: transparent !important;
-}
 .lg-next, .lg-prev {
   color: #000
 }

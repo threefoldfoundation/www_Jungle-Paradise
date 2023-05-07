@@ -247,5 +247,7 @@ if (document.getElementById("inline-gallery-container") !== null) {
     ],
   });
 
+  const lgBackdrop = document.querySelector(".lg-backdrop");
+  lgBackdrop.style.backgroundColor = "transparent";
   inlineGallery.openGallery();
 }
