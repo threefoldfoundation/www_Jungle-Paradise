@@ -226,24 +226,26 @@ if (document.getElementById("gallery-hash-restaurant-2") !== null) {
 }
 
 // Experiences
-const lgContainer = document.getElementById("inline-gallery-container");
-const inlineGallery = lightGallery(lgContainer, {
-  container: lgContainer,
-  download: false,
-  dynamic: true,
-  closable: false,
-  counter: false,
-  slideDelay: 300,
-  dynamicEl: [
-    { src: "../images/experiences/exper1.jpg" },
-    { src: "../images/experiences/exper2.jpg" },
-    { src: "../images/experiences/exper3.jpg" },
-    { src: "../images/experiences/exper4.jpg" },
-    { src: "../images/experiences/exper5.jpg" },
-    { src: "../images/experiences/exper6.jpg" },
-    { src: "../images/experiences/exper7.jpg" },
-    { src: "../images/experiences/exper8.jpg" },
-  ],
-});
+if (document.getElementById("inline-gallery-container") !== null) {
+  const lgContainer = document.getElementById("inline-gallery-container");
+  const inlineGallery = lightGallery(lgContainer, {
+    container: lgContainer,
+    download: false,
+    dynamic: true,
+    closable: false,
+    counter: false,
+    slideDelay: 300,
+    dynamicEl: [
+      { src: "../images/experiences/exper1.jpg" },
+      { src: "../images/experiences/exper2.jpg" },
+      { src: "../images/experiences/exper3.jpg" },
+      { src: "../images/experiences/exper4.jpg" },
+      { src: "../images/experiences/exper5.jpg" },
+      { src: "../images/experiences/exper6.jpg" },
+      { src: "../images/experiences/exper7.jpg" },
+      { src: "../images/experiences/exper8.jpg" },
+    ],
+  });
 
-inlineGallery.openGallery();
+  inlineGallery.openGallery();
+}
