@@ -248,6 +248,11 @@ if (document.getElementById("inline-gallery-container") !== null) {
   });
 
   const lgBackdrop = document.querySelector(".lg-backdrop");
+  const lgNext = document.querySelector(".lg-next");
+  const lgPrev = document.querySelector(".lg-prev");
   lgBackdrop.style.backgroundColor = "transparent";
+  lgNext.style.right = "0";
+  lgNext.style.color = "#000";
+  lgPrev.style.color = "#000";
   inlineGallery.openGallery();
 }
