@@ -27,14 +27,8 @@ weight: 5
 <!-- section 2 -->
 
 {% row(margin="withContainer" padding="both") %}
-<div id="gallery-hash-experiences">
 
-<a style="background-color: transparent">
-
-![Image](./img/exp_book.jpg#mx-auto)
-
-</a>
-</div>
+<div id="inline-gallery-container" class="inline-gallery-container"></div>
 
 |||
 

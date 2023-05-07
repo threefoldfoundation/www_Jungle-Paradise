@@ -437,6 +437,20 @@ header {
 .header:hover .back {
   transform: none;
 }
+.inline-gallery-container {
+  width: 100%;
+  height: 0;
+  padding-bottom: 65%;
+}
+.lg-next {
+  right: 0;
+}
+.lg-backdrop {
+  background-color: transparent !important;
+}
+.lg-next, .lg-prev {
+  color: #000
+}
 @media (max-width: 768px) {
   h2 {
     font-size: 4rem;
