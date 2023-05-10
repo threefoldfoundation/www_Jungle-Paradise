@@ -28,13 +28,13 @@ weight: 5
 
 {% row(margin="withContainer" padding="both") %}
 
-![Image](./img/exp_book.jpg#mx-auto)
+<div id="inline-gallery-container" class="inline-gallery-container"></div>
 
 |||
 
 ## Book an Experience
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Of whether it is for your wedding anniversary dinner, a birthday party, an engagement gateway... From a full day of adventure with our private tours, to an exquisite dining experience under the moonlight, our team is ready to make your stay experience  in Zanzibar unforgetable.
 
 <button onclick="window.location.href='/contactus'">**Contact Us**</button>
 

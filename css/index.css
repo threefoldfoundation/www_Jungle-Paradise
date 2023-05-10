@@ -15,7 +15,6 @@
 .backdrop-blur {
   -webkit-backdrop-filter: blur(40px);
 }
-
 /* * {
   font-family: 'Josefin Sans', sans-serif;
 } */
@@ -274,6 +273,7 @@ a img{
 
 a img:hover{
   opacity: 0.5 !important;
+  cursor: pointer;
 }
 
 hr{
@@ -437,6 +437,11 @@ header {
 
 .header:hover .back {
   transform: none;
+}
+.inline-gallery-container {
+  width: 100%;
+  height: 0;
+  padding-bottom: 65%;
 }
 @media (max-width: 768px) {
   h2 {
