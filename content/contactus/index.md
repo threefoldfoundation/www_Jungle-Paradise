@@ -62,7 +62,7 @@ book@jp-resort.com
 
 
 <h1 class="text-white">Contact Us</h1>
-<p class="text-white text-xl font-semibold">Interested in booking your next stay at Jungle Paradise Beach Resort? We'd love to hear from you - contact us using the form below, and we'll get right back to you. We look forward to serving you.</p>
+<p class="text-white text-xl font-semibold">Interested in booking your next stay at Jungle Paradise Beach Resort? We'd love to hear from you - contact us using the button below, and we'll get right back to you. We look forward to serving you.</p>
 <a href="mailto:book@jp-resort.com" target="_blank"><button>Contact Us</button></a>
 
 {% end %}
