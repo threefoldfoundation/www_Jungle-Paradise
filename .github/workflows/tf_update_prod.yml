@@ -2,7 +2,7 @@ name: Jungleparadise Production
 on:
   push:
     branches: 
-      - main
+      - master
 
 
 jobs:
