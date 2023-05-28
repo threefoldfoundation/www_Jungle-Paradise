@@ -4,10 +4,11 @@
 
 The official website of Jungle Paradise - Beach Resort Zanzibar
 
-[https://jungleparadise.tf/](https://jungleparadise.tf/)
+Production (master branch) [https://jungleparadise.tf/](https://jungleparadise.tf/)
 
 [https://www.beach-resort-zanzibar.com/](https://www.beach-resort-zanzibar.com/)
 
+Staging (development branch) [https://www2.jungleparadise.tf/](https://www2.jungleparadise.tf/)
 Last Updated: March 2023
 
 ## Contribution
