@@ -1,8 +1,8 @@
-name: Jungleparadise Production
+name: Jungleparadise Staging
 on:
   push:
     branches: 
-      - master
+      - development_new
 
 
 jobs:
@@ -10,17 +10,17 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: pushing latest change on www.jungleparadise.tf
+    - name: pushing latest change on www3.jungleparadise.tf
       uses: appleboy/ssh-action@master
       with:
-        host: www.jungleparadise.tf
+        host: www3.jungleparadise.tf
         username: ${{ secrets.TF_USER }}
         key: ${{ secrets.TF_SECRET }}
         port: ${{ secrets.TF_PORT }}
         script: |
-          cd websites/www_jungle_paradise/
+          cd websites/www3/www_jungle_paradise/
           git log -1
           git fetch
-          git reset --hard origin/master
-          sed -i "s/https:\/\/www2.jungleparadise.tf/https:\/\/jungleparadise.tf/g" config.toml
+          git reset --hard origin/development_new
+          sed -i "s/https:\/\/www2.jungleparadise.tf/https:\/\/www3.jungleparadise.tf/g" config.toml
           bash build.sh
