@@ -10,7 +10,7 @@ weight: 1
 <!-- section 1 (header) -->
 
 
-{% row(style="center" bgColor="#EEEBE4" padding="bottom") %}
+{% row(style="center" bgColor="#EEEBE4" padding="bottom" margin="narrow") %}
 
 <div class="container mx-auto">
 
@@ -21,46 +21,40 @@ weight: 1
 
 ### Immerse yourself in the tranquil ambiance of nature’s lush greenery and the echoes of a storied past.
 
-Immerse yourself in the rich tapestry of history while surrounded by lush landscapes. From the captivating ruins to the soothing sounds of the ocean, every moment at Jungle Paradise is an invitation to connect with the essence of the past and embrace the serenity of the present.
+<p class="max-w-6xl mx-auto">Immerse yourself in the rich tapestry of history while surrounded by lush landscapes. From the captivating ruins to the soothing sounds of the ocean, every moment at Jungle Paradise is an invitation to connect with the essence of the past and embrace the serenity of the present.</p>
 
 
 </div>
 
 {% end %}
-
 
 
 
 <!-- section 2 -->
 
-{% row(style="center" margin="narrow" padding="top") %}
+<div class="container mx-auto">
 
-## Jungle Paradise Beach Resort & SPA Zanzibar
+{% row(style="center" padding="both" margin="narrow") %}
 
-{% end %}
+## Our Story
 
- 
+Step into a realm where history intertwines with natural beauty at **Jungle Paradise**. Our story is one of the captivating Mbweni Ruins, a testament to a rich past that resonates through time.
 
-{% row(margin="withContainer" padding="bottom") %}
+<br>
 
-#### If you are looking for a one-of-a-kind experience in Zanzibar, look no further...<br><br>At Jungle Paradise Beach Resort & SPA, you will fall in love with the stunning views and unique history.
+Embrace history, revel in nature's embrace, and create unforgettable memories in the heart of Zanzibar's enchanting surroundings.
 
- 
 
-Jungle Paradise Beach Resort & Spa @ Mbweni Ruins Zanzibar is your ideal choice, if you want to see and enjoy a unique place in Zanzibar Urban West. It's well-known for their historical Mbweni ruins, which took part in the ending of slavery in Zanzibar in the 1870s. Jungle Paradise is surrounded by a beautiful botanic garden which supports over 280 different kinds of tree species. 
+<br>
 
-Jungle paradise Beach Resort and SPA Zanzibar features 13 exclusive and cozy, air-conditioned beachfront Suites with a very high service standard. Each room provides a beautiful ocean-view, a private bathroom, Wi-Fi, a mini bar fridge and a balcony faced to the ocean, beach and pool area.
+
+At **Jungle Paradise**, we invite you to experience the serenity and richness of this blessed location, where the echoes of the past merge seamlessly with the present.
+
+<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-04-04&checkout=2023-04-05" target="_blank">About Us</a></button>
 
 |||
 
-<div id="gallery-hash-home">
-
-<a style="background-color: transparent">
-
-![Image](./img/section2.jpg#mx-auto)
-
-</a>
-</div>
+![Image](./img/story.png#mx-auto)
 
 {% end %}
 
