@@ -9,11 +9,27 @@ weight: 1
 
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="withContainer" bgPath="img/header1_1.jpg" bgStyle="full" padding="headerboth" margin="tight") %}
 
-<h1 class="text-white">Jungle Paradise</h1>
+{% row(style="center" bgColor="#EEEBE4" padding="bottom") %}
+
+<div class="container mx-auto">
+
+![Image](./img/header1_1.jpg#mx-auto)
+
+
+# A Historic Haven in Nature's Embrace
+
+### Immerse yourself in the tranquil ambiance of nature’s lush greenery and the echoes of a storied past.
+
+Immerse yourself in the rich tapestry of history while surrounded by lush landscapes. From the captivating ruins to the soothing sounds of the ocean, every moment at Jungle Paradise is an invitation to connect with the essence of the past and embrace the serenity of the present.
+
+
+</div>
 
 {% end %}
+
+
+
 
 <!-- section 2 -->
 
@@ -23,7 +39,7 @@ weight: 1
 
 {% end %}
 
-<div class="container mx-auto"> 
+ 
 
 {% row(margin="withContainer" padding="bottom") %}
 
@@ -50,86 +66,3 @@ Jungle paradise Beach Resort and SPA Zanzibar features 13 exclusive and cozy, ai
 
 </div>
 
-<!-- section 3 -->
-
-{% row(style="" margin="withContainer" bgPath="img/header4.jpg" bgStyle="full" padding="top" margin="tight") %}
-
-<h1 class="text-white">Suites / Rooms -<br> Accommodation</h1>
-
-<button onclick="window.location.href='/rooms'">VIEW MORE</button>
-
-{% end %}
-
-{% row(style="" margin="withContainer" bgPath="img/header2.jpg" bgStyle="full" padding="none" margin="tight") %}
-
-<h1 class="text-white">Raintree Restaurant<br> & Beach Bar</h1>
-
-<button onclick="window.location.href='/restaurant'">FIND OUT MORE </button>
-
-{% end %}
-
-{% row(style="" margin="withContainer" bgPath="img/header3.jpg" bgStyle="full" padding="bottom" margin="tight") %}
-
-<h1 class="text-white">Health & Wellness <br> - SPA</h1>
-
-<button onclick="window.location.href='/health-wellness'">LEARN MORE </button>
-
-{% end %}
-
-<div class="container mx-auto">
-
-<!-- section 4 -->
-
-{% row(style="center" margin="narrow" padding="top") %}
-
-## Guest Reviews
-
-{% end %}
-
-{% row(style="center" margin="withContainer" padding="bottom" margin="moderate") %}
-
-*"Wonderful place for spending your holiday, beautiful and peaceful place with nice view to the sea."*
-
-**Pavel Reich**
-
-|||
-
-*"Great place to enjoy the day at the beach and watch the sunset while you have a delicious dinner. The cocktail Bar is really amazing and the view absolutely unique on this side of the island. The rooms are clean, cozy, new renovated and bigger than usual and the prices are reasonable. Our room was with an ocean beach view. But the sunsets are better to enjoy with a cold drink on the sun downer platform, where we had a nice and calm chill out vibe."*
-
-**Neo Life Hacker**
-
-|||
-
-*A very beautiful area. Menu prices are cheap and delicious! Great pool, not hot! (Original) Очень красивая территория. Цены в меню недорогие и вкусно!"* Отличный бассейн, не жарко!"
-
-**Olga Myronova**
-
-|||
-
-*"Lovely chillout! After a few days on a catamaran, this place wonderfully calmed the senses and gave strength to travel home by plane. I heartily recommend it to everyone for a short and longer visit. (Original) Codowny chillout! Po kilku dniach na katamaranie to miejsce wspaniale uspokoiło zmysły i dało siłę na podróż samolotem do domu. Serdecznie polecam wszystkim na krótką i dłuższą wizytę."*
-
-**Waldemar Truchel**
-
-{% end %}
-
-</div>
-
-<!-- section 1 (header) -->
-
-{% row(style="center" margin="tight" bgPath="img/header1dark.jpg" bgStyle="full" padding="both") %}
-
-<h1 class="text-white">Why Choose Jungle Paradise Beach Resort & SPA</h1>
-
-<h3 class="text-white">BOOK YOUR NEXT PERFECT VACATION NOW</h3>
-
-##### COMFORTABLE SUITES - ACCOMMODATION'
-
-##### BEST SUNSET VIEWS
-
-##### CLOSE TO AIRPORT
-
-##### AFFORDABLE PRICING
-
-##### BEST LOCATION
-
-{% end %}
