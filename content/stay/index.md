@@ -116,6 +116,9 @@ An array of convenient facilities and amenities to enhance your stay.
 
 {% end %}
 
+<br>
+
+
 {% row(style="center" padding="bottom" margin="wide") %}
 
 ![Image](./img/facilities1.png#mx-auto)
@@ -127,12 +130,13 @@ Concierge Desk
 
 |||
 
-External Laundry Service
-Room Service
+
+![Image](./img/facilities3.png#mx-auto)
 
 <br>
 
-![Image](./img/facilities3.png#mx-auto)
+External Laundry Service
+Room Service
 
 |||
 
@@ -142,9 +146,7 @@ Room Service
 
 <br>
 
-Swimming Pool
-Restaurant & Beach Bar
-Spa
+Swimming Pool, Restaurant & Beach Bar, Spa
 
 {% end %}
 
