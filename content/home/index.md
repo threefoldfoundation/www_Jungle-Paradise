@@ -168,13 +168,26 @@ Our dedicated team is committed to ensuring that every moment of your stay is no
 
 </div>
 
-<section class="mx-auto text-center myColor">
-  <img src="/home/img/home_bottom.png" class="object-cover w-full my-2" alt="colorful leafs" />
+<!-- <section class="mx-auto text-center myColor">
+  <img src="/home_bottom.png" class="object-cover w-full my-2" alt="colorful leafs" />
 
   <button class="mb-8"><a class="" href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-04-04&checkout=2023-04-05" target="_blank">Book Your Stay</a></button>
-</section>
+</section> -->
+
+<!-- section 5 -->
+
+{% row(style="center" bgColor="#EEEBE4" padding="none" margin="none") %}
+
+![Image](./img/home_bottom.jpg#mx-auto)
+
+<br>
+
+<button class="mb-8"><a class="" href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-04-04&checkout=2023-04-05" target="_blank">Book Your Stay</a></button>
 
 
+
+
+{% end %}
 
 
 
@@ -184,7 +197,7 @@ Our dedicated team is committed to ensuring that every moment of your stay is no
   background-color:#EEEBE4;
 }
 
-section p{
+p{
     margin: 0px;
 }
     </style>
