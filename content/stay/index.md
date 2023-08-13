@@ -131,7 +131,7 @@ Concierge Desk
 |||
 
 
-![Image](./img/facilities3.png#mx-auto)
+![Image](./img/facilities2.png#mx-auto)
 
 <br>
 
