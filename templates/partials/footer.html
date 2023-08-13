@@ -13,8 +13,8 @@
         {{ section.content | safe }}
     {% else %}
         {% set footer_class = config.extra.footer_class | default(value='') %}
-        <div class="{{ footer_class }}">
-            <div class="py-4 px-4 sm:px-6">
+        <div class="{{ footer_class }} myColor">
+            {# <div class="py-4 px-4 sm:px-6">
                 <div class="lg:flex lg:gap-4">
                   <div class="space-y-8 lg:max-w-sm lg:mr-8 lg:mb-2 lg:col-span-1">
                     <img class="w-1/2 lg:mx-4 mb-4" src="/images/logo_black.png" alt="incubaid Logo" />
@@ -43,11 +43,12 @@
                         </p> 
                     </div>
                 </div>
-            </div>
+            </div> #}
             {# <img src="{{get_url(path='images/')}}" class="w-60" alt=""> #}
-            <hr class="my-4 border-y-0 w-1/2 border-blue-500/50">
-            <div class="mx-4 text-center">
-            <p class="text-base pt-4 my-0">&#169; 2022 Jungle Paradise Beach Resort & SPA <a href="https://threefold.io/" target="_blank" class="hard_blue my-0 text-base">Terms & Conditions</a></p>
+            {# <hr class="my-4 border-y-0 w-1/2 border-blue-500/50"> #}
+            <div class="text-center mx-auto">
+            <p class="text-base my-0">© 2023  Jungle Paradise Resort & SPA. All Rights Reserved. 
+                {# <a href="https://threefold.io/" target="_blank" class="hard_blue my-0 text-base">Terms & Conditions</a></p> #}
             
             </div>
         </div>
@@ -56,6 +57,10 @@
 
 
 <style>
+    .myColor{
+
+        background-color:#EEEBE4;
+    }
 
     .subheader {
         font-family: 'Lato', sans-serif;

@@ -14,10 +14,10 @@ weight: 1
 
 <div class="container mx-auto">
 
-![Image](./img/header1_1.jpg#mx-auto)
+![Image](./img/home_header.png#mx-auto)
 
 
-# A Historic Haven in Nature's Embrace
+## A Historic Haven in Nature's Embrace
 
 ### Immerse yourself in the tranquil ambiance of nature’s lush greenery and the echoes of a storied past.
 
@@ -34,7 +34,7 @@ weight: 1
 
 <div class="container mx-auto">
 
-{% row(style="center" padding="both" margin="narrow") %}
+{% row(style="center" reverse="rightreserve" padding="both" margin="wide") %}
 
 ## Our Story
 
@@ -60,3 +60,132 @@ At **Jungle Paradise**, we invite you to experience the serenity and richness of
 
 </div>
 
+
+<!-- section 3 -->
+
+<div class="myColor">
+
+<div class="container mx-auto">
+
+{% row(style="center" padding="both" margin="wide") %}
+
+![Image](./img/stay.png#mx-auto)
+
+|||
+
+## Stay
+
+Immerse yourself in the epitome of comfort at  **Jungle Paradise**, where 13 meticulously crafted beachfront suites offer sweeping views of the ocean, inviting you to experience the true essence of seaside bliss in unparalleled elegance.
+
+<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-04-04&checkout=2023-04-05" target="_blank">Book Your Stay</a></button>
+
+
+
+{% end %}
+
+</div>
+</div>
+
+<!-- section 4 -->
+
+<div class="container mx-auto">
+
+{% row(style="center" reverse="rightreserve" padding="both" margin="wide") %}
+
+## Dine
+
+Experience culinary bliss at **The Wooden Table Restaurant & Bar**. Delight in delectable cuisine amidst stunning sunsets and enjoy a memorable dining experience or an intimate candle-lit dinner for two, surrounded by elegance and tranquility of Zanzibar's idyllic west coast.
+
+<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-04-04&checkout=2023-04-05" target="_blank">Book a Table</a></button>
+
+|||
+
+![Image](./img/dine.png#mx-auto)
+
+{% end %}
+
+</div>
+
+<!-- section 5 -->
+
+<div class="myColor">
+
+<div class="container mx-auto">
+
+{% row(style="center" padding="both" margin="wide") %}
+
+![Image](./img/relax.png#mx-auto)
+
+|||
+
+## Relax
+
+Escape to a world of serenity and rejuvenation. From soothing massages to invigorating facials, our skilled therapists provide a personalized and transformative experience for every guest. Immerse yourself in tranquility and indulge in pure relaxation at Jungle Paradise’s **Natura Spa**.
+
+<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-04-04&checkout=2023-04-05" target="_blank">Book SPA Day</a></button>
+
+
+
+{% end %}
+
+</div>
+</div>
+
+<!-- section 6 -->
+
+<div class="container mx-auto">
+
+{% row(style="center" padding="top" margin="wide") %}
+
+## Explore
+
+Sailing Trips, Ruins Tours, Private Events, Parties, and Many More
+
+{% end %}
+
+{% row(style="center" padding="none" margin="wide") %}
+
+![Image](./img/explore1.png#mx-auto)
+
+|||
+
+![Image](./img/explore2.png#mx-auto)
+
+|||
+
+![Image](./img/explore3.png#mx-auto)
+
+{% end %}
+
+{% row(style="center" padding="bottom" margin="tight") %}
+
+Discover a world of unforgettable experiences at Jungle Paradise. 
+Our dedicated team is committed to ensuring that every moment of your stay is nothing short of extraordinary.
+
+<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-04-04&checkout=2023-04-05" target="_blank">Explore Activities</a></button>
+
+{% end %}
+
+</div>
+
+
+
+<!-- section 6 -->
+
+{% row(style="center" padding="none" margin="wide") %}
+
+![Image](./img/home_bottom.png#mx-auto)
+
+<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-04-04&checkout=2023-04-05" target="_blank">Book Your Stay</a></button>
+
+{% end %}
+
+
+
+
+<style>
+  .myColor{
+
+  background-color:#EEEBE4;
+}
+    </style>
