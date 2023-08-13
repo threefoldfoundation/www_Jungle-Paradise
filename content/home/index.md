@@ -157,7 +157,7 @@ Sailing Trips, Ruins Tours, Private Events, Parties, and Many More
 
 {% end %}
 
-{% row(style="center" padding="bottom" margin="tight") %}
+{% row(style="center" padding="bottom" margin="wide") %}
 
 Discover a world of unforgettable experiences at Jungle Paradise. 
 Our dedicated team is committed to ensuring that every moment of your stay is nothing short of extraordinary.
@@ -168,17 +168,12 @@ Our dedicated team is committed to ensuring that every moment of your stay is no
 
 </div>
 
+<section class="mx-auto text-center myColor">
+  <img src="/home/img/home_bottom.png" class="object-cover w-full my-2" alt="colorful leafs" />
 
+  <button class="mb-8"><a class="" href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-04-04&checkout=2023-04-05" target="_blank">Book Your Stay</a></button>
+</section>
 
-<!-- section 6 -->
-
-{% row(style="center" padding="none" margin="wide") %}
-
-![Image](./img/home_bottom.png#mx-auto)
-
-<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-04-04&checkout=2023-04-05" target="_blank">Book Your Stay</a></button>
-
-{% end %}
 
 
 
@@ -187,5 +182,9 @@ Our dedicated team is committed to ensuring that every moment of your stay is no
   .myColor{
 
   background-color:#EEEBE4;
+}
+
+section p{
+    margin: 0px;
 }
     </style>
