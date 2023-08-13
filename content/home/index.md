@@ -157,10 +157,14 @@ Sailing Trips, Ruins Tours, Private Events, Parties, and Many More
 
 {% end %}
 
+<br>
+
 {% row(style="center" padding="bottom" margin="wide") %}
 
-Discover a world of unforgettable experiences at Jungle Paradise. 
+Discover a world of unforgettable experiences at Jungle Paradise.<br>
 Our dedicated team is committed to ensuring that every moment of your stay is nothing short of extraordinary.
+
+<br>
 
 <button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-04-04&checkout=2023-04-05" target="_blank">Explore Activities</a></button>
 
