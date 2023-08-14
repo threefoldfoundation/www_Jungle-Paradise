@@ -9,13 +9,11 @@ weight: 2
 
 <!-- section 1 (header) -->
 
-
 {% row(style="center" bgColor="#EEEBE4" padding="bottom" margin="narrow") %}
 
 <div class="container mx-auto">
 
 ![Image](./img/story_header.png#mx-auto)
-
 
 ## Discover the Essence of Jungle Paradise Resort
 
@@ -27,12 +25,9 @@ weight: 2
 
 {% end %}
 
-
-
 <!-- section 2 -->
 
 {% row(style="center" padding="bottom" margin="none") %}
-
 
 ![Image](./img/ruins.jpg#mx-auto)
 
@@ -43,9 +38,7 @@ As our resort rests upon this sacred ground, we invite you to tread upon the pat
 
 </p>
 
-
 {% end %}
-
 
 <!-- section 3 -->
 
@@ -58,7 +51,6 @@ As our resort rests upon this sacred ground, we invite you to tread upon the pat
 <p class="max-w-6xl mx-auto">Nestled within the embrace of Mbweni's Botanical Garden, a haven of natural wonders awaits. This meticulously curated sanctuary showcases a breathtaking array of plant species, both endemic and exotic. Each step unveils a new tapestry of colors and textures, where vibrant blossoms and lush foliage intermingle harmoniously. <br><br>
 Immerse yourself in the gentle rustling of leaves, the delicate scents of flowers, and the vibrant palette that adorns the landscape. Amidst this serene expanse of green, Jungle Paradise Resort offers a sanctuary of peace, inviting you to unwind and reconnect with the tranquility that only nature can provide.
 </p>
-
 
 {% end %}
 
@@ -74,9 +66,7 @@ Immerse yourself in the gentle rustling of leaves, the delicate scents of flower
 By choosing Jungle Paradise, you're not merely indulging in a getaway – you're actively contributing to the betterment of the local community. You're becoming a part of a legacy that celebrates passionate hospitality and supports the heart of Zanzibar.
 </p>
 
-
 {% end %}
-
 
 <!-- section 5 -->
 
@@ -86,25 +76,20 @@ By choosing Jungle Paradise, you're not merely indulging in a getaway – you're
 
 <br>
 
-<button class="mb-8"><a class="" href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-04-04&checkout=2023-04-05" target="_blank">Book Your Stay</a></button>
-
-
-
+<button class="mb-8"><a class="" href="mailto:info@jungleparadise.tf" target="_blank">Book Your Stay</a></button>
 
 {% end %}
-
-
-
 
 <style>
   .myColor{
 
-  background-color:#EEEBE4;
+  background-color:#EEEBE4; 
 }
 
 p{
-    margin: 0px;
-}
 
+    margin: 0px;
+
+}
 
 </style> 
