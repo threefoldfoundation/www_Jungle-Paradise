@@ -7,85 +7,92 @@ draft: false
 weight: 7
 ---
 
-
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="withContainer" bgPath="img/contact_header.jpg" bgStyle="full" padding="headerboth" margin="tight") %}
+{% row(style="center" bgColor="#EEEBE4" padding="bottom" margin="narrow") %}
 
-<br>
+<div class="container mx-auto">
 
-<br>
+![Image](./img/contact_header.png#mx-auto)
 
+## Get in Touch with Jungle Paradise
 
-<h1 class="text-white">Contact Us<br>at Jungle Paradise</h1>
+### Reach Out to Begin Your Unforgettable Journey
 
-<a href="mailto:book@jp-resort.com" target="_blank"><button>**Contact Us**</button></a>
+<p class="max-w-6xl mx-auto">We are here to assist you with any inquiries, reservations, or special requests. Reach out to our friendly team and let us help you plan your dream getaway or event at our enchanting resort in Zanzibar.</p>
+
+<br />
+
+<button><a href="mailto:info@jungleparadise.tf" target="_blank">Contact Us</a></button>
+</div>
 
 {% end %}
-
 
 <div class="container mx-auto"> 
 
 <!-- section 2 -->
 
+{% row(style="center" padding="top" margin="wide") %}
+
+## Getting Here
+
+Seamless Directions to Your Jungle Paradise
+
+{% end %}
+
 {% row(margin="narrow" padding="both") %}
 
-## Jungle Paradise Beach Resort Contact Info
+#### **Nearest Airport:** Abeid Amani Karume International Airport
+
+Located in the midst of Mbweni's Botanical Garden and Mbweni Ruins, in the enchanting area of Unguja Urban West, our resort offers a tranquil oasis in the heart of Zanzibar. 
+
+Whether you choose to arrange transportation with us or explore the local options, our team is ready to assist you in ensuring a smooth and enjoyable arrival at **Jungle Paradise**.
 
 #### **Reception:** 8am - 10pm
+
 #### **Check-in:** after 3pm
+
 #### **Check-out:** before 11am
+
+<button><a href="https://goo.gl/maps/aspoCwL4WjADUDx58" target="_blank">View on Map</a></button>
 
 <br>
 
-Mkunazini, Urban West, Zanzibar, Vuga, Zanzibar Tanzania<br>
+<hr class="w-1/2" />
+
+<br>
+
+#### Jungle Paradise Mbweni Ruins Resort & SPA
+
+Mbweni Rd, Unguja Urban West<br>
+P. O BOX 3775, <br>
+Zanzibar, Tanzania<br>
+
 +255 778 24 24 24<br>
-book@jp-resort.com
-
-
+<a href="mailto:info@jungleparadise.tf" target="_blank" style="color: #775840!important">info@jungleparadise.tf</a>
 
 |||
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15865.614525443263!2d39.2018475!3d-6.2103759!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4a79d84b9b2ea768!2sJungle%20Paradise%20Beach%20Resort%20%26%20Spa!5e0!3m2!1sen!2sua!4v1669044476911!5m2!1sen!2sua" width="550" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="ae_iframe_tcxkp1qz"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15865.614525443263!2d39.2018475!3d-6.2103759!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4a79d84b9b2ea768!2sJungle%20Paradise%20Beach%20Resort%20%26%20Spa!5e0!3m2!1sen!2sua!4v1669044476911!5m2!1sen!2sua" width="100%" height="700" style="border:0; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="ae_iframe_tcxkp1qz"></iframe>
 
 {% end %}
 
 </div>
 
-<!-- section 3 (header) -->
+{% row(style="center" bgColor="#EEEBE4" padding="none" margin="none") %}
 
-{% row(style="center" margin="withContainer" bgPath="img/form.jpg" bgStyle="" padding="headerboth" margin="tight") %}
+## Your Journey to Paradise Awaits...
+
+![Image](./img/contact_bottom.png#fill)
 
 <br>
 
-<br>
-
-
-<h1 class="text-white">Contact Us</h1>
-<p class="text-white text-xl font-semibold">Interested in booking your next stay at Jungle Paradise Beach Resort? We'd love to hear from you - contact us using the button below, and we'll get right back to you. We look forward to serving you.</p>
-<a href="mailto:book@jp-resort.com" target="_blank"><button>Contact Us</button></a>
+<button class="mb-8"><a href="mailto:info@jungleparadise.tf" target="_blank">Book Your Stay</a></button>
 
 {% end %}
 
-<div class="container mx-auto"> 
-
-<!-- section 4 -->
-
-{% row(margin="withContainer" padding="both") %}
-
-![Image](./img/gallery.png#mx-auto)
-
-{% end %}
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
+<style>
+p {
+    margin: 0px;
+}
+</style>
