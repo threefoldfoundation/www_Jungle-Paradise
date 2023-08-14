@@ -9,13 +9,11 @@ weight: 1
 
 <!-- section 1 (header) -->
 
-
 {% row(style="center" bgColor="#EEEBE4" padding="bottom" margin="narrow") %}
 
 <div class="container mx-auto">
 
 ![Image](./img/home_header.png#mx-auto)
-
 
 ## A Historic Haven in Nature's Embrace
 
@@ -23,12 +21,9 @@ weight: 1
 
 <p class="max-w-6xl mx-auto">Immerse yourself in the rich tapestry of history while surrounded by lush landscapes. From the captivating ruins to the soothing sounds of the ocean, every moment at Jungle Paradise is an invitation to connect with the essence of the past and embrace the serenity of the present.</p>
 
-
 </div>
 
 {% end %}
-
-
 
 <!-- section 2 -->
 
@@ -44,13 +39,11 @@ Step into a realm where history intertwines with natural beauty at **Jungle Para
 
 Embrace history, revel in nature's embrace, and create unforgettable memories in the heart of Zanzibar's enchanting surroundings.
 
-
 <br>
-
 
 At **Jungle Paradise**, we invite you to experience the serenity and richness of this blessed location, where the echoes of the past merge seamlessly with the present.
 
-<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-04-04&checkout=2023-04-05" target="_blank">About Us</a></button>
+<button><a href="/story">About Us</a></button>
 
 |||
 
@@ -59,7 +52,6 @@ At **Jungle Paradise**, we invite you to experience the serenity and richness of
 {% end %}
 
 </div>
-
 
 <!-- section 3 -->
 
@@ -77,9 +69,7 @@ At **Jungle Paradise**, we invite you to experience the serenity and richness of
 
 Immerse yourself in the epitome of comfort at  **Jungle Paradise**, where 13 meticulously crafted beachfront suites offer sweeping views of the ocean, inviting you to experience the true essence of seaside bliss in unparalleled elegance.
 
-<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-04-04&checkout=2023-04-05" target="_blank">Book Your Stay</a></button>
-
-
+<button><a href="/stay">Book Your Stay</a></button>
 
 {% end %}
 
@@ -96,7 +86,7 @@ Immerse yourself in the epitome of comfort at  **Jungle Paradise**, where 13 met
 
 Experience culinary bliss at **The Wooden Table Restaurant & Bar**. Delight in delectable cuisine amidst stunning sunsets and enjoy a memorable dining experience or an intimate candle-lit dinner for two, surrounded by elegance and tranquility of Zanzibar's idyllic west coast.
 
-<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-04-04&checkout=2023-04-05" target="_blank">Book a Table</a></button>
+<button><a href="/dine">Book a Table</a></button>
 
 |||
 
@@ -122,9 +112,7 @@ Experience culinary bliss at **The Wooden Table Restaurant & Bar**. Delight in d
 
 Escape to a world of serenity and rejuvenation. From soothing massages to invigorating facials, our skilled therapists provide a personalized and transformative experience for every guest. Immerse yourself in tranquility and indulge in pure relaxation at Jungle Paradise’s **Natura Spa**.
 
-<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-04-04&checkout=2023-04-05" target="_blank">Book SPA Day</a></button>
-
-
+<button><a href="/relax">Book SPA Day</a></button>
 
 {% end %}
 
@@ -166,7 +154,7 @@ Our dedicated team is committed to ensuring that every moment of your stay is no
 
 <br>
 
-<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-04-04&checkout=2023-04-05" target="_blank">Explore Activities</a></button>
+<button><a href="/explore">Explore Activities</a></button>
 
 {% end %}
 
@@ -186,22 +174,20 @@ Our dedicated team is committed to ensuring that every moment of your stay is no
 
 <br>
 
-<button class="mb-8"><a class="" href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-04-04&checkout=2023-04-05" target="_blank">Book Your Stay</a></button>
-
-
-
+<button class="mb-8"><a href="mailto:info@jungleparadise.tf" target="_blank">Book Your Stay</a></button>
 
 {% end %}
-
-
 
 <style>
   .myColor{
 
-  background-color:#EEEBE4;
+  background-color:#EEEBE4; 
 }
 
 p{
+
     margin: 0px;
+
 }
+
     </style>
