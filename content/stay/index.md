@@ -99,8 +99,8 @@ Experience ocean-view opulence in our Executive King Suite. Spacious and cozy, t
 </div>
 
 <!-- section 5 -->
-
-<div class="container mx-auto">
+<div class="myColor" >
+<div class="container mx-auto ">
 
 {% row(style="center" padding="top" margin="wide") %}
 
@@ -110,35 +110,53 @@ An array of convenient facilities and amenities to enhance your stay.
 
 {% end %}
 
-<br>
+{% row(style="center" padding="none" margin="wide") %}
+
+![Image](./img/facilities1.png#fill)
+
+|||
+
+<div class="flex flex-col justify-center bg-white	" style="height: 245px" >
+
+External Laundry Service
+
+Room Service
+
+</div>
+
+|||
+
+![Image](./img/facilities3.png#fill)
+
+{% end %}
 
 {% row(style="center" padding="bottom" margin="wide") %}
 
-![Image](./img/facilities1.png#mx-auto)
-
-<br>
+<div class="flex flex-col justify-center bg-white	" style="height: 245px" >
 
 Baggage Storage
+
 Concierge Desk
 
-|||
-
-![Image](./img/facilities2.png#mx-auto)
-
-<br>
-
-External Laundry Service
-Room Service
+</div>
 
 |||
 
-![Image](./img/facilities3.png#mx-auto)
+![Image](./img/facilities2.png#fill)
 
-<br>
+|||
 
-Swimming Pool, Restaurant & Beach Bar, Spa
+<div class="flex flex-col justify-center bg-white	" style="height: 245px" >
 
+Swimming Pool
+
+Restaurant & Beach Bar
+
+Spa
+</div>
 {% end %}
+
+<br>
 
 </div>
 
@@ -154,16 +172,12 @@ Swimming Pool, Restaurant & Beach Bar, Spa
 
 {% end %}
 
+</div>
 <style>
-  .myColor{
-
+.myColor{
   background-color:#EEEBE4; 
 }
-
 p{
-
     margin: 0px;
-
 }
-
     </style>
