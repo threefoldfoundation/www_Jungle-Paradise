@@ -30,6 +30,8 @@ weight: 7
 
 <div class="container mx-auto"> 
 
+
+
 <!-- section 2 -->
 
 {% row(style="center" padding="top" margin="wide") %}
@@ -40,7 +42,10 @@ Seamless Directions to Your Jungle Paradise
 
 {% end %}
 
-{% row(margin="narrow" padding="both") %}
+
+<br>
+
+{% row(margin="narrow" reverse="rightreserve" padding="bottom") %}
 
 #### **Nearest Airport:** Abeid Amani Karume International Airport
 
