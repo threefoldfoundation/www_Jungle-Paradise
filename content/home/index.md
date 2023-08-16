@@ -9,7 +9,7 @@ weight: 1
 
 <!-- section 1 (header) -->
 
-{% row(style="center" bgColor="#EEEBE4" padding="bottom" margin="narrow") %}
+{% row(style="center" bgColor="#EEEBE4" bgStyle="full" margin="narrow") %}
 
 <div class="container mx-auto">
 
