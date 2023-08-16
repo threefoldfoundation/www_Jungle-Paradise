@@ -137,7 +137,7 @@ p {
     @apply font-medium;
   }
   h2 {
-    @apply text-3xl md:text-5xl lg:text-5xl font-light leading-4 my-4;
+    @apply text-3xl lg:text-4xl font-light leading-4 my-4;
     font-family: 'Cormorant Infant', serif;
     line-height: 1.1;
     font-weight: 600;
@@ -163,7 +163,7 @@ p {
     @apply font-medium;
   }
   h3 {
-    @apply text-2xl lg:text-4xl font-normal my-4;
+    @apply text-2xl lg:text-3xl font-normal my-4;
     font-family: 'Cormorant Infant', serif;
     line-height: 1.2;
     color: #ffffff;

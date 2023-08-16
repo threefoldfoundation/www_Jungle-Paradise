@@ -88,7 +88,7 @@ By choosing Jungle Paradise, you're not merely indulging in a getaway – you're
 
 p{
 
-    margin: 0px;
+    margin: 0px 6px;
 
 }
 

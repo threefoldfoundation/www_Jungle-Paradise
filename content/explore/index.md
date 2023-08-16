@@ -148,6 +148,6 @@ Get ready for a lifetime of unforgettable experiences as you delve into the natu
 
 <style>
 p {
-    margin: 0px;
+    margin: 0px 6px;
 }
 </style>

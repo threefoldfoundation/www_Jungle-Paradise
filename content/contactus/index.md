@@ -98,6 +98,6 @@ Zanzibar, Tanzania<br>
 
 <style>
 p {
-    margin: 0px;
+    margin: 0px 6px;
 }
 </style>

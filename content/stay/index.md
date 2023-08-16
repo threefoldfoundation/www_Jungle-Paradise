@@ -178,6 +178,6 @@ Spa
   background-color:#EEEBE4; 
 }
 p{
-    margin: 0px;
+    margin: 0px 6px;
 }
     </style>

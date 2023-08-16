@@ -186,7 +186,7 @@ Our dedicated team is committed to ensuring that every moment of your stay is no
 
 p{
 
-    margin: 0px;
+    margin: 0px 6px;
 
 }
 
