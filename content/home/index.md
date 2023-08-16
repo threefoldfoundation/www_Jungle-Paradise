@@ -170,7 +170,7 @@ Our dedicated team is committed to ensuring that every moment of your stay is no
 
 {% row(style="center" bgColor="#EEEBE4" padding="none" margin="none") %}
 
-![Image](./img/home_bottom.webp#mx-auto)
+![Image](./img/home_bottom1.webp#mx-auto)
 
 <br>
 
