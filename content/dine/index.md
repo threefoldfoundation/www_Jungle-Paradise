@@ -23,6 +23,8 @@ weight: 4
 
 <p class="max-w-6xl mx-auto"> Indulge in delectable flavors and breathtaking ocean views at our restaurant, where every bite is a symphony of taste. Unwind at the bar, sipping on refreshing cocktails and soaking in the sun's warmth. With a fusion of delectable cuisine and an idyllic ambiance, Jungle Paradise invites you to savor moments of pure culinary bliss.</p>
 
+<br>
+
 <button><a href="https://github.com/threefoldfoundation/www_jungle_paradise/files/12302872/WOODENTABLEMENU.pdf.zip" target="_blank">See Menu</a></button>
 </div>
 
@@ -158,6 +160,8 @@ Local Resident Discount
 <br>
 
 <button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Your Stay</a></button>
+
+<br>
 
 {% end %}
 
