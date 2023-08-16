@@ -146,6 +146,8 @@ Get ready for a lifetime of unforgettable experiences as you delve into the natu
 
 <button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Your Stay</a></button>
 
+<br>
+
 {% end %}
 
 <style>

@@ -30,6 +30,7 @@ weight: 5
 <br />
 
 <button><a href="mailto:info@jungleparadise.tf" target="_blank">Book Spa Day</a></button>
+
 </div>
 
 {% end %}
@@ -40,12 +41,11 @@ weight: 5
 
 <div class="container mx-auto">
 
-{% row(style="center" padding="both" margin="wide") %}
+{% row(style="center" padding="bottom" margin="wide") %}
 
 ![Image](./img/spa_menu.webp#mx-auto)
 
 {% end %}
-</div>
 </div>
 
 <!-- section 3 -->
@@ -56,6 +56,8 @@ weight: 5
 <br>
 
 <button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Your Stay</a></button>
+
+<br>
 
 {% end %}
 
