@@ -92,7 +92,7 @@ Zanzibar, Tanzania<br>
 
 <br>
 
-<button class="mb-8"><a href="mailto:info@jungleparadise.tf" target="_blank">Book Your Stay</a></button>
+<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Your Stay</a></button>
 
 {% end %}
 

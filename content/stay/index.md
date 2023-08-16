@@ -25,7 +25,7 @@ weight: 3
 
 <br>
 
-<button><a href="mailto:info@jungleparadise.tf" target="_blank">Book Now</a></button>
+<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Now</a></button>
 
 </div>
 
@@ -71,7 +71,7 @@ Discover comfort and serenity as you unwind in its cozy embrace, while a charmin
 
 Immerse yourself in the epitome of comfort at  **Jungle Paradise**, where 13 meticulously crafted beachfront suites offer sweeping views of the ocean, inviting you to experience the true essence of seaside bliss in unparalleled elegance.
 
-<button><a href="mailto:info@jungleparadise.tf" target="_blank">Book Your Stay</a></button>
+<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Now</a></button>
 
 {% end %}
 
@@ -90,7 +90,7 @@ Immerse yourself in the epitome of comfort at  **Jungle Paradise**, where 13 met
 
 Experience ocean-view opulence in our Executive King Suite. Spacious and cozy, this premium room features a large roof-terrace for mesmerizing sunsets. Unwind on your private sundeck, complete with sunbeds and perfect for intimate relaxation. Ideal for couples, honeymooners, or those seeking elevated privacy. 
 
-<button><a href="mailto:info@jungleparadise.tf" target="_blank">Book Your Stay</a></button>
+<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Now</a></button>
 
 |||
 
@@ -168,7 +168,7 @@ Spa
 
 <br>
 
-<button class="mb-8"><a href="mailto:info@jungleparadise.tf" target="_blank">Book Your Stay</a></button>
+<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Now</a></button>
 
 {% end %}
 
