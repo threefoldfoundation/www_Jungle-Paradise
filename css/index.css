@@ -68,6 +68,11 @@ img[src*="#fill"] {
   height: 100%;
 }
 
+img[src*="#stretch"] {
+  width: auto;
+  height: 245px;
+}
+
 img[src*="#tft_img"] {
   width: 150px;
   margin: 8px;
@@ -163,7 +168,7 @@ p {
     @apply font-medium;
   }
   h3 {
-    @apply text-2xl lg:text-3xl font-normal my-4;
+    @apply text-xl lg:text-3xl font-normal my-4;
     font-family: 'Cormorant Infant', serif;
     line-height: 1.2;
     color: #ffffff;
@@ -470,19 +475,12 @@ header {
   padding-bottom: 65%;
 }
 @media (max-width: 768px) {
-  h2 {
-    font-size: 4rem;
-  }
+
 }
 @media (max-width: 640px) {
   .banner h2 {
     font: 600 7vw/10vw;
   }
-
-  .header h1,h2 {
-    font-size: 35px;
-  }
-
   .banner h2 svg {
     font-size: 30px;
   }

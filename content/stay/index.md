@@ -11,6 +11,8 @@ weight: 3
 
 {% row(style="center" bgColor="#EEEBE4" padding="bottom" margin="narrow") %}
 
+<br>
+
 <div class="container mx-auto">
 
 ![Image](./img/stay_header.png#mx-auto)
@@ -110,27 +112,12 @@ An array of convenient facilities and amenities to enhance your stay.
 
 {% end %}
 
-{% row(style="center" padding="none" margin="wide") %}
-
-![Image](./img/facilities1.png#fill)
-
-|||
-
-<div class="flex flex-col justify-center bg-white	" style="height: 245px" >
-
-External Laundry Service
-
-Room Service
-
-</div>
-
-|||
-
-![Image](./img/facilities3.png#fill)
-
-{% end %}
+<br>
 
 {% row(style="center" padding="bottom" margin="wide") %}
+
+![Image](./img/facilities1.png#stretch)
+
 
 <div class="flex flex-col justify-center bg-white	" style="height: 245px" >
 
@@ -142,9 +129,20 @@ Concierge Desk
 
 |||
 
-![Image](./img/facilities2.png#fill)
+<div class="flex flex-col justify-center bg-white	" style="height: 245px" >
+
+External Laundry Service
+
+Room Service
+
+</div>
+
+![Image](./img/facilities2.png#stretch)
 
 |||
+
+
+![Image](./img/facilities3.png#stretch)
 
 <div class="flex flex-col justify-center bg-white	" style="height: 245px" >
 
@@ -153,7 +151,9 @@ Swimming Pool
 Restaurant & Beach Bar
 
 Spa
+
 </div>
+
 {% end %}
 
 <br>
@@ -180,4 +180,4 @@ Spa
 p{
     margin: 0px 6px;
 }
-    </style>
+</style>
