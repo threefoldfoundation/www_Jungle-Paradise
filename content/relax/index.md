@@ -42,7 +42,7 @@ weight: 5
 
 {% row(style="center" padding="both" margin="wide") %}
 
-![Image](./img/relax_menu.webp#mx-auto)
+![Image](./img/spa_menu.webp#mx-auto)
 
 {% end %}
 </div>
