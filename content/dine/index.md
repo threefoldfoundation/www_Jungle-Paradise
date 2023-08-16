@@ -11,6 +11,8 @@ weight: 4
 
 {% row(style="center" bgColor="#EEEBE4" padding="bottom" margin="narrow") %}
 
+<br>
+
 <div class="container mx-auto">
 
 ![Image](./img/dine_header.png#mx-auto)
@@ -97,29 +99,11 @@ Gain access to an array of luxurious amenities designed to elevate your beachsid
 
 {% end %}
 
-{% row(style="center" padding="none" margin="wide") %}
+<br>
 
-![Image](./img/lifestyle1.png#fill)
+{% row(style="center" padding="bottom" margin="wide") %}
 
-|||
-
-<div class="flex flex-col justify-center myColor" style="height: 245px" >
-
-Seaside Pool
-
-Complimentary Wi-Fi
-
-Towel Service
-
-</div>
-
-|||
-
-![Image](./img/lifestyle3.png#fill)
-
-{% end %}
-
-{% row(style="center" padding="none" margin="wide") %}
+![Image](./img/lifestyle1.png#stretch)
 
 <div class="flex flex-col justify-center myColor" style="height: 245px" >
 
@@ -133,9 +117,23 @@ Live Music
 
 |||
 
-![Image](./img/lifestyle2.png#fill)
+<div class="flex flex-col justify-center myColor" style="height: 245px" >
+
+Seaside Pool
+
+Complimentary Wi-Fi
+
+Towel Service
+
+</div>
+
+![Image](./img/lifestyle2.png#stretch)
 
 |||
+
+
+![Image](./img/lifestyle3.png#stretch)
+
 
 <div class="flex flex-col justify-center myColor" style="height: 245px" >
 
@@ -146,6 +144,7 @@ Live Music
 Local Resident Discount
 
 </div>
+
 {% end %}
 
 <br>
@@ -164,6 +163,6 @@ Local Resident Discount
 
 <style>
 p {
-    margin: 0px;
+    margin: 0px 6px;
 }
 </style>

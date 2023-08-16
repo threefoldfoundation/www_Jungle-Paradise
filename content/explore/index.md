@@ -11,6 +11,8 @@ weight: 6
 
 {% row(style="center" bgColor="#EEEBE4" padding="bottom" margin="narrow") %}
 
+<br>
+
 <div class="container mx-auto">
 
 ![Image](./img/explore_header.png#mx-auto)

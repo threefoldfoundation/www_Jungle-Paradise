@@ -11,6 +11,8 @@ weight: 2
 
 {% row(style="center" bgColor="#EEEBE4" padding="bottom" margin="narrow") %}
 
+<br>
+
 <div class="container mx-auto">
 
 ![Image](./img/story_header.png#mx-auto)
@@ -88,7 +90,7 @@ By choosing Jungle Paradise, you're not merely indulging in a getaway – you're
 
 p{
 
-    margin: 0px 6px;
+    margin: 0px;
 
 }
 
