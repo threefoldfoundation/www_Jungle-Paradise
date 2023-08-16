@@ -15,7 +15,7 @@ weight: 4
 
 <div class="container mx-auto">
 
-![Image](./img/dine_header.png#mx-auto)
+![Image](./img/dine_header1.webp#mx-auto)
 
 ## Culinary Bliss Awaits
 
@@ -50,7 +50,7 @@ Indulge in Gastronomic Excellence with Breathtaking Sunsets on Zanzibar's west c
 
 |||
 
-![Image](./img/restaurant.png#mx-auto)
+![Image](./img/restaurant.webp#mx-auto)
 
 {% end %}
 
@@ -153,7 +153,7 @@ Local Resident Discount
 
 {% row(style="center" bgColor="#EEEBE4" padding="none" margin="none") %}
 
-![Image](./img/dine_bottom.png#fill)
+![Image](./img/dine_bottom.webp#fill)
 
 <br>
 

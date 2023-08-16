@@ -15,7 +15,7 @@ weight: 2
 
 <div class="container mx-auto">
 
-![Image](./img/story_header.png#mx-auto)
+![Image](./img/story_header1.webp#mx-auto)
 
 ## Discover the Essence of Jungle Paradise Resort
 
@@ -31,7 +31,7 @@ weight: 2
 
 {% row(style="center" padding="bottom" margin="none") %}
 
-![Image](./img/ruins.jpg#mx-auto)
+![Image](./img/ruins.webp#mx-auto)
 
 ## Historic Charms: A Glimpse into the Past at Mbweni Ruins
 
@@ -46,7 +46,7 @@ As our resort rests upon this sacred ground, we invite you to tread upon the pat
 
 {% row(style="center" bgColor="#EEEBE4" padding="bottom" margin="none") %}
 
-![Image](./img/botanicalgarden.jpg#mx-auto)
+![Image](./img/botany.webp#mx-auto)
 
 ## Nature's Splendor: The Serenity of Botanical Beauty
 
@@ -60,7 +60,7 @@ Immerse yourself in the gentle rustling of leaves, the delicate scents of flower
 
 {% row(style="center" padding="bottom" margin="none") %}
 
-![Image](./img/staff.jpg#mx-auto)
+![Image](./img/staff.webp#mx-auto)
 
 ## Meet Our Stellar Team: The Heartbeat of Hospitality
 
@@ -74,7 +74,7 @@ By choosing Jungle Paradise, you're not merely indulging in a getaway – you're
 
 {% row(style="center" bgColor="#EEEBE4" padding="none" margin="none") %}
 
-![Image](./img/story_bottom.jpg#mx-auto)
+![Image](./img/story_bottom.webp#mx-auto)
 
 <br>
 

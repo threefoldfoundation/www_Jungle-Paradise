@@ -15,7 +15,7 @@ weight: 3
 
 <div class="container mx-auto">
 
-![Image](./img/stay_header.png#mx-auto)
+![Image](./img/stay_header.webp#mx-auto)
 
 ## A Serene Retreat of Your Choice
 
@@ -47,7 +47,7 @@ Discover comfort and serenity as you unwind in its cozy embrace, while a charmin
 
 |||
 
-![Image](./img/junior1.png#mx-auto)
+![Image](./img/junior.webp#mx-auto)
 
 {% end %}
 
@@ -61,7 +61,7 @@ Discover comfort and serenity as you unwind in its cozy embrace, while a charmin
 
 {% row(style="center" padding="both" margin="wide") %}
 
-![Image](./img/senior1.png#mx-auto)
+![Image](./img/senior.webp#mx-auto)
 
 |||
 
@@ -94,7 +94,7 @@ Experience ocean-view opulence in our Executive King Suite. Spacious and cozy, t
 
 |||
 
-![Image](./img/executive1.png#mx-auto)
+![Image](./img/executive.webp#mx-auto)
 
 {% end %}
 
@@ -164,7 +164,7 @@ Spa
 
 {% row(style="center" bgColor="#EEEBE4" padding="none" margin="none") %}
 
-![Image](./img/stay_bottom.png#mx-auto)
+![Image](./img/stay_bottom.webp#mx-auto)
 
 <br>
 

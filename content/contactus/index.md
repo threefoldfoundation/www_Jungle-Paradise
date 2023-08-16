@@ -13,7 +13,7 @@ weight: 7
 
 <div class="container mx-auto">
 
-![Image](./img/contact_header.png#mx-auto)
+![Image](./img/contactus_header.webp#mx-auto)
 
 ## Get in Touch with Jungle Paradise
 
@@ -88,7 +88,7 @@ Zanzibar, Tanzania<br>
 
 ## Your Journey to Paradise Awaits...
 
-![Image](./img/contact_bottom.png#fill)
+![Image](./img/contactus_bottom.webp#fill)
 
 <br>
 

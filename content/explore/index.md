@@ -15,7 +15,7 @@ weight: 6
 
 <div class="container mx-auto">
 
-![Image](./img/explore_header.png#mx-auto)
+![Image](./img/explore_header.webp#mx-auto)
 
 ## Embark on a Captivating Journey
 
@@ -119,7 +119,7 @@ Let us create the perfect atmosphere you envision at **Jungle Paradise**.
 
 {% row(style="center" padding="both" margin="wide") %}
 
-![Image](./img/tours.png#mx-auto)
+![Image](./img/tours.webp#mx-auto)
 
 |||
 
@@ -140,7 +140,7 @@ Get ready for a lifetime of unforgettable experiences as you delve into the natu
 
 {% row(style="center" bgColor="#EEEBE4" padding="none" margin="none") %}
 
-![Image](./img/explore_bottom.png#fill)
+![Image](./img/explore_bottom.webp#fill)
 
 <br>
 

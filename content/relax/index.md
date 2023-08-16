@@ -15,7 +15,7 @@ weight: 5
 
 <div class="container mx-auto">
 
-![Image](./img/relax_header.png#mx-auto)
+![Image](./img/relax_header.webp#mx-auto)
 
 ## Rejuvenate Your Mind, Body, and Soul
 
@@ -42,7 +42,7 @@ weight: 5
 
 {% row(style="center" padding="both" margin="wide") %}
 
-![Image](./img/spa_menu.png#mx-auto)
+![Image](./img/relax_menu.webp#mx-auto)
 
 {% end %}
 </div>
@@ -51,7 +51,7 @@ weight: 5
 <!-- section 3 -->
 {% row(style="center"padding="none" margin="none") %}
 
-![Image](./img/relax_bottom.png#fill)
+![Image](./img/relax_bottom.webp#fill)
 
 <br>
 

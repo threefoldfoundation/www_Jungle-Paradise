@@ -13,7 +13,7 @@ weight: 1
 
 <div class="container mx-auto">
 
-![Image](./img/home_header3sm.webp#mx-auto)
+![Image](./img/home_header1.webp#mx-auto)
 
 ## A Historic Haven in Nature's Embrace
 
@@ -90,7 +90,7 @@ Experience culinary bliss at **The Wooden Table Restaurant & Bar**. Delight in d
 
 |||
 
-![Image](./img/dine.png#mx-auto)
+![Image](./img/dine.webp#mx-auto)
 
 {% end %}
 
