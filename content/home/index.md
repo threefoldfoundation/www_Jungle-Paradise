@@ -13,7 +13,7 @@ weight: 1
 
 <div class="container mx-auto">
 
-![Image](./img/home_header.png#mx-auto)
+![Image](./img/home_header3sm.webp#mx-auto)
 
 ## A Historic Haven in Nature's Embrace
 
@@ -170,7 +170,7 @@ Our dedicated team is committed to ensuring that every moment of your stay is no
 
 {% row(style="center" bgColor="#EEEBE4" padding="none" margin="none") %}
 
-![Image](./img/home_bottom.jpg#mx-auto)
+![Image](./img/home_bottom.webp#mx-auto)
 
 <br>
 
