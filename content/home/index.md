@@ -21,6 +21,11 @@ weight: 1
 
 <p class="max-w-6xl mx-auto">Immerse yourself in the rich tapestry of history while surrounded by lush landscapes. From the captivating ruins to the soothing sounds of the ocean, every moment at Jungle Paradise is an invitation to connect with the essence of the past and embrace the serenity of the present.</p>
 
+<br>
+
+<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Your Stay</a></button>
+
+
 </div>
 
 {% end %}
@@ -42,6 +47,8 @@ Embrace history, revel in nature's embrace, and create unforgettable memories in
 <br>
 
 At **Jungle Paradise**, we invite you to experience the serenity and richness of this blessed location, where the echoes of the past merge seamlessly with the present.
+
+<br>
 
 <button><a href="/story">About Us</a></button>
 
@@ -69,6 +76,8 @@ At **Jungle Paradise**, we invite you to experience the serenity and richness of
 
 Immerse yourself in the epitome of comfort at  **Jungle Paradise**, where 13 meticulously crafted beachfront suites offer sweeping views of the ocean, inviting you to experience the true essence of seaside bliss in unparalleled elegance.
 
+<br>
+
 <button><a href="/stay">Book Your Stay</a></button>
 
 {% end %}
@@ -85,6 +94,8 @@ Immerse yourself in the epitome of comfort at  **Jungle Paradise**, where 13 met
 ## Dine
 
 Experience culinary bliss at **The Wooden Table Restaurant & Bar**. Delight in delectable cuisine amidst stunning sunsets and enjoy a memorable dining experience or an intimate candle-lit dinner for two, surrounded by elegance and tranquility of Zanzibar's idyllic west coast.
+
+<br>
 
 <button><a href="/dine">Book a Table</a></button>
 
@@ -111,6 +122,8 @@ Experience culinary bliss at **The Wooden Table Restaurant & Bar**. Delight in d
 ## Relax
 
 Escape to a world of serenity and rejuvenation. From soothing massages to invigorating facials, our skilled therapists provide a personalized and transformative experience for every guest. Immerse yourself in tranquility and indulge in pure relaxation at Jungle Paradise’s **Natura Spa**.
+
+<br>
 
 <button><a href="/relax">Book SPA Day</a></button>
 
@@ -175,6 +188,8 @@ Our dedicated team is committed to ensuring that every moment of your stay is no
 <br>
 
 <button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Your Stay</a></button>
+
+<br>
 
 {% end %}
 
