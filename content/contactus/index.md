@@ -75,11 +75,11 @@ Whether you choose to arrange transportation with us or explore the local option
 
 #### Jungle Paradise Mbweni Ruins Resort & SPA
 
-Mbweni Rd, Unguja Urban West<br>
-P. O BOX 3775, <br>
-Zanzibar, Tanzania<br>
+**Mbweni Rd, Unguja Urban West**<br>
+**P. O BOX 3775,** <br>
+**Zanzibar, Tanzania**<br>
 
-+255 778 24 24 24<br>
+**+255 778 24 24 24**<br>
 <a href="mailto:info@jungleparadise.tf" target="_blank" style="color: #775840!important">info@jungleparadise.tf</a>
 
 |||
@@ -104,7 +104,5 @@ Zanzibar, Tanzania<br>
 {% end %}
 
 <style>
-p {
-    margin: 0px;
-}
+
 </style>

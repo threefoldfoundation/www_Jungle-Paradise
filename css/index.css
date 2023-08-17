@@ -105,12 +105,12 @@ img[src*="#fig"] {
   font-weight: 400;
 }
 
-p {
+/* p {
   font-size:1.3rem;
   line-height: 1.5rem;
   font-weight: 600;
   color: #333;
-}
+} */
 
 .myColor{
   height: 100%;
@@ -185,7 +185,7 @@ p {
     @apply text-lg not-italic font-normal my-1;
   }
   p {
-    @apply text-base lg:text-xl leading-tight tracking-normal font-normal my-4;
+    @apply text-base lg:text-xl leading-7 tracking-normal font-semibold my-4;
     font-family: 'Cormorant Infant', serif;
   }
   blockquote {
@@ -492,8 +492,9 @@ header {
     padding: 80px 0;
   }
 
-  p {
+  /* p {
     font-size:1.1rem;
+    line-height: 1.6rem;
   
-  }
+  } */
 }
