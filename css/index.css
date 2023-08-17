@@ -185,7 +185,7 @@ img[src*="#fig"] {
     @apply text-lg not-italic font-normal my-1;
   }
   p {
-    @apply text-base lg:text-xl leading-7 tracking-normal font-semibold my-4;
+    @apply text-xl lg:text-2xl leading-7 tracking-normal font-semibold my-4;
     font-family: 'Cormorant Infant', serif;
   }
   blockquote {
