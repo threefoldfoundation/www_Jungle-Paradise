@@ -148,6 +148,8 @@ Sailing Trips, Ruins Tours, Private Events, Parties, and Many More
 
 {% end %}
 
+<br>
+
 {% row(style="center" padding="none" margin="wide") %}
 
 ![Image](./img/explore1.png#mx-auto)

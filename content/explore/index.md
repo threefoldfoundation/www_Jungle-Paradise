@@ -9,13 +9,17 @@ weight: 6
 
 <!-- section 1 (header) -->
 
-{% row(style="center" bgColor="#EEEBE4" padding="bottom" margin="narrow") %}
+{% row(style="center" bgColor="#EEEBE4" padding="bottom" bgStyle="full" margin="narrow") %}
+
+<br>
 
 <br>
 
 <div class="container mx-auto">
 
 ![Image](./img/explore_header.webp#mx-auto)
+
+<br>
 
 ## Embark on a Captivating Journey
 
@@ -50,7 +54,7 @@ Set Sail to Uncover Zanzibar's Hidden Gems: Experience Natura Resort's private s
 
 Our experienced crew will guide you to picturesque destinations, creating unforgettable memories. 
 
-<br>
+
 
 <button><a href="mailto:info@jungleparadise.tf" target="_blank">Book Now</a></button>
 
@@ -80,7 +84,7 @@ Indulge in a private dining experience on the beach or amidst the historic Mbwen
 
 Share your preferences for music, menu, drinks, and decorations in advance, and our attentive staff will ensure every detail is tailored to your desires. 
 
-<br />
+
 
 <button><a href="mailto:info@jungleparadise.tf" target="_blank">Book Now</a></button>
 
@@ -99,7 +103,7 @@ From weddings to corporate events, we are here to accommodate you and your party
 
 Let us create the perfect atmosphere you envision at **Jungle Paradise**.
 
-<br>
+
 
 <button><a href="mailto:info@jungleparadise.tf" target="_blank">Book Now</a></button>
 
@@ -129,7 +133,7 @@ Discover the vibrant beauty of the botanical garden and uncover the intriguing t
 
 Get ready for a lifetime of unforgettable experiences as you delve into the natural and historical wonders of Zanzibar.
 
-<br />
+
 
 <button><a href="mailto:info@jungleparadise.tf" target="_blank">Book Now</a></button>
 
@@ -152,6 +156,6 @@ Get ready for a lifetime of unforgettable experiences as you delve into the natu
 
 <style>
 p {
-    margin: 0px 6px;
+    margin: 0px;
 }
 </style>
