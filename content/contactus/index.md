@@ -9,11 +9,17 @@ weight: 7
 
 <!-- section 1 (header) -->
 
-{% row(style="center" bgColor="#EEEBE4" padding="bottom" margin="narrow") %}
+{% row(style="center" bgColor="#EEEBE4" padding="bottom" bgStyle="full" margin="narrow") %}
+
+<br>
+
+<br>
 
 <div class="container mx-auto">
 
 ![Image](./img/contactus_header.webp#mx-auto)
+
+<br />
 
 ## Get in Touch with Jungle Paradise
 
@@ -21,7 +27,7 @@ weight: 7
 
 <p class="max-w-6xl mx-auto">We are here to assist you with any inquiries, reservations, or special requests. Reach out to our friendly team and let us help you plan your dream getaway or event at our enchanting resort in Zanzibar.</p>
 
-<br />
+
 
 <button><a href="mailto:info@jungleparadise.tf" target="_blank">Contact Us</a></button>
 </div>
@@ -61,7 +67,7 @@ Whether you choose to arrange transportation with us or explore the local option
 
 <button><a href="https://goo.gl/maps/aspoCwL4WjADUDx58" target="_blank">View on Map</a></button>
 
-<br>
+
 
 <hr class="w-1/2" />
 
@@ -90,7 +96,6 @@ Zanzibar, Tanzania<br>
 
 ![Image](./img/contactus_bottom.webp#fill)
 
-<br>
 
 <button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Your Stay</a></button>
 
@@ -100,6 +105,6 @@ Zanzibar, Tanzania<br>
 
 <style>
 p {
-    margin: 0px 6px;
+    margin: 0px;
 }
 </style>

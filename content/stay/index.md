@@ -9,7 +9,9 @@ weight: 3
 
 <!-- section 1 (header) -->
 
-{% row(style="center" bgColor="#EEEBE4" padding="bottom" margin="narrow") %}
+{% row(style="center" bgColor="#EEEBE4" padding="bottom" bgStyle="full" margin="narrow") %}
+
+<br>
 
 <br>
 
@@ -17,13 +19,14 @@ weight: 3
 
 ![Image](./img/stay_header.webp#mx-auto)
 
+<br>
+
 ## A Serene Retreat of Your Choice
 
 ### Book Your Perfect Suite at Jungle Paradise
 
 <p class="max-w-6xl mx-auto">At  Jungle Paradise, we take pride in offering a variety of exquisite suites to suit every type of guest and occasion. Whether you are traveling solo, as a couple, with family, or for a special gathering, our Junior King, Senior King, and Executive King Suites provide the perfect sanctuary for your stay.  Elevate your stay at  Jungle Paradise with exceptional comfort, stylish decors, and serene atmosphere of our suites.</p>
 
-<br>
 
 <button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Now</a></button>
 
@@ -166,7 +169,7 @@ Spa
 
 ![Image](./img/stay_bottom.webp#mx-auto)
 
-<br>
+
 
 <button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Now</a></button>
 
@@ -178,6 +181,6 @@ Spa
   background-color:#EEEBE4; 
 }
 p{
-    margin: 0px 6px;
+    margin: 0px;
 }
 </style>

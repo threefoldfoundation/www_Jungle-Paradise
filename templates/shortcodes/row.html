@@ -44,7 +44,7 @@ Parameters:
     {% set row_class = row_class ~ " lg:items-center" %}
 {% endif %}
 
-{% set col_class = "flex-1 mb-4 md:mb-12 lg:mb-0 w-full" %}
+{% set col_class = "flex-1 mb-4 md:mb-12 lg:mb-0 lg:mx-4" %}
 
 
 {% set row_id = '' %}
@@ -67,15 +67,15 @@ Parameters:
 
 <!-- Padding -->
 
-{% set padding_class = " py-8 md:py-8 lg:py-28" %}
+{% set padding_class = " py-8 md:py-8 lg:py-20" %}
 
 {% if padding %}
     {% if "none" in padding %}
         {% set padding_class = " py-0" %}
     {% elif "top" in padding %}
-        {% set padding_class = " py-2 md:py-4 lg:pt-28" %}
+        {% set padding_class = " py-2 md:py-4 lg:pt-20" %}
     {% elif "bottom" in padding %}
-        {% set padding_class = "lg:pb-0 lg:pb-28" %}
+        {% set padding_class = "lg:pb-0 lg:pb-20" %}
     {% endif %}
 {% endif %}
 

@@ -9,13 +9,17 @@ weight: 2
 
 <!-- section 1 (header) -->
 
-{% row(style="center" bgColor="#EEEBE4" padding="bottom" margin="narrow") %}
+{% row(style="center" bgColor="#EEEBE4" padding="bottom" bgStyle="full" margin="narrow") %}
+
+<br>
 
 <br>
 
 <div class="container mx-auto">
 
 ![Image](./img/story_header1.webp#mx-auto)
+
+<br>
 
 ## Discover the Essence of Jungle Paradise Resort
 
@@ -33,6 +37,8 @@ weight: 2
 
 ![Image](./img/ruins.webp#mx-auto)
 
+<br>
+
 ## Historic Charms: A Glimpse into the Past at Mbweni Ruins
 
 <p class="max-w-6xl mx-auto">Jungle Paradise Resort stands as a guardian of history, cradling the illustrious Mbweni Ruins within its embrace. These ruins hold the echoes of a bygone era, once home to the Mbweni School for Girls, a testament to Zanzibar's colonial past. The weathered stones whisper tales of education, culture, and the confluence of East and West.<br><br>
@@ -48,6 +54,8 @@ As our resort rests upon this sacred ground, we invite you to tread upon the pat
 
 ![Image](./img/botany.webp#mx-auto)
 
+<br>
+
 ## Nature's Splendor: The Serenity of Botanical Beauty
 
 <p class="max-w-6xl mx-auto">Nestled within the embrace of Mbweni's Botanical Garden, a haven of natural wonders awaits. This meticulously curated sanctuary showcases a breathtaking array of plant species, both endemic and exotic. Each step unveils a new tapestry of colors and textures, where vibrant blossoms and lush foliage intermingle harmoniously. <br><br>
@@ -61,6 +69,8 @@ Immerse yourself in the gentle rustling of leaves, the delicate scents of flower
 {% row(style="center" padding="bottom" margin="none") %}
 
 ![Image](./img/staff.webp#mx-auto)
+
+<br>
 
 ## Meet Our Stellar Team: The Heartbeat of Hospitality
 
@@ -76,7 +86,7 @@ By choosing Jungle Paradise, you're not merely indulging in a getaway – you're
 
 ![Image](./img/story_bottom.webp#mx-auto)
 
-<br>
+
 
 <button class="mb-8"><a class="" href="mailto:info@jungleparadise.tf" target="_blank">Book Your Stay</a></button>
 
