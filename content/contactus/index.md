@@ -90,9 +90,11 @@ Whether you choose to arrange transportation with us or explore the local option
 
 </div>
 
-{% row(style="center" bgColor="#EEEBE4" padding="both" margin="none") %}
+{% row(style="center" bgColor="#EEEBE4" padding="top" margin="none") %}
 
 ## Your Journey to Paradise Awaits...
+
+<br>
 
 ![Image](./img/contactus_bottom.webp#fill)
 
