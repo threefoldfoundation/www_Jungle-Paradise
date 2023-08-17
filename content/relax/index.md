@@ -31,8 +31,11 @@ weight: 5
 
 **Our Spa is open daily from 10:00 - 18:00**
 
+<br>
 
 <button><a href="mailto:info@jungleparadise.tf" target="_blank">Book Spa Day</a></button>
+
+<br><br>
 
 </div>
 
@@ -48,6 +51,8 @@ weight: 5
 
 ![Image](./img/spa_menu.webp#mx-auto)
 
+<br>
+<br>
 {% end %}
 </div>
 
@@ -56,6 +61,7 @@ weight: 5
 
 ![Image](./img/relax_bottom.webp#fill)
 
+<br>
 
 <button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Your Stay</a></button>
 

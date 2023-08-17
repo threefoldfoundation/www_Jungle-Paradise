@@ -12,7 +12,6 @@ weight: 3
 {% row(style="center" bgColor="#EEEBE4" padding="bottom" bgStyle="full" margin="narrow") %}
 
 <br>
-
 <br>
 
 <div class="container mx-auto">
@@ -27,8 +26,11 @@ weight: 3
 
 <p class="max-w-6xl mx-auto">At  Jungle Paradise, we take pride in offering a variety of exquisite suites to suit every type of guest and occasion. Whether you are traveling solo, as a couple, with family, or for a special gathering, our Junior King, Senior King, and Executive King Suites provide the perfect sanctuary for your stay.  Elevate your stay at  Jungle Paradise with exceptional comfort, stylish decors, and serene atmosphere of our suites.</p>
 
+<br>
 
 <button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Now</a></button>
+
+<br>
 
 </div>
 
@@ -44,7 +46,8 @@ weight: 3
 
 #### Maximum Occupancy: 2 guests
 
-Discover comfort and serenity as you unwind in its cozy embrace, while a charming balcony invites you to enjoy sweeping views of the captivating Beach, Ocean, and Pool areas. Awaken to the soothing rhythms of the jungle and the ocean's melody.
+<p>Discover comfort and serenity as you unwind in its cozy embrace, while a charming balcony invites you to enjoy sweeping views of the captivating Beach, Ocean, and Pool areas. Awaken to the soothing rhythms of the jungle and the ocean's melody.</p>
+<br>
 
 <button><a href="mailto:info@jungleparadise.tf" target="_blank">Book Now</a></button>
 
@@ -72,7 +75,8 @@ Discover comfort and serenity as you unwind in its cozy embrace, while a charmin
 
 #### Maximum Occupancy: 4 guests
 
-Immerse yourself in the epitome of comfort at  **Jungle Paradise**, where 13 meticulously crafted beachfront suites offer sweeping views of the ocean, inviting you to experience the true essence of seaside bliss in unparalleled elegance.
+<p>Immerse yourself in the epitome of comfort at  Jungle Paradise, where 13 meticulously crafted beachfront suites offer sweeping views of the ocean, inviting you to experience the true essence of seaside bliss in unparalleled elegance.</p>
+<br>
 
 <button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Now</a></button>
 
@@ -92,6 +96,8 @@ Immerse yourself in the epitome of comfort at  **Jungle Paradise**, where 13 met
 #### Maximum Occupancy: 2 guests
 
 Experience ocean-view opulence in our Executive King Suite. Spacious and cozy, this premium room features a large roof-terrace for mesmerizing sunsets. Unwind on your private sundeck, complete with sunbeds and perfect for intimate relaxation. Ideal for couples, honeymooners, or those seeking elevated privacy. 
+
+<br>
 
 <button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Now</a></button>
 
@@ -119,7 +125,7 @@ An array of convenient facilities and amenities to enhance your stay.
 
 {% row(style="center" padding="bottom" margin="wide") %}
 
-![Image](./img/facilities1.png#stretch)
+![Image](./img/facilities1.png#fit)
 
 
 <div class="flex flex-col justify-center bg-white	" style="height: 245px" >
@@ -140,12 +146,12 @@ Room Service
 
 </div>
 
-![Image](./img/facilities2.png#stretch)
+![Image](./img/facilities2.png#fit)
 
 |||
 
 
-![Image](./img/facilities3.png#stretch)
+![Image](./img/facilities3.png#fit)
 
 <div class="flex flex-col justify-center bg-white	" style="height: 245px" >
 
@@ -169,9 +175,11 @@ Spa
 
 ![Image](./img/stay_bottom.webp#mx-auto)
 
-
+<br>
 
 <button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Now</a></button>
+
+<br>
 
 {% end %}
 

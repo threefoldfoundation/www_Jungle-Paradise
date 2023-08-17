@@ -9,7 +9,7 @@ weight: 7
 
 <!-- section 1 (header) -->
 
-{% row(style="center" bgColor="#EEEBE4" padding="bottom" bgStyle="full" margin="narrow") %}
+{% row(style="center" bgColor="#EEEBE4" padding="none" bgStyle="full" margin="narrow") %}
 
 <br>
 
@@ -27,16 +27,14 @@ weight: 7
 
 <p class="max-w-6xl mx-auto">We are here to assist you with any inquiries, reservations, or special requests. Reach out to our friendly team and let us help you plan your dream getaway or event at our enchanting resort in Zanzibar.</p>
 
-
-
 <button><a href="mailto:info@jungleparadise.tf" target="_blank">Contact Us</a></button>
+
+<br>
 </div>
 
 {% end %}
 
 <div class="container mx-auto"> 
-
-
 
 <!-- section 2 -->
 
@@ -82,6 +80,9 @@ Whether you choose to arrange transportation with us or explore the local option
 **+255 778 24 24 24**<br>
 <a href="mailto:info@jungleparadise.tf" target="_blank" style="color: #775840!important">info@jungleparadise.tf</a>
 
+<br>
+<br>
+
 |||
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15865.614525443263!2d39.2018475!3d-6.2103759!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4a79d84b9b2ea768!2sJungle%20Paradise%20Beach%20Resort%20%26%20Spa!5e0!3m2!1sen!2sua!4v1669044476911!5m2!1sen!2sua" width="100%" height="700" style="border:0; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="ae_iframe_tcxkp1qz"></iframe>
@@ -92,16 +93,16 @@ Whether you choose to arrange transportation with us or explore the local option
 
 {% row(style="center" bgColor="#EEEBE4" padding="top" margin="none") %}
 
+<br>
+
 ## Your Journey to Paradise Awaits...
 
 <br>
 
 ![Image](./img/contactus_bottom.webp#fill)
-
+<br>
 
 <button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Your Stay</a></button>
-
-<br>
 
 {% end %}
 

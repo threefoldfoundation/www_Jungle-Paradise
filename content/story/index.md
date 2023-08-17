@@ -26,6 +26,9 @@ weight: 2
 ### Unveiling the Past, Embracing the Present
 
 <p class="max-w-6xl mx-auto">Step into a realm where history intertwines with natural beauty at Jungle Paradise Resort. Our story is one of the captivating Mbweni Ruins, a testament to a rich past that resonates through time.</p>
+<br>
+<br>
+<br>
 
 </div>
 
@@ -43,9 +46,11 @@ weight: 2
 
 <p class="max-w-6xl mx-auto">Jungle Paradise Resort stands as a guardian of history, cradling the illustrious Mbweni Ruins within its embrace. These ruins hold the echoes of a bygone era, once home to the Mbweni School for Girls, a testament to Zanzibar's colonial past. The weathered stones whisper tales of education, culture, and the confluence of East and West.<br><br>
 As our resort rests upon this sacred ground, we invite you to tread upon the path of antiquity, to feel the resonance of history beneath your feet. Step into the essence of a unique narrative, a story etched in time-worn stone, and let Jungle Paradise Resort be your gateway to a truly unparalleled journey.
-
 </p>
 
+<br>
+<br>
+<br>
 {% end %}
 
 <!-- section 3 -->
@@ -61,7 +66,9 @@ As our resort rests upon this sacred ground, we invite you to tread upon the pat
 <p class="max-w-6xl mx-auto">Nestled within the embrace of Mbweni's Botanical Garden, a haven of natural wonders awaits. This meticulously curated sanctuary showcases a breathtaking array of plant species, both endemic and exotic. Each step unveils a new tapestry of colors and textures, where vibrant blossoms and lush foliage intermingle harmoniously. <br><br>
 Immerse yourself in the gentle rustling of leaves, the delicate scents of flowers, and the vibrant palette that adorns the landscape. Amidst this serene expanse of green, Jungle Paradise Resort offers a sanctuary of peace, inviting you to unwind and reconnect with the tranquility that only nature can provide.
 </p>
-
+<br>
+<br>
+<br>
 {% end %}
 
 <!-- section 4 -->
@@ -77,7 +84,9 @@ Immerse yourself in the gentle rustling of leaves, the delicate scents of flower
 <p class="max-w-6xl mx-auto">Behind every cherished memory at Jungle Paradise, our team embodies the essence of genuine warmth and unwavering professionalism. Comprising Zanzibar locals and Tanzanians, they are more than mere staff; they are the living embodiment of our resort's spirit.  Unique threads of the vibrant tapestry of your stay, who ensure that every moment becomes a treasure.<br><br>
 By choosing Jungle Paradise, you're not merely indulging in a getaway – you're actively contributing to the betterment of the local community. You're becoming a part of a legacy that celebrates passionate hospitality and supports the heart of Zanzibar.
 </p>
-
+<br>
+<br>
+<br>
 {% end %}
 
 <!-- section 5 -->
@@ -87,9 +96,10 @@ By choosing Jungle Paradise, you're not merely indulging in a getaway – you're
 ![Image](./img/story_bottom.webp#mx-auto)
 
 
+<br>
 
 <button class="mb-8"><a class="" href="mailto:info@jungleparadise.tf" target="_blank">Book Your Stay</a></button>
-
+<br>
 {% end %}
 
 <style>

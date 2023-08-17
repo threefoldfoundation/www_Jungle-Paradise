@@ -27,7 +27,11 @@ weight: 4
 
 <p class="max-w-6xl mx-auto"> Indulge in delectable flavors and breathtaking ocean views at our restaurant, where every bite is a symphony of taste. Unwind at the bar, sipping on refreshing cocktails and soaking in the sun's warmth. With a fusion of delectable cuisine and an idyllic ambiance, Jungle Paradise invites you to savor moments of pure culinary bliss.</p>
 
+<br>
+
 <button><a href="https://github.com/threefoldfoundation/www_jungle_paradise/files/12302872/WOODENTABLEMENU.pdf.zip" target="_blank">See Menu</a></button>
+
+<br>
 
 </div>
 
@@ -49,7 +53,7 @@ Indulge in Gastronomic Excellence with Breathtaking Sunsets on Zanzibar's west c
 
 **Friday & Saturday: 07:00 - 02:00 (7:00 am - 2:00 am)**
 
-
+<br>
 
 <button><a href="mailto:info@jungleparadise.tf" target="_blank">Book a Table</a></button>
 
@@ -83,6 +87,7 @@ Elevate your leisure time to new heights with Jungle Paradise Beach Club Members
 
 **$50 per month**
 
+<br>
 
 <button><a href="mailto:info@jungleparadise.tf" target="_blank">Become a Member</a></button>
 
@@ -159,6 +164,7 @@ Local Resident Discount
 
 ![Image](./img/dine_bottom.webp#fill)
 
+<br>
 
 <button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Your Stay</a></button>
 
