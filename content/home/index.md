@@ -158,15 +158,15 @@ Sailing Trips, Ruins Tours, Private Events, Parties, and Many More
 
 {% row(style="center" padding="none" margin="wide") %}
 
-![Image](./img/explore1.png#mx-auto)
+![Image](./img/explore1.webp#mx-auto)
 
 |||
 
-![Image](./img/explore2.png#mx-auto)
+![Image](./img/explore2.webp#mx-auto)
 
 |||
 
-![Image](./img/explore3.png#mx-auto)
+![Image](./img/explore3.webp#mx-auto)
 
 {% end %}
 

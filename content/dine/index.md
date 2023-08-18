@@ -17,7 +17,7 @@ weight: 4
 
 <div class="container mx-auto">
 
-![Image](./img/dine_header1.webp#mx-auto)
+![Image](./img/home_header11.webp#mx-auto)
 
 <br>
 
@@ -112,7 +112,7 @@ Gain access to an array of luxurious amenities designed to elevate your beachsid
 
 {% row(style="center" padding="bottom" margin="wide") %}
 
-![Image](./img/lifestyle1.png#stretch)
+![Image](./img/lifestyle1.png#fit)
 
 <div class="flex flex-col justify-center myColor" style="height: 245px" >
 
@@ -136,12 +136,12 @@ Towel Service
 
 </div>
 
-![Image](./img/lifestyle2.png#stretch)
+![Image](./img/lifestyle2.png#fit)
 
 |||
 
 
-![Image](./img/lifestyle3.png#stretch)
+![Image](./img/lifestyle3.png#fit)
 
 
 <div class="flex flex-col justify-center myColor" style="height: 245px" >
@@ -162,7 +162,7 @@ Local Resident Discount
 
 {% row(style="center" bgColor="#EEEBE4" padding="none" margin="none") %}
 
-![Image](./img/dine_bottom.webp#fill)
+![Image](./img/dine_bottom.webp#fit)
 
 <br>
 
