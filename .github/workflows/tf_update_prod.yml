@@ -22,4 +22,5 @@ jobs:
           git log -1
           git fetch
           git reset --hard origin/master
+          sed -i "s/https:\/\/www2.jungleparadise.tf/https:\/\/jungleparadise.tf/g" config.toml
           bash build.sh

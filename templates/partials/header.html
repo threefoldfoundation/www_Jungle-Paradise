@@ -97,9 +97,10 @@
 {% else %}
     <header id="header-container">
         {% set header_class = config.extra.header_class | default(value='') %}
-        <div class="{{'z-10 header_BG fixed w-screen max-w-full ' ~ header_class}}">
+        <div class="{{'z-10 header_BG border-b-[1px] border-orange-900 fixed w-screen max-w-full ' ~ header_class}}">
+            <div class="container mx-auto">
             <div class="relative z-50 shadow">
-            <div class="mx-auto flex z-50 shadow justify-between items-center pl-6 pr-2 md:pr-0 lg:py-5  md:px-12 py-2 lg:px-20 lg:justify-start lg:space-x-20">
+            <div class="mx-auto flex z-50 shadow justify-between items-center pr-2 md:pr-0 py-2 lg:px-2 lg:justify-start lg:space-x-20">
                 <div>
                     <a href="/" class="flex">
                         <img class="logo" src="{{logo_path}}" alt="Logo" />
@@ -123,7 +124,7 @@
                     <nav class="flex space-x-6">    
                     {% for page in section.pages %}
                     {% if page.extra.menu %} {% continue %} {% endif %}
-                        <a href="{{page.permalink}}" class="text-md font-normal leading-6 text-white focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                        <a href="{{page.permalink}}" class="text-lg font-bold leading-6 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
                             {{page.title}}
                         </a>
                         <div class="relative">
@@ -143,6 +144,7 @@
                 </div>
             </div>
         </div>
+    </div>
     {% for subsection in section.subsections %}
         {% if subsection == "footer/_index.md" %} {% continue %} {% endif %}        
         {% set submenu_id = subsection ~ "-menu" | slugify %}
