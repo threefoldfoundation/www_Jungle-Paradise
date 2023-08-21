@@ -67,7 +67,7 @@ Immerse yourself in the gentle rustling of leaves, the delicate scents of flower
 
 {% row(style="center" padding="bottom" margin="none") %}
 
-![Image](./img/staff.webp#mx-auto)
+![Image](./img/staff1.webp#mx-auto)
 
 <br>
 
