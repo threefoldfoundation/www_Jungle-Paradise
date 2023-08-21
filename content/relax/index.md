@@ -35,7 +35,6 @@ weight: 5
 
 <button><a href="mailto:info@jungleparadise.tf" target="_blank">Book Spa Day</a></button>
 
-<br><br>
 
 </div>
 

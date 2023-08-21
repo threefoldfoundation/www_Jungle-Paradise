@@ -37,8 +37,10 @@ From private events to cherished memories, **Jungle Paradise** is your gateway t
 
 Immerse yourself in Mbweni's treasures and let adventure be your guide.</p>
 
+
 <br>
-<br>
+
+<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Your Stay</a></button>
 
 </div>
 

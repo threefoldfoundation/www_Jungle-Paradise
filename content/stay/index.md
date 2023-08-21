@@ -30,8 +30,6 @@ weight: 3
 
 <button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Now</a></button>
 
-<br>
-
 </div>
 
 {% end %}

@@ -30,8 +30,6 @@ weight: 1
 
 <button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Your Stay</a></button>
 
-<br>
-<br>
 </div>
 
 {% end %}
@@ -109,7 +107,7 @@ Experience culinary bliss at **The Wooden Table Restaurant & Bar**. Delight in d
 
 |||
 
-![Image](./img/dine.webp#mx-auto)
+![Image](./img/dine1.webp#mx-auto)
 
 {% end %}
 
@@ -146,8 +144,6 @@ Escape to a world of serenity and rejuvenation. From soothing massages to invigo
 
 {% row(style="center" padding="top" margin="wide") %}
 
-<br>
-
 ## Explore
 
 Sailing Trips, Ruins Tours, Private Events, Parties, and Many More
@@ -180,10 +176,6 @@ Our dedicated team is committed to ensuring that every moment of your stay is no
 <br>
 
 <button><a href="/explore">Explore Activities</a></button>
-
-<br>
-<br>
-
 
 {% end %}
 

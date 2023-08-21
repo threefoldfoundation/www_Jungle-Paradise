@@ -31,8 +31,6 @@ weight: 4
 
 <button><a href="https://github.com/threefoldfoundation/www_jungle_paradise/files/12302872/WOODENTABLEMENU.pdf.zip" target="_blank">See Menu</a></button>
 
-<br>
-
 </div>
 
 {% end %}

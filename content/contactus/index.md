@@ -17,7 +17,7 @@ weight: 7
 
 <div class="container mx-auto">
 
-![Image](./img/contactus_header.webp#mx-auto)
+![Image](./img/contactus_header1.webp#mx-auto)
 
 <br />
 
@@ -25,7 +25,8 @@ weight: 7
 
 ### Reach Out to Begin Your Unforgettable Journey
 
-<p class="max-w-6xl mx-auto">We are here to assist you with any inquiries, reservations, or special requests. Reach out to our friendly team and let us help you plan your dream getaway or event at our enchanting resort in Zanzibar.</p>
+<p class="max-w-6xl mx-auto">We are here to assist you with any inquiries, reservations, or special requests. <br>
+Reach out to our friendly team and let us help you plan your dream getaway or event at our enchanting resort in Zanzibar.</p>
 
 <button><a href="mailto:info@jungleparadise.tf" target="_blank">Contact Us</a></button>
 
@@ -80,8 +81,6 @@ Whether you choose to arrange transportation with us or explore the local option
 **+255 778 24 24 24**<br>
 <a href="mailto:info@jungleparadise.tf" target="_blank" style="color: #775840!important">info@jungleparadise.tf</a>
 
-<br>
-<br>
 
 |||
 
@@ -93,7 +92,6 @@ Whether you choose to arrange transportation with us or explore the local option
 
 {% row(style="center" bgColor="#EEEBE4" padding="top" margin="none") %}
 
-<br>
 
 ## Your Journey to Paradise Awaits...
 
