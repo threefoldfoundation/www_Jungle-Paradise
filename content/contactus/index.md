@@ -64,6 +64,7 @@ Whether you choose to arrange transportation with us or explore the local option
 
 #### **Check-out:** before 11am
 
+
 <button><a href="https://goo.gl/maps/aspoCwL4WjADUDx58" target="_blank">View on Map</a></button>
 
 

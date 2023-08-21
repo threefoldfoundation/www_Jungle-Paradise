@@ -160,7 +160,7 @@ Local Resident Discount
 
 {% row(style="center" bgColor="#EEEBE4" padding="none" margin="none") %}
 
-![Image](./img/dine_bottom.webp#fit)
+![Image](./img/dine_bottom1.webp#fit)
 
 <br>
 
