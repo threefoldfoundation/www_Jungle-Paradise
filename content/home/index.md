@@ -9,42 +9,56 @@ weight: 1
 
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="withContainer" bgPath="img/header1_1.jpg" bgStyle="full" padding="headerboth" margin="tight") %}
+{% row(style="center" bgColor="#EEEBE4" padding="bottom" bgStyle="full" margin="narrow") %}
 
-<h1 class="text-white">Jungle Paradise</h1>
+<br>
+
+<br>
+
+<div class="container mx-auto">
+
+![Image](./img/home_header1.webp#mx-auto)
+
+<br>
+
+## A Historic Haven in Nature's Embrace
+
+### Immerse yourself in the tranquil ambiance of nature’s lush greenery and the echoes of a storied past.
+
+<p class="max-w-6xl mx-auto">Immerse yourself in the rich tapestry of history while surrounded by lush landscapes. From the captivating ruins to the soothing sounds of the ocean, every moment at Jungle Paradise is an invitation to connect with the essence of the past and embrace the serenity of the present.</p>
+<br>
+
+<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Your Stay</a></button>
+
+</div>
 
 {% end %}
 
 <!-- section 2 -->
 
-{% row(style="center" margin="narrow" padding="top") %}
+<div class="container mx-auto">
 
-## Jungle Paradise Beach Resort & SPA Zanzibar
+{% row(style="center" reverse="rightreserve" padding="both" margin="wide") %}
 
-{% end %}
+## Our Story
 
-<div class="container mx-auto"> 
+Step into a realm where history intertwines with natural beauty at **Jungle Paradise**. Our story is one of the captivating Mbweni Ruins, a testament to a rich past that resonates through time.
 
-{% row(margin="withContainer" padding="bottom") %}
+<br>
 
-#### If you are looking for a one-of-a-kind experience in Zanzibar, look no further...<br><br>At Jungle Paradise Beach Resort & SPA, you will fall in love with the stunning views and unique history.
+Embrace history, revel in nature's embrace, and create unforgettable memories in the heart of Zanzibar's enchanting surroundings.
 
- 
+<br>
 
-Jungle Paradise Beach Resort & Spa @ Mbweni Ruins Zanzibar is your ideal choice, if you want to see and enjoy a unique place in Zanzibar Urban West. It's well-known for their historical Mbweni ruins, which took part in the ending of slavery in Zanzibar in the 1870s. Jungle Paradise is surrounded by a beautiful botanic garden which supports over 280 different kinds of tree species. 
+At **Jungle Paradise**, we invite you to experience the serenity and richness of this blessed location, where the echoes of the past merge seamlessly with the present.
 
-Jungle paradise Beach Resort and SPA Zanzibar features 13 exclusive and cozy, air-conditioned beachfront Suites with a very high service standard. Each room provides a beautiful ocean-view, a private bathroom, Wi-Fi, a mini bar fridge and a balcony faced to the ocean, beach and pool area.
+<br>
+
+<button><a href="/story">About Us</a></button>
 
 |||
 
-<div id="gallery-hash-home">
-
-<a style="background-color: transparent">
-
-![Image](./img/section2.jpg#mx-auto)
-
-</a>
-</div>
+![Image](./img/story.png#mx-auto)
 
 {% end %}
 
@@ -52,84 +66,152 @@ Jungle paradise Beach Resort and SPA Zanzibar features 13 exclusive and cozy, ai
 
 <!-- section 3 -->
 
-{% row(style="" margin="withContainer" bgPath="img/header4.jpg" bgStyle="full" padding="top" margin="tight") %}
-
-<h1 class="text-white">Suites / Rooms -<br> Accommodation</h1>
-
-<button onclick="window.location.href='/rooms'">VIEW MORE</button>
-
-{% end %}
-
-{% row(style="" margin="withContainer" bgPath="img/header2.jpg" bgStyle="full" padding="none" margin="tight") %}
-
-<h1 class="text-white">Raintree Restaurant<br> & Beach Bar</h1>
-
-<button onclick="window.location.href='/restaurant'">FIND OUT MORE </button>
-
-{% end %}
-
-{% row(style="" margin="withContainer" bgPath="img/header3.jpg" bgStyle="full" padding="bottom" margin="tight") %}
-
-<h1 class="text-white">Health & Wellness <br> - SPA</h1>
-
-<button onclick="window.location.href='/health-wellness'">LEARN MORE </button>
-
-{% end %}
+<div class="myColor">
 
 <div class="container mx-auto">
 
-<!-- section 4 -->
+{% row(style="center" padding="both" margin="wide") %}
 
-{% row(style="center" margin="narrow" padding="top") %}
+![Image](./img/stay.png#mx-auto)
 
-## Guest Reviews
+|||
+
+## Stay
+
+Immerse yourself in the epitome of comfort at  **Jungle Paradise**, where 13 meticulously crafted beachfront suites offer sweeping views of the ocean, inviting you to experience the true essence of seaside bliss in unparalleled elegance.
+
+<br>
+
+
+<button><a href="/stay">Book Your Stay</a></button>
 
 {% end %}
 
-{% row(style="center" margin="withContainer" padding="bottom" margin="moderate") %}
+</div>
+</div>
 
-*"Wonderful place for spending your holiday, beautiful and peaceful place with nice view to the sea."*
+<!-- section 4 -->
 
-**Pavel Reich**
+<div class="container mx-auto">
+
+{% row(style="center" reverse="rightreserve" padding="both" margin="wide") %}
+
+## Dine
+
+Experience culinary bliss at **The Wooden Table Restaurant & Bar**. Delight in delectable cuisine amidst stunning sunsets and enjoy a memorable dining experience or an intimate candle-lit dinner for two, surrounded by elegance and tranquility of Zanzibar's idyllic west coast.
+
+<br>
+
+
+<button><a href="/dine">Book a Table</a></button>
 
 |||
 
-*"Great place to enjoy the day at the beach and watch the sunset while you have a delicious dinner. The cocktail Bar is really amazing and the view absolutely unique on this side of the island. The rooms are clean, cozy, new renovated and bigger than usual and the prices are reasonable. Our room was with an ocean beach view. But the sunsets are better to enjoy with a cold drink on the sun downer platform, where we had a nice and calm chill out vibe."*
-
-**Neo Life Hacker**
-
-|||
-
-*A very beautiful area. Menu prices are cheap and delicious! Great pool, not hot! (Original) Очень красивая территория. Цены в меню недорогие и вкусно!"* Отличный бассейн, не жарко!"
-
-**Olga Myronova**
-
-|||
-
-*"Lovely chillout! After a few days on a catamaran, this place wonderfully calmed the senses and gave strength to travel home by plane. I heartily recommend it to everyone for a short and longer visit. (Original) Codowny chillout! Po kilku dniach na katamaranie to miejsce wspaniale uspokoiło zmysły i dało siłę na podróż samolotem do domu. Serdecznie polecam wszystkim na krótką i dłuższą wizytę."*
-
-**Waldemar Truchel**
+![Image](./img/dine1.webp#mx-auto)
 
 {% end %}
 
 </div>
 
-<!-- section 1 (header) -->
+<!-- section 5 -->
 
-{% row(style="center" margin="tight" bgPath="img/header1dark.jpg" bgStyle="full" padding="both") %}
+<div class="myColor">
 
-<h1 class="text-white">Why Choose Jungle Paradise Beach Resort & SPA</h1>
+<div class="container mx-auto">
 
-<h3 class="text-white">BOOK YOUR NEXT PERFECT VACATION NOW</h3>
+{% row(style="center" padding="both" margin="wide") %}
 
-##### COMFORTABLE SUITES - ACCOMMODATION'
+![Image](./img/relax.png#mx-auto)
 
-##### BEST SUNSET VIEWS
+|||
 
-##### CLOSE TO AIRPORT
+## Relax
 
-##### AFFORDABLE PRICING
+Escape to a world of serenity and rejuvenation. From soothing massages to invigorating facials, our skilled therapists provide a personalized and transformative experience for every guest. Immerse yourself in tranquility and indulge in pure relaxation at Jungle Paradise’s **Natura Spa**.
 
-##### BEST LOCATION
+<br>
+
+<button><a href="/relax">Book SPA Day</a></button>
 
 {% end %}
+
+</div>
+</div>
+
+<!-- section 6 -->
+
+<div class="container mx-auto">
+
+{% row(style="center" padding="top" margin="wide") %}
+
+## Explore
+
+Sailing Trips, Ruins Tours, Private Events, Parties, and Many More
+
+{% end %}
+
+<br>
+
+{% row(style="center" padding="none" margin="wide") %}
+
+![Image](./img/explore1.webp#mx-auto)
+
+|||
+
+![Image](./img/explore2.webp#mx-auto)
+
+|||
+
+![Image](./img/explore3.webp#mx-auto)
+
+{% end %}
+
+<br>
+
+{% row(style="center" padding="bottom" margin="wide") %}
+
+Discover a world of unforgettable experiences at Jungle Paradise.<br>
+Our dedicated team is committed to ensuring that every moment of your stay is nothing short of extraordinary.
+
+<br>
+
+<button><a href="/explore">Explore Activities</a></button>
+
+{% end %}
+
+</div>
+
+<!-- <section class="mx-auto text-center myColor">
+  <img src="/home_bottom.png" class="object-cover w-full my-2" alt="colorful leafs" />
+
+  <button class="mb-8"><a class="" href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-04-04&checkout=2023-04-05" target="_blank">Book Your Stay</a></button>
+</section> -->
+
+<!-- section 5 -->
+
+{% row(style="center" bgColor="#EEEBE4" padding="none" margin="none") %}
+
+![Image](./img/home_bottom1.webp#mx-auto)
+
+<br>
+
+
+<button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Your Stay</a></button>
+
+<br>
+
+{% end %}
+
+<style>
+  .myColor{
+
+  background-color:#EEEBE4; 
+}
+
+p{
+
+    margin: 0px 6px;
+
+}
+
+    </style>
