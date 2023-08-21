@@ -57,7 +57,7 @@ Indulge in Gastronomic Excellence with Breathtaking Sunsets on Zanzibar's west c
 
 |||
 
-![Image](./img/restaurant.webp#mx-auto)
+![Image](./img/restaurant1.webp#mx-auto)
 
 {% end %}
 
