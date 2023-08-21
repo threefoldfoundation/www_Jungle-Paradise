@@ -139,7 +139,7 @@ Towel Service
 |||
 
 
-![Image](./img/lifestyle33.png#fit)
+![Image](./img/lifestyle33.webp#fit)
 
 
 <div class="flex flex-col justify-center myColor" style="height: 245px" >
