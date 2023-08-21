@@ -17,7 +17,7 @@ weight: 4
 
 <div class="container mx-auto">
 
-![Image](./img/home_header11.webp#mx-auto)
+![Image](./img/dine_header11.webp#mx-auto)
 
 <br>
 
