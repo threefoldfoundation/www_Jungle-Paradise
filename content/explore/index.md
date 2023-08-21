@@ -17,7 +17,7 @@ weight: 6
 
 <div class="container mx-auto">
 
-![Image](./img/explore_header.webp#mx-auto)
+![Image](./img/explore_header1.webp#mx-auto)
 
 <br>
 
