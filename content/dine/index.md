@@ -17,7 +17,7 @@ weight: 4
 
 <div class="container mx-auto">
 
-![Image](./img/home_header11.webp#mx-auto)
+![Image](./img/dine_header11.webp#mx-auto)
 
 <br>
 
@@ -57,7 +57,7 @@ Indulge in Gastronomic Excellence with Breathtaking Sunsets on Zanzibar's west c
 
 |||
 
-![Image](./img/restaurant.webp#mx-auto)
+![Image](./img/restaurant1.webp#mx-auto)
 
 {% end %}
 
@@ -139,7 +139,7 @@ Towel Service
 |||
 
 
-![Image](./img/lifestyle3.png#fit)
+![Image](./img/lifestyle33.webp#fit)
 
 
 <div class="flex flex-col justify-center myColor" style="height: 245px" >
@@ -160,7 +160,7 @@ Local Resident Discount
 
 {% row(style="center" bgColor="#EEEBE4" padding="none" margin="none") %}
 
-![Image](./img/dine_bottom.webp#fit)
+![Image](./img/dine_bottom1.webp#fit)
 
 <br>
 

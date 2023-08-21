@@ -107,7 +107,7 @@ Experience culinary bliss at **The Wooden Table Restaurant & Bar**. Delight in d
 
 |||
 
-![Image](./img/dine1.webp#mx-auto)
+![Image](./img/restaurant1.webp#mx-auto)
 
 {% end %}
 
