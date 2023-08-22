@@ -252,9 +252,9 @@ footer .customize {
     padding-bottom: 40px;
 }
 
-footer .customize img {
+/* footer .customize img {
     width: 60px;
-}
+} */
 
 
 header .customize div {
@@ -486,6 +486,10 @@ header {
   .header {
     padding: 80px 0;
   }
+
+  footer .customize {
+   text-align: center;
+}
 
   img[src*="#stretch"] {
     width: auto;
