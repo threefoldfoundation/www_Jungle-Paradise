@@ -19,7 +19,7 @@ weight: 7
 
 ![Image](./img/contactus_header1.webp#mx-auto)
 
-<br />
+
 
 ## Get in Touch with Jungle Paradise
 

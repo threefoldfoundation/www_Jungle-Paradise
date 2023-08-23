@@ -19,7 +19,7 @@ weight: 4
 
 ![Image](./img/dine_header11.webp#mx-auto)
 
-<br>
+
 
 ## Culinary Bliss Awaits
 
