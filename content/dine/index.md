@@ -41,7 +41,7 @@ weight: 4
 
 {% row(style="center" reverse="rightreserve" padding="both" margin="wide") %}
 
-### The Wooden Table Restaurant & Bar
+## The Wooden Table Restaurant & Bar
 
 Indulge in Gastronomic Excellence with Breathtaking Sunsets on Zanzibar's west coast. Whether it's a memorable meal or a candlelit romantic dinner for two, our restaurant offers an unparalleled dining experience that will leave you enchanted.
 

@@ -13,42 +13,56 @@
         {{ section.content | safe }}
     {% else %}
         {% set footer_class = config.extra.footer_class | default(value='') %}
-        <div class="{{ footer_class }} myColor ">
-            {# <div class="py-4 px-4 sm:px-6">
-                <div class="lg:flex lg:gap-4">
-                  <div class="space-y-8 lg:max-w-sm lg:mr-8 lg:mb-2 lg:col-span-1">
-                    <img class="w-1/2 lg:mx-4 mb-4" src="/images/logo_black.png" alt="incubaid Logo" />
+        <div class="{{ footer_class }} myColor">
+            <div class="py-4 px-4 sm:px-6">
+                <div class="lg:flex items-center lg:gap-4">
+                  <a href="/" class="space-y-8 lg:mr-8 lg:mb-2 lg:col-span-1">
+                    <img class="lg:mx-4 mb-4 mx-auto" src="/images/hotel1.svg" width="250px" height="auto" alt="JPLogo" />
+                  </a>
+                    <div class="my-2 lg:mr-8 lg:mb-2 lg:col-span-1">
+                        <div>
+                            <p>Mbweni Rd, Unguja Urban West</p>
+                            <p>P.O BOX 3775,</p>
+                            <p>Zanzibar, Tanzania</p>
+                        </div> 
                     </div>
-                    <div class="lg:max-w-sm lg:mr-8 lg:mb-2 lg:col-span-1">
-                        <p class="subheader text-xl">Location</p>
-                        <p class="mt-0">
-                            Mbweni Ruins - Unguja Urban West<br>
-                            Zanzibar - Republic of Tanzania<br>
-                            <a href="https://www.google.com/maps/place/Jungle+Paradise+Beach+Resort+%26+Spa/@-6.2103755,39.1995418,16z/data=!4m9!3m8!1s0x185cdbdfdb5b2215:0x4a79d84b9b2ea768!5m2!4m1!1i2!8m2!3d-6.2103759!4d39.2018475!16s%2Fg%2F11q956rnn4" target="_blank">Find us here on Google maps</a>
-                        </p> 
+                    <div class="my-2 lg:mr-8 lg:mb-2 lg:col-span-1  ">
+                        <div>
+                            <p class="flex flex-row items-center justify-center lg:justify-start"><svg class="h-5 w-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><defs><style>.cls-1{fill:#775840;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="layer_1-2" data-name="layer 1"><path class="cls-1" d="M24 48a24 24 0 1 1 24-24 24 24 0 0 1-24 24zm0-46a22 22 0 1 0 22 22A22 22 0 0 0 24 2z"/><path class="cls-1" d="M24 48c-7.85 0-14-10.54-14-24S16.15 0 24 0s14 10.54 14 24-6.15 24-14 24zm0-46c-6.62 0-12 9.87-12 22s5.38 22 12 22 12-9.87 12-22S30.62 2 24 2z"/><path class="cls-1" d="M23 4h2v43h-2z"/><path class="cls-1" d="M1 23h33v2H1zM37 23h10v2H37zM7 12h37v2H7zM4 34h8v2H4zM16 34h28v2H16z"/></g></g></svg>
+                                www.jungleparadise.tf</p>
+                            <p class="flex flex-row items-center justify-center lg:justify-start"><svg class="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#775840"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3.51089 2L7.15002 2.13169C7.91653 2.15942 8.59676 2.64346 8.89053 3.3702L9.96656 6.03213C10.217 6.65159 10.1496 7.35837 9.78693 7.91634L8.40831 10.0375C9.22454 11.2096 11.4447 13.9558 13.7955 15.5633L15.5484 14.4845C15.9939 14.2103 16.5273 14.1289 17.0314 14.2581L20.5161 15.1517C21.4429 15.3894 22.0674 16.2782 21.9942 17.2552L21.7705 20.2385C21.6919 21.2854 20.8351 22.1069 19.818 21.9887C6.39245 20.4276 -1.48056 1.99997 3.51089 2Z" stroke="#775840" stroke-width="1.224" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>+255 772 453 183</p>
+                            <a href="mailto:info@jungleparadise.tf" class="flex flex-row mx-2 items-center justify-center lg:justify-start" target="_blank"><svg class="h-5 w-5 mr-2" aria-hidden="true" focusable="false" data-prefix="far" data-icon="envelope" class="h-5 w-5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path fill="currentColor" d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"></path>
+                              </svg>
+                              info@jungleparadise.tf</a>
+                        </div> 
                     </div>
-                    <div class="lg:max-w-sm lg:mr-8 lg:mb-2 lg:col-span-1">
-                        <p class="subheader text-xl">CONTACT</p>
-                        <p class="mt-0">
-                            +255 778 242424 (WhatsApp)<br>
-                            info@jungleparadise.tf
-                        </p> 
-                    </div>
-                    <div class="lg:max-w-sm lg:mr-8 lg:mb-2 lg:col-span-1">
-                        <p class="subheader text-xl">HOURS</p>
-                        <p class="mt-0">
-                            Reception: 24 Hours<br>
-                            Check-in: after 3pm <br>
-                            Check-out: before 11am
+
+                   
+
+                    <div class="my-2 lg:mr-8 lg:mb-2 lg:col-span-1">
+                        <p class="flex justify-center lg:justify-start">
+                            <a href="https://www.facebook.com/JungleParadiseZanzibar/" target="_blank" class="text-black">
+                                <svg class="h-10 w-10" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+                                </svg>
+                            </a>
+
+                            <a href="https://www.instagram.com/jungle_paradise_zanzibar/" target="_blank" class="text-black">
+                                <svg class="h-10 w-10" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" />
+                                </svg>
+                                
+                            </a>
                         </p> 
                     </div>
                 </div>
-            </div> #}
-            {# <img src="{{get_url(path='images/')}}" class="w-60" alt=""> #}
-            {# <hr class="my-4 border-y-0 w-1/2 border-blue-500/50"> #}
+            </div>
+            <img src="{{get_url(path='images/')}}" class="w-60" alt="">
+            <hr class="my-4 border-y-0 w-1/2 border-b-orange-900/50">
             <div class="text-center mx-4">
-            <p class="text-base lg:text-lg font-semibold my-0">© 2023  Jungle Paradise Resort & SPA. All Rights Reserved. 
-                {# <a href="https://threefold.io/" target="_blank" class="hard_blue my-0 text-base">Terms & Conditions</a></p> #}
+            <p class="text-base lg:text-lg font-semibold my-0">© 2023  Jungle Paradise Resort & SPA.  
+                <a href="https://threefold.io/" target="_blank" class="hard_blue my-0 text-base">All Rights Reserved.</a></p> 
             
             </div>
         </div>
@@ -56,17 +70,14 @@
 </footer>
 
 
-<style>
-    .myColor{
-
-        background-color:#EEEBE4;
-    }
-
-    .subheader {
-        font-family: 'Lato', sans-serif;
-        font-weight: 400;
-        color: #4173a1;
-        margin: 0;
-    }
+<style scoped>
+    footer a {
+    color: #775840 !important;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+ }
+ footer a:hover{
+color: #423023;}
 </style>
-
