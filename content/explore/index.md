@@ -19,7 +19,7 @@ weight: 6
 
 ![Image](./img/explore_header1.webp#mx-auto)
 
-<br>
+
 
 ## Embark on a Captivating Journey
 

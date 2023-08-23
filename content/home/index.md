@@ -19,7 +19,7 @@ weight: 1
 
 ![Image](./img/home_header1.webp#mx-auto)
 
-<br>
+
 
 ## A Historic Haven in Nature's Embrace
 

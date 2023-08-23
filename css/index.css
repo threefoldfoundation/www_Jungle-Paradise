@@ -137,7 +137,7 @@ img[src*="#fig"] {
     @apply font-medium;
   }
   h2 {
-    @apply text-3xl lg:text-4xl font-light leading-4 my-4;
+    @apply text-2xl lg:text-4xl mt-3 lg:mt-8 font-light leading-4 my-2;
     font-family: 'Cormorant Infant', serif;
     line-height: 1.1;
     font-weight: 600;

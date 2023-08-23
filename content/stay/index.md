@@ -18,7 +18,7 @@ weight: 3
 
 ![Image](./img/stay_header.webp#mx-auto)
 
-<br>
+
 
 ## A Serene Retreat of Your Choice
 

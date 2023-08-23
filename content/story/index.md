@@ -19,7 +19,7 @@ weight: 2
 
 ![Image](./img/story_header1.webp#mx-auto)
 
-<br>
+
 
 ## Discover the Essence of Jungle Paradise Resort
 

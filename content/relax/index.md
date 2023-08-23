@@ -19,7 +19,7 @@ weight: 5
 
 ![Image](./img/relax_header.webp#mx-auto)
 
-<br/>
+
 
 ## Rejuvenate Your Mind, Body, and Soul
 
