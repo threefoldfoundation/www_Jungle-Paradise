@@ -29,7 +29,7 @@ weight: 4
 
 <br>
 
-<button><a href="https://github.com/threefoldfoundation/www_jungle_paradise/files/12302872/WOODENTABLEMENU.pdf.zip" target="_blank">See Menu</a></button>
+<button><a href="https://www.canva.com/design/DAFtBuRsDys/xWPOBjeuubzyfDXLkVtiwg/view?utm_content=DAFtBuRsDys&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank">See Menu</a></button>
 
 </div>
 
