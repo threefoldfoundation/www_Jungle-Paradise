@@ -54,7 +54,7 @@ Indulge in Gastronomic Excellence with Breathtaking Sunsets on Zanzibar's west c
 <br>
 
 ### Book a Table
-+255 772 453 183<br>
++255 778 242 424<br>
 info@jungleparadise.tf
 
 |||
