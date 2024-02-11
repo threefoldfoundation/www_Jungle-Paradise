@@ -17,7 +17,7 @@
             <div class="py-4 px-4 sm:px-6">
                 <div class="lg:flex items-center lg:gap-4">
                   <a href="/" class="lg:mr-8 lg:mb-2 lg:col-span-1">
-                    <img class="lg:mx-4 mb-4 mx-auto" src="/images/hotel1.svg" alt="JPLogo" width="250px" height="auto" />
+                    <img class="lg:mx-4 mb-4 mx-auto" src="/images/mbweni_logo_color.png" alt="JPLogo" width="200px" height="auto" />
                   </a>
                     <div class="my-2 lg:mr-8 lg:mb-2 lg:col-span-1">
                         <div>
@@ -59,10 +59,10 @@
                 </div>
             </div>
             <img src="{{get_url(path='images/')}}" class="w-60" alt="">
-            <hr class="my-4 border-y-0 w-1/2 border-b-orange-900/50">
-            <div class="text-center mx-4">
-            <p class="text-base lg:text-lg font-semibold my-0">© 2023  Jungle Paradise Resort & SPA.  
-                <a href="https://threefold.io/" target="_blank" class="hard_blue my-0 text-base">All Rights Reserved.</a></p> 
+            {# <hr class="my-4 border-y-0 w-1/2 border-b-orange-900/50"> #}
+            <div class="rights flex justify-center items-center text-center mx-4 h-16 w-full text-white">
+            <p style="color: #fff;" class="text-base lg:text-lg font-semibold my-0">© 2024  Mbweni Ruins & Gardens.  
+                <a href="https://threefold.io/" target="_blank" class="rights hard_blue my-0 text-base">All Rights Reserved.</a></p> 
             
             </div>
         </div>
@@ -72,12 +72,21 @@
 
 <style scoped>
     footer a {
-    color: #775840 !important;
+    color: #614734 !important;
     font-family: 'Cormorant Infant', serif;
     font-size: 1.25rem;
     line-height: 1.75rem;
     font-weight: 600;
  }
  footer a:hover{
-color: #423023;}
+color: #7e624e !important;}
+
+.rights{
+    background-color: #614734;
+    color: #fff !important;}
+
+
+.rights a:hover{
+    color: #bdbdbd !important;
+}    
 </style>

@@ -154,15 +154,27 @@ Sailing Trips, Ruins Tours, Private Events, Parties, and Many More
 
 {% row(style="center" padding="none" margin="wide") %}
 
+<div class="px-2">
+
 ![Image](./img/explore1.webp#mx-auto)
 
+</div>
+
 |||
+
+<div class="px-2">
 
 ![Image](./img/explore2.webp#mx-auto)
 
+</div>
+
 |||
 
+<div class="px-2">
+
 ![Image](./img/explore3.webp#mx-auto)
+
+</div>
 
 {% end %}
 
@@ -191,7 +203,11 @@ Our dedicated team is committed to ensuring that every moment of your stay is no
 
 {% row(style="center" bgColor="#EEEBE4" padding="none" margin="none") %}
 
+
+
+
 ![Image](./img/home_bottom1.webp#mx-auto)
+
 
 <br>
 
@@ -208,10 +224,9 @@ Our dedicated team is committed to ensuring that every moment of your stay is no
   background-color:#EEEBE4; 
 }
 
-p{
-
-    margin: 0px 6px;
-
+p {
+  margin-top:0px
 }
+
 
     </style>

@@ -20,6 +20,9 @@
   font-family: 'Josefin Sans', sans-serif;
 } */
 
+h1, h2, h3, h4, p {
+  color: #614734;
+}
 .bg-semi-white {
   background-color: rgba(255, 255, 255, 0.75);
 }
@@ -30,6 +33,7 @@
   width: 35% !important;
   padding-top: 5px;
   padding-bottom: 5px;
+  margin-left: 6px;
 }
 img[src*="#mx-auto"] {
   margin: auto;
@@ -122,9 +126,7 @@ img[src*="#fig"] {
     filter: progid:DXImageTransform.Microsoft.BasicImage(grayScale=1);
 }
 
-* {
-  color: #614734!important;
-}
+
 
 @layer components {
   h1 {
@@ -252,7 +254,7 @@ footer .customize {
     flex-direction: column;
     align-items: center;
     padding-top: 40px;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
 }
 
 /* footer .customize img {

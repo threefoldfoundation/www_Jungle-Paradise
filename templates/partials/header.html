@@ -100,14 +100,14 @@
         <div class="{{'z-10 header_BG border-b-[1px] border-white-900 fixed w-screen max-w-full ' ~ header_class}}">
             <div class="container mx-auto">
             <div class="relative z-50 shadow">
-            <div class="mx-auto flex z-50 shadow justify-between items-center pr-2 md:pr-0 py-2 lg:px-2 lg:justify-start lg:space-x-20">
+            <div class="mx-auto flex z-50 shadow justify-between items-center pr-2 md:pr-0 py-2  px-3 lg:px-2 lg:justify-start lg:space-x-20">
                 <div>
                     <a href="/" class="flex">
                         <img class="logo" src="{{logo_path}}" alt="Logo" />
                     </a>
                 </div>
                 <div class="-mr-2 -my-2 lg:hidden">
-                    <button id="hamburger-btn" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2">
+                    <button id="hamburger-btn" type="button" class="drop_menu inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2">
                         <!-- Heroicon name: menu -->
                         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -174,7 +174,7 @@
             -->
         <div id="hamburger" class="hidden fixed mt-16 z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden">
             <div>
-                <div class="shadow-xs h-screen bg-white divide-y-2 divide-gray-50">
+                <div class="shadow-xs h-screen drop_menu divide-y-2 divide-gray-50">
                     <div class="pt-6 sm:px-12 md:px-16 lg:px-20 space-y-6 sm:space-y-8 sm:pb-8 max-h-screen overflow-y-auto">
     
                         <nav class="flex flex-col justify-around pb-12">
@@ -224,4 +224,10 @@
     </header>
     
 {% endif %}
+<style>
+    .drop_menu{
+        background-color: 
+        #614734;
+    }
+</style>
 
