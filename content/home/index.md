@@ -206,7 +206,7 @@ Our dedicated team is committed to ensuring that every moment of your stay is no
 
 
 
-![Image](./img/home_bottom1.webp#mx-auto)
+![Image](./img/home_bottom.png#fill)
 
 
 <br>
