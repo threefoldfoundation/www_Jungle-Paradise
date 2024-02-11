@@ -9,24 +9,24 @@ weight: 1
 
 <!-- section 1 (header) -->
 
-{% row(style="center" bgColor="#EEEBE4" padding="bottom" bgStyle="full" margin="narrow") %}
+{% row(style="center" bgColor="#EEEBE4" padding="both" bgStyle="full" margin="narrow") %}
 
-<br>
 
-<br>
 
 <div class="container mx-auto">
 
+<div class="mt-5 lg:mt-0">
+
 ![Image](./img/home_header1.webp#mx-auto)
 
-
+</div>
 
 ## A Historic Haven in Nature's Embrace
 
 ### Immerse yourself in the tranquil ambiance of nature’s lush greenery and the echoes of a storied past.
 
 <p class="max-w-6xl mx-auto">Immerse yourself in the rich tapestry of history while surrounded by lush landscapes. From the captivating ruins to the soothing sounds of the ocean, every moment at Jungle Paradise is an invitation to connect with the essence of the past and embrace the serenity of the present.</p>
-<br>
+
 
 <button><a href="https://hotels.cloudbeds.com/reservation/DNw5Ek#checkin=2023-08-16&checkout=2023-08-17" target="_blank">Book Your Stay</a></button>
 
