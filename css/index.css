@@ -27,7 +27,9 @@
 /* Custom css allowing image styling in markdown */
 
 .logo {
-  width: 50% !important;
+  width: 35% !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 img[src*="#mx-auto"] {
   margin: auto;
@@ -121,7 +123,7 @@ img[src*="#fig"] {
 }
 
 * {
-  color: #775840 !important;
+  color: #614734!important;
 }
 
 @layer components {
@@ -206,13 +208,13 @@ img[src*="#fig"] {
 }
 
 button:hover  {
-  background-color: #a38269;
-  /* color: #984210; */
+  background-color: #886851;
+
 }
 
 button  {
 font-weight: 700;
-background-color: #775840;
+background-color: #614734;
 }
 
 .experience-btn {
@@ -238,7 +240,8 @@ background-color: #775840;
 }
 
 header .customize {
-    background-color:#EEEBE4;
+    background-color:#614734;
+
     position: fixed;
 }
 
@@ -265,10 +268,11 @@ header .customize div {
 }
 
 button {
-  background-color: #775840;
+  background-color: #614734;
+  ;
   /* background: transparent; */
   color: rgb(255, 255, 255);
-  border-radius: 4px;
+  border-radius: 10px;
   border: none;
   box-shadow: none;
   padding-top:8px ;
@@ -281,15 +285,15 @@ a {
 }
 
 a:hover{
-  color: #a38269 !important;
+  color: #cab3a1  !important;
 }
 
 nav a {
-  color: #775840 !important;
+  color: #ffffff !important;
 }
 
 nav a:hover {
-  color: #a38269 !important;
+  color: #cab3a1 !important;
 }
 
 
