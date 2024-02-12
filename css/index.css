@@ -8,10 +8,26 @@
 @import "admonition.css";
 @import "tailwindcss/utilities";
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;500;600;700&display=swap'); */
+
+
+@font-face {
+  font-family: "Lovera";
+  font-weight: 400;
+  src: url("https://https://www2.jungleparadise.tf/fonts/Lovera.otf") format("opentype");
+  src: url("../fonts/Lovera.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Quicksand_Light";
+  font-weight: 400;
+  src: url("https://https://www2.jungleparadise.tf/fonts/Quicksand_Light.otf") format("opentype");
+  src: url("../fonts/Quicksand_Light.otf") format("opentype");
+}
+
 /* Custom CSS for header partial */
 .backdrop-blur {
   -webkit-backdrop-filter: blur(40px);
@@ -20,9 +36,20 @@
   font-family: 'Josefin Sans', sans-serif;
 } */
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, h5 {
   color: #614734;
+  font-family: "Lovera", sans-serif;
 }
+
+p {
+  color: #614734;
+  font-family: "Quicksand_Light", sans-serif;
+}
+
+.button a {
+  font-family: "Lovera", sans-serif;
+}
+
 .bg-semi-white {
   background-color: rgba(255, 255, 255, 0.75);
 }
@@ -133,7 +160,7 @@ img[src*="#fig"] {
     @apply text-3xl lg:text-6xl xl:text-6xl font-normal text-gray-900 leading-4 my-4;
     font-family: 'Cormorant Infant', serif;
     line-height: 1.2;
-    font-weight: 600;
+    font-weight: 400;
     /* text-shadow: 2px 4px 4px rgb(36 36 36 / 50%); */
     
   }
@@ -144,7 +171,7 @@ img[src*="#fig"] {
     @apply text-2xl lg:text-4xl mt-3 lg:mt-8 font-light leading-4 my-2;
     font-family: 'Cormorant Infant', serif;
     line-height: 1.1;
-    font-weight: 600;
+    font-weight: 400;
     
   }
 
@@ -152,7 +179,7 @@ img[src*="#fig"] {
       @apply text-xl lg:text-2xl font-light leading-4 my-4;
       font-family: 'Cormorant Infant', serif;
       line-height: 2rem;
-      font-weight: 500;
+      font-weight: 400;
   }
 
 
@@ -171,7 +198,7 @@ img[src*="#fig"] {
     font-family: 'Cormorant Infant', serif;
     line-height: 1.2;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 400;
   }
   h3 strong {
     @apply font-medium;
@@ -200,7 +227,7 @@ img[src*="#fig"] {
     @apply inline-block
     text-base
     lg:text-xl
-    font-bold
+    font-normal
     px-8
     py-1
     my-2
@@ -215,8 +242,9 @@ button:hover  {
 }
 
 button  {
-font-weight: 700;
+font-weight: 400;
 background-color: #614734;
+font-family: "Lovera", sans-serif;
 }
 
 .experience-btn {
@@ -265,8 +293,8 @@ footer .customize {
 header .customize div {
     box-shadow: none;
     text-transform: capitalize;
-    font-family: 'Cormorant Infant', serif;
-    font-weight: 700 !important;
+    font-family: "Lovera", sans-serif;
+    font-weight: 400 !important;
 }
 
 button {
@@ -279,6 +307,7 @@ button {
   box-shadow: none;
   padding-top:8px ;
   padding-bottom: 8px;
+  font-family: "Lovera", sans-serif;
 }
 
 a {
