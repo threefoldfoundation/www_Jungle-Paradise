@@ -23,7 +23,7 @@ weight: 1
 
 ## A Historic Haven in Nature's Embrace
 
-### Immerse yourself in the tranquil ambiance of nature’s lush greenery and the echoes of a storied past.
+### Immerse yourself in the tranquil ambiance of nature’s lush greenery and the echoes of a storied past
 
 <p class="max-w-6xl mx-auto">Immerse yourself in the rich tapestry of history while surrounded by lush landscapes. From the captivating ruins to the soothing sounds of the ocean, every moment at Jungle Paradise is an invitation to connect with the essence of the past and embrace the serenity of the present.</p>
 
